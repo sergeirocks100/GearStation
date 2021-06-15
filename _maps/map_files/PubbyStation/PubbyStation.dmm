@@ -12121,20 +12121,20 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
-"aET" = (
-/turf/closed/wall,
-/area/storage/emergency/starboard)
 "aEU" = (
-/obj/structure/extinguisher_cabinet{
-	pixel_x = -24
-	},
-/obj/item/storage/toolbox,
 /obj/machinery/airalarm{
 	pixel_y = 22
 	},
 /obj/structure/cable,
-/turf/open/floor/plating,
-/area/storage/emergency/starboard)
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary)
 "aEW" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -12374,21 +12374,27 @@
 "aFE" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
 /obj/structure/cable,
-/turf/open/floor/plating,
-/area/storage/emergency/starboard)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary)
 "aFF" = (
-/obj/item/storage/box/lights/mixed,
 /obj/machinery/light/small{
 	dir = 4
 	},
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "Starboard Emergency Storage APC";
-	pixel_x = 24
-	},
 /obj/structure/cable,
-/turf/open/floor/plating,
-/area/storage/emergency/starboard)
+/obj/machinery/power/apc/auto_name/east,
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/structure/table,
+/obj/item/stack/sheet/metal/five,
+/obj/item/circuitboard/machine/paystand,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary)
 "aFG" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 1
@@ -12766,20 +12772,43 @@
 "aGA" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/cable,
-/turf/open/floor/plating,
-/area/storage/emergency/starboard)
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary)
 "aGB" = (
-/obj/machinery/space_heater,
-/turf/open/floor/plating,
-/area/storage/emergency/starboard)
+/obj/machinery/button/door{
+	id = "commissarydoor";
+	name = "Commissary Door Lock";
+	normaldoorcontrol = 1;
+	pixel_x = 26;
+	pixel_y = 8;
+	specialfunctions = 4
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/machinery/button/door{
+	id = "commissaryshutter";
+	name = "Commissary Shutter Control";
+	pixel_y = -24
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary)
 "aGC" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 8
 	},
 /obj/structure/disposalpipe/segment,
-/obj/structure/sign/warning/vacuum/external{
-	pixel_x = -32
-	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "aGD" = (
@@ -13031,14 +13060,16 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "aHn" = (
-/obj/machinery/door/airlock{
-	name = "Starboard Emergency Storage"
-	},
-/obj/effect/mapping_helpers/airlock/abandoned,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/cable,
-/turf/open/floor/plating,
-/area/storage/emergency/starboard)
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters{
+	id = "commissaryshutter";
+	name = "Vacant Commissary Shutter"
+	},
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary)
 "aHo" = (
 /obj/machinery/light{
 	dir = 4
@@ -45576,14 +45607,9 @@
 /turf/open/floor/plasteel,
 /area/crew_quarters/dorms)
 "cor" = (
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
-/obj/machinery/door/airlock/external{
-	name = "public external airlock"
-	},
-/turf/open/floor/plating,
-/area/storage/emergency/starboard)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary)
 "cos" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/structure/disposalpipe/segment,
@@ -51073,17 +51099,14 @@
 	},
 /area/maintenance/department/science)
 "hFy" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/obj/structure/sign/warning/vacuum/external{
-	pixel_y = 32
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters{
+	id = "commissaryshutter";
+	name = "Vacant Commissary Shutter"
 	},
 /turf/open/floor/plasteel,
-/area/hallway/primary/central)
+/area/vacant_room/commissary)
 "hHr" = (
 /obj/structure/chair/comfy/black{
 	dir = 4
@@ -52077,8 +52100,15 @@
 /turf/open/floor/plasteel/dark,
 /area/library/artgallery)
 "jOB" = (
-/turf/open/floor/plating,
-/area/storage/emergency/starboard)
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary)
 "jPf" = (
 /obj/structure/closet,
 /obj/effect/spawner/lootdrop/maintenance,
@@ -53058,15 +53088,16 @@
 /turf/open/floor/plating,
 /area/engine/lobby)
 "lKL" = (
-/obj/machinery/door/airlock{
-	name = "Starboard Emergency Storage"
-	},
-/obj/effect/mapping_helpers/airlock/abandoned,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/turf/open/floor/plating,
-/area/storage/emergency/starboard)
+/obj/machinery/door/airlock/maintenance{
+	id_tag = "commissarydoor";
+	name = "Commissary";
+	req_one_access_txt = "12;63;48;50"
+	},
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary)
 "lMU" = (
 /obj/effect/spawner/lootdrop/maintenance,
 /obj/structure/cable,
@@ -54691,15 +54722,20 @@
 /turf/open/floor/plating,
 /area/maintenance/department/security/brig)
 "oFo" = (
-/obj/structure/closet/emcloset/anchored,
-/obj/structure/sign/warning/vacuum/external{
-	pixel_y = 32
-	},
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/open/floor/plating,
-/area/storage/emergency/starboard)
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet/personal,
+/obj/item/storage/secure/briefcase,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary)
 "oFI" = (
 /obj/structure/closet,
 /obj/effect/decal/cleanable/blood/old,
@@ -55344,9 +55380,18 @@
 /area/engine/engineering)
 "qbZ" = (
 /obj/structure/rack,
-/obj/item/clothing/mask/gas,
-/turf/open/floor/plating,
-/area/storage/emergency/starboard)
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/item/screwdriver,
+/obj/item/wrench,
+/obj/item/stack/cable_coil/five,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary)
 "qcD" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible,
 /obj/effect/turf_decal/tile/green{
@@ -56130,14 +56175,8 @@
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
 "rYC" = (
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 4
-	},
-/obj/machinery/door/airlock/external{
-	name = "public external airlock"
-	},
-/turf/open/floor/plating,
-/area/storage/emergency/starboard)
+/turf/closed/wall,
+/area/vacant_room/commissary)
 "rYH" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
@@ -57774,8 +57813,15 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/open/floor/plating,
-/area/storage/emergency/starboard)
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary)
 "vuQ" = (
 /obj/structure/rack,
 /obj/item/clothing/mask/gas,
@@ -96354,10 +96400,10 @@ apX
 aBL
 aBL
 apX
-aET
 rYC
-aET
-aET
+rYC
+rYC
+rYC
 jYe
 aBJ
 aJI
@@ -96614,7 +96660,7 @@ apX
 oFo
 jOB
 qbZ
-aET
+rYC
 jYe
 aBJ
 aJI
@@ -96868,11 +96914,11 @@ apX
 aBN
 aDc
 apX
-aET
+jOB
 cor
-aET
-aET
+jOB
 hFy
+jYe
 aJh
 bhe
 lAs
@@ -97385,7 +97431,7 @@ apX
 aFF
 vuP
 aGB
-aET
+rYC
 jYe
 aBJ
 aJI
@@ -97639,10 +97685,10 @@ aAO
 aBP
 com
 apX
-aET
+rYC
 lKL
-aET
-aET
+rYC
+rYC
 jYe
 aBJ
 aJI

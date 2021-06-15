@@ -306,6 +306,12 @@
 	name = "Ministation emergency shuttle"
 	credit_cost = 1000
 	description = "Despite its namesake, this shuttle is actually only slightly smaller than standard, and still complete with a brig and medbay."
+	
+/datum/map_template/shuttle/emergency/pubbynew
+	suffix = "pubbynew"
+	name = "Pubby Station emergency shuttle"
+	credit_cost = 1000
+	description = "A small, but feature complete shuttle. It boasts a card table to keep crew members occupied on the long flight home."
 
 /datum/map_template/shuttle/emergency/scrapheap
 	suffix = "scrapheap"
