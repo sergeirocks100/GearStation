@@ -12121,6 +12121,9 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
+"aET" = (
+/turf/closed/wall,
+/area/vacant_room/commissary)
 "aEU" = (
 /obj/machinery/airalarm{
 	pixel_y = 22
@@ -12782,14 +12785,6 @@
 /turf/open/floor/plasteel,
 /area/vacant_room/commissary)
 "aGB" = (
-/obj/machinery/button/door{
-	id = "commissarydoor";
-	name = "Commissary Door Lock";
-	normaldoorcontrol = 1;
-	pixel_x = 26;
-	pixel_y = 8;
-	specialfunctions = 4
-	},
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
@@ -50050,6 +50045,17 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/library/artgallery)
+"fAM" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/stool,
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary)
 "fBp" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/atmospherics/pipe/simple/orange/visible/layer3,
@@ -51099,13 +51105,8 @@
 	},
 /area/maintenance/department/science)
 "hFy" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/poddoor/shutters{
-	id = "commissaryshutter";
-	name = "Vacant Commissary Shutter"
-	},
-/turf/open/floor/plasteel,
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/plating,
 /area/vacant_room/commissary)
 "hHr" = (
 /obj/structure/chair/comfy/black{
@@ -53091,12 +53092,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/obj/machinery/door/airlock/maintenance{
-	id_tag = "commissarydoor";
-	name = "Commissary";
-	req_one_access_txt = "12;63;48;50"
-	},
-/turf/open/floor/plasteel,
+/turf/closed/wall,
 /area/vacant_room/commissary)
 "lMU" = (
 /obj/effect/spawner/lootdrop/maintenance,
@@ -55053,6 +55049,9 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark,
 /area/hallway/secondary/exit/departure_lounge)
+"pvV" = (
+/turf/open/floor/plating,
+/area/vacant_room/commissary)
 "pwj" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -55390,6 +55389,14 @@
 /obj/item/wrench,
 /obj/item/stack/cable_coil/five,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/button/door{
+	id = "commissarydoor";
+	name = "Commissary Door Lock";
+	normaldoorcontrol = 1;
+	pixel_x = -26;
+	pixel_y = 8;
+	specialfunctions = 4
+	},
 /turf/open/floor/plasteel,
 /area/vacant_room/commissary)
 "qcD" = (
@@ -55431,6 +55438,15 @@
 /obj/item/stack/sheet/mineral/wood,
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
+"qev" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters{
+	id = "commissaryshutter";
+	name = "Vacant Commissary Shutter"
+	},
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary)
 "qjx" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/effect/turf_decal/stripes/line,
@@ -55753,6 +55769,10 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
+/area/hallway/primary/central)
+"qXR" = (
+/obj/machinery/door/airlock/maintenance,
+/turf/open/floor/plating,
 /area/hallway/primary/central)
 "qYn" = (
 /obj/effect/decal/cleanable/dirt,
@@ -56175,7 +56195,11 @@
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
 "rYC" = (
-/turf/closed/wall,
+/obj/machinery/door/airlock/maintenance{
+	id_tag = "commissarydoor";
+	name = "Commissary"
+	},
+/turf/open/floor/plasteel,
 /area/vacant_room/commissary)
 "rYH" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -57422,6 +57446,13 @@
 /obj/machinery/field/generator,
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
+"uyD" = (
+/obj/structure/reagent_dispensers/fueltank,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/vacant_room/commissary)
 "uzn" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
 /obj/effect/turf_decal/tile/yellow{
@@ -95630,8 +95661,8 @@ awd
 awd
 aAN
 aAN
-awd
-awd
+aAN
+aAN
 aAN
 aIg
 aJf
@@ -95885,11 +95916,11 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-awd
+aET
+hFy
+uyD
+pvV
+aAN
 jYe
 aBJ
 aJI
@@ -96142,11 +96173,11 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-awd
+aET
+pvV
+pvV
+pvV
+qXR
 jYe
 aBJ
 aJH
@@ -96400,10 +96431,10 @@ apX
 aBL
 aBL
 apX
+aET
 rYC
-rYC
-rYC
-rYC
+aET
+aET
 jYe
 aBJ
 aJI
@@ -96660,7 +96691,7 @@ apX
 oFo
 jOB
 qbZ
-rYC
+aET
 jYe
 aBJ
 aJI
@@ -96916,8 +96947,8 @@ aDc
 apX
 jOB
 cor
-jOB
-hFy
+fAM
+qev
 jYe
 aJh
 bhe
@@ -97431,7 +97462,7 @@ apX
 aFF
 vuP
 aGB
-rYC
+aET
 jYe
 aBJ
 aJI
@@ -97685,10 +97716,10 @@ aAO
 aBP
 com
 apX
-rYC
+aET
 lKL
-rYC
-rYC
+aET
+aET
 jYe
 aBJ
 aJI

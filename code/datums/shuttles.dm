@@ -330,7 +330,7 @@
 
 /datum/map_template/shuttle/emergency/pubby
 	suffix = "pubby"
-	name = "Pubby Station Emergency Shuttle"
+	name = "The Gravy Train"
 	description = "A train but in space! Complete with a first, second class, brig and storage area."
 	admin_notes = "Choo choo motherfucker!"
 	credit_cost = 1000
