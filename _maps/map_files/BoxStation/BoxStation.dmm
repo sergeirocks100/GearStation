@@ -49384,6 +49384,13 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
+"nzz" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/obj/machinery/disposal/bin,
+/turf/open/floor/plasteel/dark,
+/area/hallway/primary/central)
 "nzH" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -49549,6 +49556,13 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
+"nOs" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/closed/wall,
+/area/vacant_room/commissary)
 "nOS" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
 	dir = 4
@@ -49682,6 +49696,7 @@
 	name = "Commissary";
 	req_one_access_txt = "12;63;48;50"
 	},
+/obj/machinery/door/firedoor,
 /turf/open/floor/plasteel,
 /area/vacant_room/commissary)
 "nXv" = (
@@ -51342,13 +51357,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/misc_lab)
-"qFR" = (
-/obj/structure/disposalpipe/trunk{
-	dir = 8
-	},
-/obj/machinery/disposal/bin,
-/turf/open/floor/plasteel/dark,
-/area/hallway/primary/central)
 "qGp" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
 /obj/structure/cable,
@@ -51444,13 +51452,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/medical/virology)
-"qMD" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/closed/wall,
-/area/vacant_room/commissary)
 "qMV" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer1{
 	dir = 1
@@ -79863,7 +79864,7 @@ swH
 swH
 baU
 nXi
-qMD
+nOs
 bcV
 bfn
 beW
@@ -80120,7 +80121,7 @@ orS
 orS
 qyN
 nrB
-qFR
+nzz
 tav
 aZK
 aZK
