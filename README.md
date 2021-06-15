@@ -1,4 +1,4 @@
-## /tg/station codebase
+## GearStation codebase
 
 [![Build Status](https://travis-ci.org/tgstation/tgstation.png)](https://travis-ci.org/tgstation/tgstation) 
 [![Percentage of issues still open](https://isitmaintained.com/badge/open/tgstation/tgstation.svg)](https://isitmaintained.com/project/tgstation/tgstation "Percentage of issues still open")
@@ -6,6 +6,8 @@
 ![Coverage](https://img.shields.io/badge/coverage---3%25-red.svg)
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-resentment.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/contains-technical-debt.svg)](https://user-images.githubusercontent.com/8171642/50290880-ffef5500-043a-11e9-8270-a2e5b697c86c.png) [![forinfinityandbyond](https://user-images.githubusercontent.com/5211576/29499758-4efff304-85e6-11e7-8267-62919c3688a9.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
+
+These links will (hopefully) be replaced later.
 
 * **Website:** https://www.tgstation13.org
 * **Code:** https://github.com/tgstation/tgstation
@@ -15,7 +17,7 @@
 * **Coderbus Discord:** https://discord.gg/Vh8TJp9
 * ~~**IRC:** irc://irc.rizon.net/coderbus~~ (dead)
 
-This is the codebase for the /tg/station flavoured fork of SpaceStation 13.
+This is the codebase for the GearStation fork of /tg/station.
 
 Space Station 13 is a paranoia-laden round-based roleplaying game set against the backdrop of a nonsensical, metal death trap masquerading as a space station, with charming spritework designed to represent the sci-fi setting and its dangerous undertones. Have fun, and survive!
 
@@ -29,13 +31,9 @@ Space Station 13 is a paranoia-laden round-based roleplaying game set against th
 ## Requirements for contributors
 [Guidelines for Contributors](.github/CONTRIBUTING.md)
 
-[/tg/station HACKMD account](https://hackmd.io/@tgstation) - Design documentation here
-
 [Documenting your code](.github/AUTODOC_GUIDE.md)
 
 [Policy configuration system](.github/POLICYCONFIG.md)
-
-[Interested in some starting lore?](https://github.com/tgstation/common_core)
 
 ## LICENSE
 
