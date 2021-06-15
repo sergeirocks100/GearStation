@@ -15993,7 +15993,9 @@
 	},
 /area/chapel/main)
 "aUL" = (
-/obj/machinery/computer/arcade,
+/obj/machinery/computer/arcade{
+	dir = 4
+	},
 /obj/effect/turf_decal/tile/red{
 	dir = 8
 	},
@@ -17758,7 +17760,9 @@
 /turf/open/floor/plasteel,
 /area/crew_quarters/bar)
 "baa" = (
-/obj/machinery/computer/arcade,
+/obj/machinery/computer/arcade{
+	dir = 1
+	},
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
@@ -18846,7 +18850,9 @@
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/ai_upload)
 "bdi" = (
-/obj/machinery/computer/arcade,
+/obj/machinery/computer/arcade{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
 "bdj" = (
@@ -47389,13 +47395,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
-"koT" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/closed/wall,
-/area/vacant_room/commissary)
 "kqo" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/blue/filled/corner{
@@ -48617,13 +48616,6 @@
 /obj/machinery/nuclearbomb/beer,
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
-"mdA" = (
-/obj/structure/disposalpipe/trunk{
-	dir = 8
-	},
-/obj/machinery/disposal/bin,
-/turf/open/floor/plasteel/dark,
-/area/hallway/primary/central)
 "meO" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
@@ -51350,6 +51342,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/misc_lab)
+"qFR" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/obj/machinery/disposal/bin,
+/turf/open/floor/plasteel/dark,
+/area/hallway/primary/central)
 "qGp" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
 /obj/structure/cable,
@@ -51445,6 +51444,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/medical/virology)
+"qMD" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/closed/wall,
+/area/vacant_room/commissary)
 "qMV" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer1{
 	dir = 1
@@ -79857,7 +79863,7 @@ swH
 swH
 baU
 nXi
-koT
+qMD
 bcV
 bfn
 beW
@@ -80114,7 +80120,7 @@ orS
 orS
 qyN
 nrB
-mdA
+qFR
 tav
 aZK
 aZK

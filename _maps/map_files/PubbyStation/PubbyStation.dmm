@@ -1791,7 +1791,9 @@
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "afI" = (
-/obj/machinery/computer/arcade,
+/obj/machinery/computer/arcade{
+	dir = 8
+	},
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "afJ" = (
@@ -12657,7 +12659,9 @@
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/captain)
 "aGm" = (
-/obj/machinery/computer/arcade,
+/obj/machinery/computer/arcade{
+	dir = 1
+	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -25574,9 +25578,7 @@
 /turf/open/floor/engine,
 /area/science/explab)
 "bom" = (
-/obj/machinery/atmospherics/components/unary/thermomachine/heater{
-	dir = 2
-	},
+/obj/machinery/atmospherics/components/unary/thermomachine/heater,
 /turf/open/floor/plating{
 	icon_state = "panelscorched"
 	},
@@ -43019,8 +43021,8 @@
 /obj/structure/cable,
 /obj/machinery/camera{
 	c_tag = "Engineering Center";
-	network = list("ss13","engine");
-	dir = 8
+	dir = 8;
+	network = list("ss13","engine")
 	},
 /turf/open/floor/plating,
 /area/engine/engineering)
@@ -48843,8 +48845,7 @@
 	pixel_y = 2
 	},
 /obj/item/pen{
-	pixel_x = 8;
-	pixel_y = 0
+	pixel_x = 8
 	},
 /obj/item/reagent_containers/dropper{
 	pixel_x = -1;
@@ -53130,7 +53131,6 @@
 /obj/machinery/requests_console{
 	department = "Genetics";
 	name = "Genetics Requests Console";
-	pixel_x = 0;
 	pixel_y = 32
 	},
 /obj/structure/cable,
@@ -55280,8 +55280,7 @@
 	pixel_y = 11
 	},
 /obj/item/storage/box/monkeycubes{
-	pixel_x = -6;
-	pixel_y = 0
+	pixel_x = -6
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -56683,7 +56682,6 @@
 	dir = 4
 	},
 /obj/item/clothing/glasses/science{
-	pixel_x = 0;
 	pixel_y = 9
 	},
 /turf/open/floor/plasteel/white,

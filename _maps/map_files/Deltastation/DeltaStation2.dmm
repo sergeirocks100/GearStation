@@ -324,7 +324,6 @@
 	},
 /obj/item/reagent_containers/dropper,
 /obj/effect/turf_decal/trimline/yellow/filled/corner{
-	icon_state = "trimline_corner_fill";
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/yellow,
@@ -4966,7 +4965,9 @@
 /turf/open/floor/plasteel,
 /area/maintenance/starboard/fore)
 "anz" = (
-/obj/machinery/computer/arcade,
+/obj/machinery/computer/arcade{
+	dir = 4
+	},
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
@@ -7193,7 +7194,9 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
 "arX" = (
-/obj/machinery/computer/arcade,
+/obj/machinery/computer/arcade{
+	dir = 1
+	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
 "arY" = (
@@ -7227,7 +7230,9 @@
 /turf/open/floor/plasteel/dark,
 /area/maintenance/starboard/fore)
 "asa" = (
-/obj/machinery/computer/arcade,
+/obj/machinery/computer/arcade{
+	dir = 1
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
@@ -20577,7 +20582,9 @@
 /turf/open/floor/plating,
 /area/security/prison)
 "aRi" = (
-/obj/machinery/computer/arcade,
+/obj/machinery/computer/arcade{
+	dir = 1
+	},
 /turf/open/floor/plating,
 /area/security/prison)
 "aRj" = (
@@ -92691,8 +92698,7 @@
 	pixel_y = 9
 	},
 /obj/item/storage/box/monkeycubes{
-	pixel_x = 4;
-	pixel_y = 0
+	pixel_x = 4
 	},
 /obj/item/storage/pill_bottle/mutadone{
 	pixel_x = -8;
@@ -96403,7 +96409,6 @@
 /area/medical/chemistry)
 "dAV" = (
 /obj/machinery/newscaster{
-	pixel_x = 0;
 	pixel_y = -32
 	},
 /obj/structure/disposalpipe/segment{
@@ -98978,7 +98983,6 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/trimline/yellow/filled/corner{
-	icon_state = "trimline_corner_fill";
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
@@ -112611,6 +112615,22 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/science/research)
+"iaI" = (
+/obj/machinery/computer/arcade{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/maintenance/starboard/fore)
 "icz" = (
 /obj/item/circular_saw,
 /obj/item/scalpel{
@@ -112688,7 +112708,6 @@
 	},
 /obj/effect/turf_decal/tile/yellow,
 /obj/effect/turf_decal/trimline/yellow/filled/warning{
-	icon_state = "trimline_warn_fill";
 	dir = 8
 	},
 /obj/structure/cable,
@@ -112955,6 +112974,23 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/engine/atmospherics_engine)
+"jsS" = (
+/obj/machinery/computer/arcade{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/maintenance/starboard/fore)
 "juf" = (
 /obj/machinery/atmospherics/components/binary/valve,
 /obj/effect/turf_decal/stripes/line{
@@ -114786,8 +114822,7 @@
 	icon_state = "plant-21"
 	},
 /obj/structure/sign/warning/bodysposal{
-	pixel_x = 32;
-	pixel_y = 0
+	pixel_x = 32
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
@@ -115403,9 +115438,7 @@
 	},
 /obj/effect/turf_decal/tile/yellow,
 /obj/machinery/power/apc{
-	dir = 2;
 	name = "Chemistry APC";
-	pixel_x = 0;
 	pixel_y = -23
 	},
 /obj/structure/cable,
@@ -115638,6 +115671,22 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/gravity_generator)
+"tKn" = (
+/obj/machinery/computer/arcade{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/maintenance/starboard/fore)
 "tMk" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 1
@@ -159235,7 +159284,7 @@ aox
 apu
 aqy
 arb
-aoy
+jsS
 aig
 auA
 avU
@@ -160002,7 +160051,7 @@ akU
 alI
 amE
 anz
-aox
+tKn
 apw
 aqA
 apy
@@ -160520,7 +160569,7 @@ aiC
 apy
 apy
 apu
-aox
+iaI
 atw
 auD
 avW
