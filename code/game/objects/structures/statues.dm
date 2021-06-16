@@ -289,14 +289,12 @@
 	throw_speed = 3
 	throw_range = 5
 	custom_materials = list(/datum/material/iron=75)
-	attack_verb_continuous = list("stabs")
-	attack_verb_simple = list("stab")
+	attack_verb = list("stabbed")
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	usesound = list('sound/items/screwdriver.ogg', 'sound/items/screwdriver2.ogg')
 	drop_sound = 'sound/items/handling/screwdriver_drop.ogg'
 	pickup_sound =  'sound/items/handling/screwdriver_pickup.ogg'
 	item_flags = EYE_STAB
-	sharpness = SHARP_POINTY
 
 	/// Block we're currently carving in
 	var/obj/structure/carving_block/prepared_block
@@ -339,7 +337,7 @@
 		prepared_block.set_target(target,user)
 
 /obj/item/chisel/proc/start_sculpting(mob/living/user)
-	to_chat(user,"<span class='notice'>You start sculpting [prepared_block].</span>",type=MESSAGE_TYPE_INFO)
+	to_chat(user,"<span class='notice'>You start sculpting [prepared_block].</span>")
 	sculpting = TRUE
 	//How long whole process takes
 	var/sculpting_time = 30 SECONDS
@@ -359,21 +357,20 @@
 	total_progress_bar.end_progress()
 	if(!interrupted && !QDELETED(prepared_block))
 		prepared_block.create_statue()
-		to_chat(user,"<span class='notice'>The statue is finished!</span>",type=MESSAGE_TYPE_INFO)
+		to_chat(user,"<span class='notice'>The statue is finished!</span>")
 	break_sculpting()
 
 /obj/item/chisel/proc/set_block(obj/structure/carving_block/B,mob/living/user)
 	prepared_block = B
 	tracked_user = user
 	RegisterSignal(tracked_user,COMSIG_MOVABLE_MOVED,.proc/break_sculpting)
-	to_chat(user,"<span class='notice'>You prepare to work on [B].</span>",type=MESSAGE_TYPE_INFO)
+	to_chat(user,"<span class='notice'>You prepare to work on [B].</span>")
 
 /obj/item/chisel/dropped(mob/user, silent)
 	. = ..()
 	break_sculpting()
 
 /obj/item/chisel/proc/break_sculpting()
-	SIGNAL_HANDLER
 	sculpting = FALSE
 	if(prepared_block && prepared_block.completion == 0)
 		prepared_block.reset_target()
@@ -393,7 +390,7 @@
 		var/image/chosen_looks = choices[choice]
 		prepared_block.current_target = chosen_looks.appearance
 		var/obj/structure/statue/S = choice
-		to_chat(user,"<span class='notice'>You decide to sculpt [prepared_block] into [initial(S.name)].</span>",type=MESSAGE_TYPE_INFO)
+		to_chat(user,"<span class='notice'>You decide to sculpt [prepared_block] into [initial(S.name)].</span>",)
 
 
 /obj/structure/carving_block
@@ -430,7 +427,7 @@
 		return
 	current_target = target.appearance
 	var/mutable_appearance/ma = current_target
-	to_chat(user,"<span class='notice'>You decide to sculpt [src] into [ma.name].</span>",type=MESSAGE_TYPE_INFO)
+	to_chat(user,"<span class='notice'>You decide to sculpt [src] into [ma.name].</span>")
 
 /obj/structure/carving_block/proc/reset_target()
 	current_target = null
