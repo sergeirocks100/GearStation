@@ -1158,3 +1158,11 @@
 	build_path = /obj/item/stack/sticky_tape/surgical
 	category = list("initial", "Medical")
 	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL
+
+/datum/design/chisel
+	name = "Chisel"
+	id = "chisel"
+	build_type = AUTOLATHE
+	materials = list(/datum/material/iron = 75)
+	build_path = /obj/item/chisel
+	category = list("initial","Tools")
