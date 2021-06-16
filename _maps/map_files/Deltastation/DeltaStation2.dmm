@@ -68411,8 +68411,6 @@
 /area/crew_quarters/locker)
 "cxm" = (
 /obj/structure/table,
-/obj/item/folder,
-/obj/item/pen,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -68423,6 +68421,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/item/chisel,
 /turf/open/floor/plasteel,
 /area/crew_quarters/locker)
 "cxn" = (

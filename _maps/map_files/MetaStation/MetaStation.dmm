@@ -13342,6 +13342,7 @@
 "aEa" = (
 /obj/structure/table,
 /obj/item/storage/crayons,
+/obj/item/chisel,
 /turf/open/floor/plasteel,
 /area/crew_quarters/dorms)
 "aEb" = (
