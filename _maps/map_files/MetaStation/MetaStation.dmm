@@ -28844,11 +28844,12 @@
 /turf/open/floor/plasteel/dark,
 /area/bridge)
 "boD" = (
-/obj/structure/displaycase/captain{
-	pixel_y = 5
-	},
 /obj/machinery/status_display/evac{
 	pixel_y = 32
+	},
+/obj/structure/displaycase/captain{
+	req_access = null;
+	req_access_txt = "20"
 	},
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain/private)

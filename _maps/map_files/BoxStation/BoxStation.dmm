@@ -18568,7 +18568,10 @@
 /turf/open/floor/carpet,
 /area/crew_quarters/heads/captain)
 "bcn" = (
-/obj/structure/displaycase/captain,
+/obj/structure/displaycase/captain{
+	req_access = null;
+	req_access_txt = "20"
+	},
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
 "bco" = (
