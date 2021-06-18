@@ -11,7 +11,6 @@
 	icon_state = "mime_skirt"
 	inhand_icon_state = "mime"
 	body_parts_covered = CHEST|GROIN|ARMS
-	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 
 /obj/item/clothing/under/rank/civilian/mime/sexy

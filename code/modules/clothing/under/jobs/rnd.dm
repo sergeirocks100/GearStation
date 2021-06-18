@@ -34,7 +34,6 @@
 	icon_state = "rdwhimsy_skirt"
 	inhand_icon_state = "rdwhimsy"
 	body_parts_covered = CHEST|GROIN|ARMS
-	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 
 /obj/item/clothing/under/rank/rnd/research_director/turtleneck
@@ -52,7 +51,6 @@
 	icon_state = "rdturtle_skirt"
 	inhand_icon_state = "p_suit"
 	body_parts_covered = CHEST|GROIN|ARMS
-	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 
 /obj/item/clothing/under/rank/rnd/scientist
@@ -69,7 +67,6 @@
 	icon_state = "toxinswhite_skirt"
 	inhand_icon_state = "w_suit"
 	body_parts_covered = CHEST|GROIN|ARMS
-	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 
 /obj/item/clothing/under/rank/rnd/roboticist
@@ -85,7 +82,6 @@
 	icon_state = "robotics_skirt"
 	inhand_icon_state = "robotics"
 	body_parts_covered = CHEST|GROIN|ARMS
-	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 
 /obj/item/clothing/under/rank/rnd/geneticist
@@ -102,5 +98,4 @@
 	icon_state = "geneticswhite_skirt"
 	inhand_icon_state = "w_suit"
 	body_parts_covered = CHEST|GROIN|ARMS
-	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP

@@ -23,7 +23,6 @@
 	icon_state = "barman_skirt"
 	inhand_icon_state = "bar_suit"
 	body_parts_covered = CHEST|GROIN|ARMS
-	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 
 /obj/item/clothing/under/rank/civilian/chaplain
@@ -53,7 +52,6 @@
 	desc = "A skirt which is given only to the most <b>hardcore</b> cooks in space."
 	icon_state = "chef_skirt"
 	body_parts_covered = CHEST|GROIN|ARMS
-	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 
 /obj/item/clothing/under/rank/civilian/head_of_personnel
@@ -61,7 +59,6 @@
 	name = "head of personnel's jumpsuit"
 	icon_state = "hop"
 	inhand_icon_state = "b_suit"
-	can_adjust = FALSE
 
 /obj/item/clothing/under/rank/civilian/head_of_personnel/skirt
 	name = "head of personnel's jumpskirt"
@@ -69,7 +66,6 @@
 	icon_state = "hop_skirt"
 	inhand_icon_state = "b_suit"
 	body_parts_covered = CHEST|GROIN|ARMS
-	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 
 /obj/item/clothing/under/rank/civilian/head_of_personnel/suit
@@ -85,7 +81,6 @@
 	icon_state = "teal_suit_skirt"
 	inhand_icon_state = "g_suit"
 	body_parts_covered = CHEST|GROIN|ARMS
-	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 
 /obj/item/clothing/under/rank/civilian/hydroponics
@@ -101,7 +96,6 @@
 	icon_state = "hydroponics_skirt"
 	inhand_icon_state = "g_suit"
 	body_parts_covered = CHEST|GROIN|ARMS
-	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 
 /obj/item/clothing/under/rank/civilian/janitor
@@ -115,7 +109,6 @@
 	desc = "It's the official skirt of the station's janitor. It has minor protection from biohazards."
 	icon_state = "janitor_skirt"
 	body_parts_covered = CHEST|GROIN|ARMS
-	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 
 /obj/item/clothing/under/rank/civilian/janitor/maid
@@ -198,7 +191,6 @@
 	icon_state = "bluesuit_skirt"
 	inhand_icon_state = "b_suit"
 	body_parts_covered = CHEST|GROIN|ARMS
-	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 
 /obj/item/clothing/under/rank/civilian/lawyer/purpsuit
@@ -214,7 +206,6 @@
 	icon_state = "lawyer_purp_skirt"
 	inhand_icon_state = "p_suit"
 	body_parts_covered = CHEST|GROIN|ARMS
-	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 
 /obj/item/clothing/under/rank/civilian/lawyer/galaxy
