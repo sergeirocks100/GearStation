@@ -217,6 +217,7 @@
 	name = "\improper Rabid Bear malt liquor"
 	desc = "A 40 full of malt liquor. Kicks stronger than, well, a rabid bear."
 	icon_state = "maltliquorbottle"
+	custom_price = PAYCHECK_EASY
 	list_reagents = list(/datum/reagent/consumable/ethanol/beer/maltliquor = 100)
 
 /obj/item/reagent_containers/food/drinks/bottle/holywater
