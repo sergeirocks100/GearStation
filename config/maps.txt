@@ -35,6 +35,12 @@ map deltastation
 	votable
 endmap
 
+map limastation
+	votable
+endmap
+
+
+
 map runtimestation
 endmap
 
