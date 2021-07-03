@@ -394,6 +394,15 @@
 	},
 /turf/open/floor/plasteel,
 /area/quartermaster/office)
+"act" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/sorting/mail{
+	dir = 8;
+	name = "custodial sorting disposal pipe";
+	sortType = 22
+	},
+/turf/open/floor/plasteel,
+/area/hallway/primary/aft)
 "acv" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
@@ -5567,7 +5576,6 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
 "aJt" = (
-/obj/structure/table,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "kitchen";
@@ -5575,6 +5583,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/item/storage/fancy/donut_box,
+/obj/structure/table/reinforced,
 /turf/open/floor/plasteel,
 /area/crew_quarters/kitchen)
 "aJu" = (
@@ -15327,13 +15336,13 @@
 /turf/open/floor/engine,
 /area/science/xenobiology)
 "dSu" = (
-/obj/structure/table,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "kitchen";
 	name = "Serving Hatch"
 	},
 /obj/structure/disposalpipe/segment,
+/obj/structure/table/reinforced,
 /turf/open/floor/plasteel,
 /area/crew_quarters/kitchen)
 "dSv" = (
@@ -15364,12 +15373,10 @@
 /turf/open/floor/plasteel/dark,
 /area/medical/pharmacy)
 "dSX" = (
-/obj/structure/disposalpipe/sorting/mail{
-	dir = 8;
-	name = "custodial sorting disposal pipe";
-	sortType = 22
-	},
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
 "dTj" = (
@@ -16026,9 +16033,15 @@
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/aisat/foyer)
 "eka" = (
-/obj/machinery/meter,
+/obj/structure/extinguisher_cabinet{
+	pixel_y = 30
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel,
-/area/engine/atmos)
+/area/hallway/primary/aft)
 "ekh" = (
 /obj/effect/landmark/event_spawn,
 /obj/structure/disposalpipe/segment,
@@ -22060,10 +22073,11 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
 "ifb" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
@@ -26778,6 +26792,11 @@
 	},
 /turf/open/floor/carpet/black,
 /area/maintenance/starboard/aft)
+"kZN" = (
+/obj/machinery/atmospherics/pipe/simple/supply/visible,
+/obj/machinery/meter,
+/turf/open/floor/plasteel,
+/area/engine/atmos)
 "lae" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/mix_output{
 	dir = 4
@@ -36809,7 +36828,6 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
 "rbo" = (
-/obj/structure/table,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "kitchen";
@@ -36818,6 +36836,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 8
 	},
+/obj/structure/table/reinforced,
 /turf/open/floor/plasteel,
 /area/crew_quarters/kitchen)
 "rbu" = (
@@ -42869,12 +42888,12 @@
 /turf/open/floor/plasteel,
 /area/quartermaster/warehouse)
 "uMe" = (
-/obj/structure/table,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "kitchen";
 	name = "Serving Hatch"
 	},
+/obj/structure/table/reinforced,
 /turf/open/floor/plasteel,
 /area/crew_quarters/kitchen)
 "uMk" = (
@@ -66343,7 +66362,7 @@ jDY
 jlZ
 wVb
 ukH
-jBF
+kZN
 dyS
 jEn
 jBF
@@ -66600,7 +66619,7 @@ eWx
 btN
 wCV
 npH
-eka
+fLc
 tUn
 tjP
 fLc
@@ -77131,8 +77150,8 @@ uzu
 xsR
 xaV
 qaG
-acc
-rLe
+eka
+act
 iuU
 tMs
 mOJ
@@ -77388,7 +77407,7 @@ wuI
 wuI
 wuI
 wuI
-ifb
+uoe
 dSX
 wPB
 tMs
@@ -78159,7 +78178,7 @@ isz
 kOJ
 wkb
 wpF
-uoe
+ifb
 rLe
 wPB
 tMs
@@ -78930,7 +78949,7 @@ lYD
 geI
 lYD
 pNG
-ali
+uoe
 rLe
 dYg
 tMs

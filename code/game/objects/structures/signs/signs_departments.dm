@@ -116,6 +116,15 @@
 	icon_state = "cargo"
 	is_editable = TRUE
 
+/obj/structure/sign/departments/lawyer
+	name = "\improper Legal Department sign"
+	sign_change_name = "Department - Legal"
+	desc = "A sign labelling an area where the Lawyers work, apply here for arrivals shuttle whiplash settlement."
+	icon_state = "lawyer"
+	is_editable = TRUE
+
+
+
 ///////SECURITY
 
 /obj/structure/sign/departments/security
