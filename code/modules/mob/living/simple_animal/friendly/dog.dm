@@ -125,6 +125,10 @@
 	gold_core_spawnable = FRIENDLY_SPAWN
 	collar_type = "pug"
 	held_state = "pug"
+	
+/mob/living/simple_animal/pet/dog/pug/mcgriff
+	name = "McGriff"
+	desc = "This dog can tell someting smells around here, and that something is CRIME!"
 
 /mob/living/simple_animal/pet/dog/corgi/exoticcorgi
 	name = "Exotic Corgi"
