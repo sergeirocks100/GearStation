@@ -20,7 +20,7 @@ $include antag_rep.txt
 # SERVERSQLNAME tgstation
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME Space Station 13
+STATIONNAME GearStation 13: SS13, without the bullshit.
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
 #HUB
@@ -260,7 +260,7 @@ CHECK_RANDOMIZER
 ## from https://github.com/rg3/youtube-dl/releases
 ## or your package manager
 ## The default value assumes youtube-dl is in your system PATH
-# INVOKE_YOUTUBEDL youtube-dl
+INVOKE_YOUTUBEDL youtube-dl
 
 ## In-game features
 ##Toggle for having jobs load up from the .txt

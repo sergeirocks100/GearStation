@@ -1,5 +1,37 @@
 <!-- Most valid html will work in here, excluding images. -->
 
-<h1>Welcome to Space Station 13!</h1>
+<span class="motd">
 
-<i>This server is running a /tg/station 13 Git build.</i>
+<body link="blue">
+ 
+<h1>Welcome to Gearstation 13!</h1>
+ 
+<h2>Please use the following links for your information:</h2>
+ 
+<p>To avoid getting banned, make sure you read the <a href="https://tgstation13.org/wiki/Rules"><b><u>Rules</b></u></a></p>
+ 
+<p>For a host of useful information, take a look at the <a href="https://tgstation13.org/wiki/Main_Page"><b><u>Wiki</b></u></a></p>
+ 
+<p>You can find the status of all of servers at our <a href="https://tgstation13.org/"><b><u>Homepage</b></u></a></p>
+
+<p>You can join us on our Discord server <a href="https://discord.tgstation13.org"><b><u>by clicking here.</b></u></a></p>
+
+<h3>If you enjoy playing here <b>please consider making a contribution to keeping the servers alive via our <a href="https://tgstation13.org/phpBB/viewtopic.php?t=3371"><u>Patreon</u>.</b></a></h3>
+
+
+
+<h3> Notice Board: </h3>
+
+<p style="color:red;"><b>• As a reminder, out of character (OOC) communication is NOT allowed while the shift is still going, and carries serious consequences! Similarly, do not talk about the current round in OOC until it is over!<br>New players, <a href="https://tgstation13.org/wiki/Starter_guide">click here</a> for a starter guide!<br><a href="https://discord.tgstation13.org/">Consider joining our Discord server! (click here)</a></b></p>
+
+<p style="color:red;"><b>•Over utilizing any flavor of the month meme, like "imposter" or "sus" is a bit too OOC IC. Obviously if you have a reason to use them, like calling someone suspicious with sus its fine. However blurting them out at random is a bit much and we're cracking down on it. </a></b
+
+<p style="color:red;"><b>• THE SERVERS ARE ON FIRE! Help us put it out! <a href="https://tgstation13.org/phpBB/viewtopic.php?t=3371">Click here.</a></b></p>
+
+<p>The following Trial Review threads are open:</p>
+
+<p>Harricross <a href="https://tgstation13.org/phpBB/viewtopic.php?f=40&t=29380">https://tgstation13.org/phpBB/viewtopic.php?f=40&t=29380</a></p>
+
+<p>Richie9999 <a href="https://tgstation13.org/phpBB/viewtopic.php?f=40&t=29381">https://tgstation13.org/phpBB/viewtopic.php?f=40&t=29381</a></p>
+
+</span>
