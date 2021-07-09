@@ -6868,14 +6868,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/closed/wall/r_wall,
 /area/medical/virology)
-"aRG" = (
-/obj/structure/chair/sofa/left{
-	dir = 1;
-	name = "plush sofa"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/wood,
-/area/crew_quarters/bar)
 "aRI" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/sign/barsign,
@@ -18317,6 +18309,9 @@
 /obj/structure/chair/sofa/corner{
 	dir = 8;
 	name = "plush sofa"
+	},
+/obj/machinery/status_display/evac{
+	pixel_x = 32
 	},
 /turf/open/floor/wood,
 /area/crew_quarters/bar)
@@ -36394,7 +36389,7 @@
 /area/security/prison)
 "qKO" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/structure/chair/sofa/left{
+/obj/structure/chair/sofa/right{
 	dir = 1;
 	name = "plush sofa"
 	},
@@ -43173,6 +43168,8 @@
 /obj/machinery/camera{
 	c_tag = "Bar Counter"
 	},
+/obj/item/book/manual/wiki/barman_recipes,
+/obj/item/reagent_containers/glass/rag,
 /turf/open/floor/wood,
 /area/crew_quarters/bar)
 "uUb" = (
@@ -79461,7 +79458,7 @@ hkf
 qKO
 aRn
 aRw
-aRG
+qKO
 aRI
 vuR
 rLe
