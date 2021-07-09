@@ -2621,10 +2621,10 @@
 /turf/open/floor/plasteel/white,
 /area/science/research)
 "anN" = (
-/obj/machinery/modular_computer/console/preset/civilian,
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/machinery/computer/rdconsole,
 /turf/open/floor/plasteel/showroomfloor,
 /area/science/explab)
 "anO" = (
@@ -2658,9 +2658,8 @@
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "anT" = (
-/obj/structure/bed/dogbed{
-	name = "Rabbit Bed"
-	},
+/obj/structure/bed/dogbed/lia,
+/mob/living/simple_animal/hostile/carp/cayenne/lia,
 /turf/open/floor/wood,
 /area/crew_quarters/heads/hos)
 "anV" = (
@@ -20395,6 +20394,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 8
 	},
+/mob/living/simple_animal/pet/fox/renault,
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
 "gWm" = (
@@ -27167,6 +27167,12 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/crew_quarters/heads/hos)
+"lmD" = (
+/obj/structure/cable,
+/obj/structure/bed/dogbed/mcgriff,
+/mob/living/simple_animal/pet/dog/pug/mcgriff,
+/turf/open/floor/plasteel/showroomfloor,
+/area/security/warden)
 "lmL" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
@@ -31121,14 +31127,14 @@
 /turf/open/floor/plasteel/showroomfloor,
 /area/science/xenobiology)
 "nId" = (
-/obj/machinery/modular_computer/console/preset/civilian{
-	dir = 4
-	},
 /obj/machinery/light{
 	dir = 8
 	},
 /obj/item/radio/intercom{
 	pixel_x = -29
+	},
+/obj/machinery/computer/rdconsole/production{
+	dir = 4
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/engine/break_room)
@@ -32782,6 +32788,7 @@
 	pixel_x = -24
 	},
 /obj/structure/bed/dogbed/ian,
+/mob/living/simple_animal/pet/dog/corgi/ian,
 /turf/open/floor/carpet/royalblue,
 /area/crew_quarters/heads/hop)
 "oGF" = (
@@ -33882,7 +33889,7 @@
 /turf/open/floor/plasteel,
 /area/hallway/secondary/service)
 "pjF" = (
-/obj/machinery/modular_computer/console/preset/civilian,
+/obj/machinery/computer/rdconsole,
 /turf/open/floor/plasteel/dark,
 /area/science/lab)
 "pjR" = (
@@ -37056,6 +37063,10 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/white,
 /area/medical/chemistry)
+"riH" = (
+/mob/living/carbon/monkey/punpun,
+/turf/open/floor/wood,
+/area/crew_quarters/bar)
 "rja" = (
 /obj/structure/table,
 /obj/effect/turf_decal/stripes/line,
@@ -38262,10 +38273,10 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/machinery/modular_computer/console/preset/civilian,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/computer/rdconsole,
 /turf/open/floor/plasteel/showroomfloor,
 /area/science/robotics/lab)
 "rWs" = (
@@ -41672,6 +41683,8 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
+/obj/structure/bed/dogbed/runtime,
+/mob/living/simple_animal/pet/cat/runtime,
 /turf/open/floor/plasteel/showroomfloor,
 /area/crew_quarters/heads/cmo)
 "udz" = (
@@ -65803,7 +65816,7 @@ bLy
 urc
 oOk
 nTk
-xgR
+lmD
 hrM
 fby
 udS
@@ -78421,7 +78434,7 @@ xbx
 wpF
 lRb
 yaR
-yaR
+riH
 nNk
 ePJ
 yaR
