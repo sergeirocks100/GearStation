@@ -251,6 +251,8 @@
 			return list("mode" = RCD_MACHINE, "delay" = 20, "cost" = 25)
 		if(RCD_COMPUTER)
 			return list("mode" = RCD_COMPUTER, "delay" = 20, "cost" = 25)
+		if(RCD_FURNISHING)
+			return list("mode" = RCD_FURNISHING, "delay" = the_rcd.furnish_delay, "cost" = the_rcd.furnish_cost)
 	return FALSE
 
 /turf/open/floor/rcd_act(mob/user, obj/item/construction/rcd/the_rcd, passed_mode)
@@ -260,8 +262,18 @@
 			PlaceOnTop(/turf/closed/wall)
 			return TRUE
 		if(RCD_AIRLOCK)
-			if(locate(/obj/machinery/door/airlock) in src)
+			if(locate(/obj/machinery/door) in src)
 				return FALSE
+			if(ispath(the_rcd.airlock_type, /obj/machinery/door/window))
+				to_chat(user, "<span class='notice'>You build a windoor.</span>")
+				var/obj/machinery/door/window/W = new the_rcd.airlock_type(src, user.dir)
+				if(the_rcd.airlock_electronics)
+					W.req_access = the_rcd.airlock_electronics.accesses.Copy()
+					W.req_one_access = the_rcd.airlock_electronics.one_access
+					W.unres_sides = the_rcd.airlock_electronics.unres_sides
+				W.autoclose = TRUE
+				W.update_icon()
+				return TRUE
 			to_chat(user, "<span class='notice'>You build an airlock.</span>")
 			var/obj/machinery/door/airlock/A = new the_rcd.airlock_type(src)
 			A.electronics = new /obj/item/electronics/airlock(A)
@@ -305,6 +317,12 @@
 			C.anchored = TRUE
 			C.state = 1
 			C.setDir(the_rcd.computer_dir)
+			return TRUE
+		if(RCD_FURNISHING)
+			if(locate(the_rcd.furnish_type) in src)
+				return FALSE
+			var/atom/A = new the_rcd.furnish_type(src)
+			A.setDir(user.dir)
 			return TRUE
 
 	return FALSE
