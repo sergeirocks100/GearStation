@@ -7,7 +7,13 @@
 	inherent_biotypes = MOB_ROBOTIC|MOB_HUMANOID
 	meat = null
 	damage_overlay_type = "synth"
+	mutantlungs = /obj/item/organ/lungs/cybernetic
 	mutanttongue = /obj/item/organ/tongue/robot
+	mutantliver = /obj/item/organ/liver/cybernetic
+	mutantstomach = /obj/item/organ/stomach/cybernetic
+	mutantappendix = null
+	mutanteyes = /obj/item/organ/eyes/robotic/basic
+	mutantears = /obj/item/organ/ears/cybernetic
 	species_language_holder = /datum/language_holder/synthetic
 	limbs_id = "synth"
 	changesource_flags = MIRROR_BADMIN | WABBAJACK | MIRROR_PRIDE | MIRROR_MAGIC | RACE_SWAP | ERT_SPAWN | SLIME_EXTRACT
