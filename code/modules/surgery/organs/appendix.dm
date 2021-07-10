@@ -42,3 +42,6 @@
 	..()
 	if(inflamed)
 		M.ForceContractDisease(new /datum/disease/appendicitis(), FALSE, TRUE)
+		
+/obj/item/organ/appendix/get_availability(datum/species/S)
+	return !(NOAPPENDIX in S.species_traits)
