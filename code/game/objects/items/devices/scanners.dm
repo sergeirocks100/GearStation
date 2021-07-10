@@ -114,6 +114,7 @@ GENE SCANNER
 		if(SCANMODE_WOUND)
 			to_chat(user, "<span class='notice'>You switch the health analyzer to report extra info on wounds.</span>")
 
+/obj/item/healthanalyzer/attack(mob/living/M, mob/living/carbon/human/user)
 
 	// Clumsiness/brain damage check
 	if ((HAS_TRAIT(user, TRAIT_CLUMSY) || HAS_TRAIT(user, TRAIT_DUMB)) && prob(50))
