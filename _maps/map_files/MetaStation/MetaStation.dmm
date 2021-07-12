@@ -48199,7 +48199,7 @@
 /area/medical/pharmacy)
 "cjX" = (
 /obj/effect/turf_decal/stripes/line,
-/obj/machinery/computer/rdconsole/production{
+/obj/machinery/computer/rdconsole/core{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
@@ -56436,7 +56436,7 @@
 	receive_ore_updates = 1
 	},
 /obj/effect/turf_decal/bot,
-/obj/machinery/computer/rdconsole/production{
+/obj/machinery/computer/rdconsole/core{
 	dir = 4
 	},
 /turf/open/floor/plasteel,

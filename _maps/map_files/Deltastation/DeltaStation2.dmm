@@ -85457,7 +85457,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
-/obj/machinery/computer/rdconsole/production{
+/obj/machinery/computer/rdconsole/core{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
@@ -97466,7 +97466,7 @@
 	pixel_x = 32
 	},
 /obj/effect/turf_decal/bot,
-/obj/machinery/computer/rdconsole/production{
+/obj/machinery/computer/rdconsole/core{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
