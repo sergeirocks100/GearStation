@@ -9,8 +9,8 @@
 	siemens_coefficient = 0
 	permeability_coefficient = 0.05
 	resistance_flags = NONE
-	custom_price = 1200
-	custom_premium_price = 1200
+	custom_price = 600
+	custom_premium_price = 600
 
 /obj/item/toy/sprayoncan
 	name = "spray-on insulation applicator"
