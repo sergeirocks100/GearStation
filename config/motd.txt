@@ -8,7 +8,7 @@
  
 <h2>Please use the following links for your information:</h2>
  
-<p>The rules, as well as some useful links, check out <a href="https://rentry.co/GearStation13"><b><u>the landing page.</b></u></a></p>
+<p>The rules, as well as some useful links, check out <a href="http://gearstation13.ml/index.html"><b><u>the website.</b></u></a></p>
 
 <p>You can join us on our Discord server <a href="https://discord.gg/DCddpQ5MzM"><b><u>by clicking here.</b></u></a></p>
 
