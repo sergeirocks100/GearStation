@@ -20210,6 +20210,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/item/multitool,
 /turf/open/floor/plasteel/dark,
 /area/storage/primary)
 "aVT" = (

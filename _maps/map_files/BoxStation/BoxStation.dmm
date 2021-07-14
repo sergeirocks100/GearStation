@@ -11026,6 +11026,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/item/multitool,
 /turf/open/floor/plasteel,
 /area/storage/primary)
 "aFR" = (

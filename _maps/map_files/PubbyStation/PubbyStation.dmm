@@ -12303,6 +12303,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/item/multitool,
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
