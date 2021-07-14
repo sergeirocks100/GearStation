@@ -70,7 +70,7 @@
 		sleep(3)
 		animate(user, pixel_y = -4, time = 3)
 		sleep(3)
-		playsound(user, 'goon/sound/effects/spring.ogg', 60, TRUE)
+		playsound(user, 'sound/effects/spring.ogg', 60, TRUE)
 
 /obj/structure/weightmachine/weightlifter
 	icon = 'goon/icons/obj/fitness.dmi'
