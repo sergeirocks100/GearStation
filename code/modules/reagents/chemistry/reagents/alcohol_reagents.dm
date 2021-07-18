@@ -161,7 +161,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_desc = "The silky, smokey whiskey goodness inside the glass makes the drink look very classy."
 	shot_glass_icon_state = "shotglassbrown"
 	
-/datum/reagent/ethanol/drink/cinnamonwhiskey
+/datum/reagent/consumable/ethanol/cinnamonwhiskey
 	name = "Cinnamon Whiskey"
 	description = "Cinnamon whiskey. Feel the burn."
 	color = "#f29224" //rgb: 242, 146, 36
