@@ -86,10 +86,7 @@
 /turf/open/floor/mineral/gold,
 /area/shuttle/escape)
 "q" = (
-/obj/structure/statue/plasma/scientist{
-	anchored = 1;
-	oreAmount = 50
-	},
+/obj/structure/statue/plasma/scientist,
 /turf/open/floor/light/colour_cycle,
 /area/shuttle/escape)
 "r" = (
