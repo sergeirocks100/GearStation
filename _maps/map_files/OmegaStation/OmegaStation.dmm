@@ -6925,8 +6925,10 @@
 /turf/open/floor/carpet,
 /area/crew_quarters/theatre)
 "aqf" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/airalarm/directional/west,
 /turf/open/floor/plating,
-/area/engine/atmos)
+/area/hydroponics)
 "aqg" = (
 /obj/machinery/atmospherics/pipe/simple/orange/visible,
 /obj/effect/decal/cleanable/dirt,
@@ -23481,6 +23483,7 @@
 	dir = 10
 	},
 /obj/structure/cable,
+/obj/item/wrench/medical,
 /turf/open/floor/plasteel,
 /area/medical/medbay)
 "bph" = (
@@ -28296,10 +28299,6 @@
 "hFl" = (
 /turf/closed/wall/r_wall,
 /area/engine/break_room)
-"hFy" = (
-/obj/structure/bookcase/random/reference,
-/turf/open/floor/plasteel/dark,
-/area/library)
 "hFI" = (
 /turf/open/floor/plasteel/chapel{
 	dir = 8
@@ -29517,12 +29516,8 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/obj/machinery/power/apc{
-	areastring = "/area/hydroponics";
-	dir = 4;
-	name = "Hydroponics APC";
-	pixel_x = -26
-	},
+/obj/machinery/power/apc/auto_name/west,
+/obj/structure/cable,
 /turf/open/floor/plasteel/dark,
 /area/hydroponics)
 "jti" = (
@@ -30766,11 +30761,9 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "lBR" = (
-/obj/machinery/airalarm{
-	dir = 1;
-	pixel_y = -22
+/obj/structure/sign/painting/library{
+	pixel_y = -32
 	},
-/obj/structure/bookcase/random/nonfiction,
 /turf/open/floor/plasteel/dark,
 /area/library)
 "lCa" = (
@@ -33752,7 +33745,9 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/obj/structure/bookcase/random/nonfiction,
+/obj/structure/sign/painting/library{
+	pixel_y = -32
+	},
 /turf/open/floor/plasteel/dark,
 /area/library)
 "pQa" = (
@@ -33957,6 +33952,9 @@
 	},
 /obj/structure/table/wood,
 /obj/item/taperecorder,
+/obj/structure/sign/painting/library_private{
+	pixel_x = -32
+	},
 /turf/open/floor/wood{
 	icon_state = "wood-broken6"
 	},
@@ -34012,8 +34010,8 @@
 "qgs" = (
 /obj/machinery/atmospherics/pipe/manifold/general/visible,
 /obj/effect/turf_decal/stripes/line,
-/obj/item/wrench/medical,
 /obj/structure/cable,
+/obj/machinery/medical_kiosk,
 /turf/open/floor/plasteel,
 /area/medical/medbay)
 "qgC" = (
@@ -37824,6 +37822,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/machinery/airalarm/directional/west,
 /turf/open/floor/plasteel/dark,
 /area/library)
 "sNF" = (
@@ -39223,7 +39222,7 @@
 /turf/open/floor/plasteel,
 /area/science/robotics/lab)
 "usR" = (
-/obj/structure/bookcase/random/fiction,
+/obj/structure/bookcase/random/nonfiction,
 /turf/open/floor/plasteel/dark,
 /area/library)
 "uua" = (
@@ -39454,7 +39453,6 @@
 /turf/open/floor/plasteel/dark,
 /area/library)
 "uLA" = (
-/obj/structure/bookcase/random/adult,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -39465,6 +39463,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/structure/bookcase/random/adult,
 /turf/open/floor/plasteel/dark,
 /area/library)
 "uLK" = (
@@ -40490,7 +40489,6 @@
 /turf/open/floor/circuit/green/telecomms,
 /area/tcommsat/server)
 "wlD" = (
-/obj/structure/bookcase/random/reference,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -40500,6 +40498,9 @@
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
+	},
+/obj/structure/sign/painting/library{
+	pixel_y = -32
 	},
 /turf/open/floor/plasteel/dark,
 /area/library)
@@ -41573,13 +41574,8 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 1
 	},
-/obj/machinery/power/apc{
-	areastring = "/area/medical/medbay";
-	dir = 4;
-	name = "Medbay APC";
-	pixel_x = -26
-	},
 /obj/structure/cable,
+/obj/machinery/power/apc/auto_name/west,
 /turf/open/floor/plasteel/white,
 /area/medical/medbay)
 "xLI" = (
@@ -41904,7 +41900,7 @@
 /turf/open/space,
 /area/asteroid/nearstation)
 "yhI" = (
-/obj/structure/bookcase/random/adult,
+/obj/structure/bookcase/random/reference,
 /turf/open/floor/plasteel/dark,
 /area/library)
 "yii" = (
@@ -62400,7 +62396,7 @@ buL
 buL
 buL
 buL
-aqf
+buL
 asj
 avt
 ayZ
@@ -71162,7 +71158,7 @@ sNK
 tdN
 vzB
 xVJ
-ymd
+usR
 pPf
 sLg
 lVY
@@ -71418,7 +71414,7 @@ sMQ
 sNP
 cAw
 nDy
-usR
+ymd
 jye
 lBR
 sLg
@@ -71675,7 +71671,7 @@ sMT
 sMT
 ttA
 lkk
-uLA
+jye
 ymd
 wlD
 sLg
@@ -71933,8 +71929,8 @@ sNQ
 tKM
 nDy
 yhI
-jye
-hFy
+uLA
+lBR
 sLg
 iWr
 hRS
@@ -76036,7 +76032,7 @@ biA
 sKH
 bcK
 bdH
-bey
+aqf
 sBy
 sIG
 sLM
