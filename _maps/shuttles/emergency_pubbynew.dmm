@@ -111,7 +111,6 @@
 	dwidth = 4;
 	height = 15;
 	name = "Pubby emergency shuttle";
-	port_angle = 90;
 	width = 20
 	},
 /turf/open/floor/plating,

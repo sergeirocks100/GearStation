@@ -255,6 +255,12 @@
 	desc = "A sweet and strongly alchoholic drink, made after numerous distillations and years of maturing. You might as well not scream 'SHITCURITY' this time."
 	icon_state = "cognacbottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/cognac = 100)
+	
+/obj/item/reagent_containers/food/drinks/bottle/cinnamonwhiskey
+	name = "Plasmaball cinnamon whiskey"
+	desc = "A cinnamon flavored whiskey, favored by cheap drunks with no taste buds."
+	icon_state = "cinnamonwhiskeybottle"
+	list_reagents = list(/datum/reagent/consumable/ethanol/cinnamonwhiskey = 100)
 
 /obj/item/reagent_containers/food/drinks/bottle/wine
 	name = "Doublebeard's bearded special wine"

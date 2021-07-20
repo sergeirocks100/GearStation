@@ -26,7 +26,7 @@
 	if (prob(40))
 		new /obj/item/storage/toolbox/emergency(src)
 
-	switch (pickweight(list("small" = 35, "aid" = 30, "tank" = 20, "both" = 10, "nothing" = 4, "delete" = 1)))
+	switch (pickweight(list("small" = 35, "aid" = 30, "space" = 25, "tank" = 20, "both" = 10, "nothing" = 4, "delete" = 1)))
 		if ("small")
 			new /obj/item/tank/internals/emergency_oxygen(src)
 			new /obj/item/tank/internals/emergency_oxygen(src)
@@ -37,6 +37,12 @@
 			new /obj/item/tank/internals/emergency_oxygen(src)
 			new /obj/item/storage/firstaid/emergency(src)
 			new /obj/item/clothing/mask/breath(src)
+			
+		if ("space")
+			new /obj/item/tank/internals/oxygen(src)
+			new /obj/item/clothing/mask/breath(src)
+			new /obj/item/clothing/head/helmet/space/fragile(src)
+			new /obj/item/clothing/suit/space/fragile(src)
 
 		if ("tank")
 			new /obj/item/tank/internals/oxygen(src)
@@ -77,6 +83,7 @@
 	new /obj/item/tank/internals/oxygen/red(src)
 	new /obj/item/extinguisher(src)
 	new /obj/item/clothing/head/hardhat/red(src)
+	new /obj/item/storage/inflatable(src)
 
 /*
  * Tool Closet
