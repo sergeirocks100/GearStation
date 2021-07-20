@@ -170,6 +170,36 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_icon_state = "cinnamonwhiskeyglass"
 	glass_name = "glass of whiskey"
 	glass_desc = "Red-hot cinnamon whisky in a shot glass."
+	
+/datum/reagent/consumable/ethanol/c4cocktail
+	name = "C-4 Cocktail"
+	description = "Kahlua and Cinnamon Whiskey, a burning explosion of flavor - tastes like pain. And cinnamon."
+	color = "#1f0802" //31, 8, 2
+	boozepwr = 50
+	taste_description = "fiery coffee"
+	glass_icon_state = "c4cocktail"
+	glass_name = "\improper C-4 Cocktail"
+	glass_desc = "Kahlua and Cinnamon Whiskey, a burning explosion of cinnamon flavor."
+	
+/datum/reagent/consumable/ethanol/cinnamontoastcocktail
+	name = "Cinnamon Toast"
+	description = "Rum, cream, and cinnamon whiskey. Tastes a little like the milk you get out of a sugary cereal."
+	color = "#f29224" // 242, 146, 36
+	glass_icon_state = "cinnamontoastcocktail"
+	boozepwr = 45
+	taste_description = "creamy cinnamon"
+	glass_name = "\improper Cinnamon Toast Cocktail"
+	glass_desc = "Kind of like drinking left-over cereal milk, but for people with a drinking problem."
+	
+/datum/reagent/ethanol/drink/fireballcola
+	name = "Plasmaball Cola"
+	description = "Like a Whiskey Cola, but with added painful burning sensation."
+	color = "#f20224" //242, 146, 36
+	boozepwr = 70
+	taste_description = "fiery cola"
+	glass_icon_state = "fireballcola"
+	glass_name = "\improper Fireball Cola"
+	glass_desc = "Cinnamon whiskey and cola - like a regular whiskey cola, but with more burning."
 
 /datum/reagent/consumable/ethanol/whiskey/kong
 	name = "Kong"

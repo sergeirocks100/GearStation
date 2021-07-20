@@ -154,6 +154,18 @@
 /datum/chemical_reaction/threemileisland
 	results = list(/datum/reagent/consumable/ethanol/threemileisland = 10)
 	required_reagents = list(/datum/reagent/consumable/ethanol/longislandicedtea = 10, /datum/reagent/uranium = 1)
+	
+/datum/chemical_reaction/c4cocktail
+	results = list(/datum/reagent/consumable/ethanol/c4cocktail = 3)
+	required_reagents = list(/datum/reagent/consumable/ethanol/kahlua = 2, /datum/reagent/consumable/ethanol/cinnamonwhiskey = 1)
+	
+/datum/chemical_reaction/cinnamontoastcocktail
+	results = list(/datum/reagent/consumable/ethanol/cinnamontoastcocktail = 3)
+	required_reagents = list(/datum/reagent/consumable/ethanol/rum = 1, /datum/reagent/consumable/ethanol/cinnamonwhiskey = 1, /datum/reagent/consumable/cream = 1)
+
+/datum/chemical_reaction/fireballcola
+	results = list(/datum/reagent/consumable/ethanol/fireballcola = 3)
+	required_reagents = list(/datum/reagent/consumable/ethanol/cinnamonwhiskey = 2, /datum/reagent/consumable/space_cola = 1)
 
 /datum/chemical_reaction/whiskeysoda
 	results = list(/datum/reagent/consumable/ethanol/whiskeysoda = 3)
