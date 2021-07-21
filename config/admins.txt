@@ -6,3 +6,4 @@
 
 sergeirocks100 = Host
 Lexbomb6464 = Game Admin
+Fegelein17 = Game Admin
