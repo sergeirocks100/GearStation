@@ -191,7 +191,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_name = "\improper Cinnamon Toast Cocktail"
 	glass_desc = "Kind of like drinking left-over cereal milk, but for people with a drinking problem."
 	
-/datum/reagent/ethanol/drink/fireballcola
+/datum/reagent/consumable/ethanol/fireballcola
 	name = "Plasmaball Cola"
 	description = "Like a Whiskey Cola, but with added painful burning sensation."
 	color = "#f20224" //242, 146, 36
