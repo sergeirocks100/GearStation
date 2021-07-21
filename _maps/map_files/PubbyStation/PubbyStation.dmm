@@ -1431,8 +1431,9 @@
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "aeV" = (
-/obj/effect/landmark/xeno_spawn,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/table,
+/obj/item/storage/pill_bottle/dice,
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "aeW" = (
@@ -1620,7 +1621,6 @@
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "afo" = (
-/obj/structure/chair/stool,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 10
 	},
@@ -1628,18 +1628,17 @@
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "afp" = (
-/obj/item/storage/pill_bottle/dice,
-/obj/structure/table,
 /obj/structure/cable,
+/obj/structure/chair/stool,
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "afq" = (
 /obj/structure/table,
-/obj/item/instrument/harmonica,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 8
 	},
 /obj/structure/cable,
+/obj/item/toy/cards/deck,
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "afr" = (
@@ -1742,25 +1741,14 @@
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "afD" = (
-/obj/structure/chair/stool,
 /obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden,
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "afE" = (
-/obj/item/toy/cards/deck,
-/obj/structure/table,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
+/obj/effect/landmark/xeno_spawn,
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "afF" = (
-/obj/item/paper_bin{
-	pixel_x = -3;
-	pixel_y = 7
-	},
-/obj/item/pen,
-/obj/structure/table,
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden{
 	dir = 6
 	},
@@ -1770,7 +1758,6 @@
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "afG" = (
-/obj/structure/chair/stool,
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden{
 	dir = 4
 	},
@@ -28422,6 +28409,11 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/science/xenobiology)
+"buR" = (
+/obj/structure/table,
+/obj/item/instrument/harmonica,
+/turf/open/floor/plasteel/dark,
+/area/security/prison)
 "buW" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 9
@@ -54793,11 +54785,16 @@
 /turf/open/floor/plating,
 /area/maintenance/department/cargo)
 "nZI" = (
-/obj/structure/chair/stool,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/structure/table,
+/obj/item/paper_bin{
+	pixel_x = -3;
+	pixel_y = 7
+	},
+/obj/item/pen,
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "oag" = (
@@ -54836,6 +54833,14 @@
 /obj/structure/lattice,
 /turf/open/space/basic,
 /area/space)
+"oeV" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/chair/stool,
+/turf/open/floor/plasteel/dark,
+/area/security/prison)
 "ofo" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -58118,6 +58123,10 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/genetics)
+"uvI" = (
+/obj/structure/chair/stool,
+/turf/open/floor/plasteel/dark,
+/area/security/prison)
 "uwb" = (
 /obj/machinery/atmospherics/pipe/manifold/general/visible{
 	dir = 1
@@ -80513,10 +80522,10 @@ abI
 aem
 cKq
 aeU
-aeU
-aeU
-afp
 afE
+uvI
+afp
+afr
 agc
 ago
 lXS
@@ -81028,7 +81037,7 @@ aem
 jtg
 afr
 aeU
-aeU
+buR
 nZI
 afG
 agc
@@ -81285,8 +81294,8 @@ aen
 sNX
 wry
 aet
-aet
-wry
+afp
+oeV
 afH
 uOJ
 rts
