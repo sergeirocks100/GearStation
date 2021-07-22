@@ -23166,7 +23166,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
-/obj/machinery/modular_computer/console/preset/civilian{
+/obj/machinery/computer/rdconsole/production{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
@@ -28001,6 +28001,7 @@
 "gTw" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/effect/turf_decal/tile/blue,
+/obj/structure/closet/crate/bin,
 /turf/open/floor/plasteel/white,
 /area/medical/medbay)
 "gTW" = (
@@ -31577,7 +31578,6 @@
 /area/science/robotics/lab)
 "mvQ" = (
 /obj/effect/turf_decal/tile/blue,
-/obj/structure/closet/crate/bin,
 /turf/open/floor/plasteel/white,
 /area/medical/medbay)
 "mxO" = (
@@ -36129,6 +36129,7 @@
 /area/hallway/primary/central)
 "sEb" = (
 /obj/effect/turf_decal/tile/blue,
+/obj/machinery/vending/medical,
 /turf/open/floor/plasteel/white,
 /area/medical/medbay)
 "sEc" = (
