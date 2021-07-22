@@ -157,3 +157,15 @@
 	desc = "Used for building wall-mounted extinguisher cabinets."
 	icon_state = "extinguisher"
 	result_path = /obj/structure/extinguisher_cabinet
+
+/obj/structure/extinguisher_cabinet/directional/north
+	pixel_y = 32
+
+/obj/structure/extinguisher_cabinet/directional/south
+	pixel_y = -32
+
+/obj/structure/extinguisher_cabinet/directional/east
+	pixel_x = 26
+
+/obj/structure/extinguisher_cabinet/directional/west
+	pixel_x = -26

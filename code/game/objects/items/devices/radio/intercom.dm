@@ -133,3 +133,15 @@
 	pixel_shift = 29
 	inverse = TRUE
 	custom_materials = list(/datum/material/iron = 75, /datum/material/glass = 25)
+
+/obj/item/radio/intercom/directional/north
+	pixel_y = 22
+
+/obj/item/radio/intercom/directional/south
+	pixel_y = -22
+
+/obj/item/radio/intercom/directional/east
+	pixel_x = 28
+
+/obj/item/radio/intercom/directional/west
+	pixel_x = -28
