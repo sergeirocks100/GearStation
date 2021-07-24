@@ -34636,6 +34636,9 @@
 	},
 /obj/effect/turf_decal/tile/blue,
 /obj/item/kirbyplants/random,
+/obj/structure/sign/departments/lawyer{
+	pixel_x = 32
+	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
 "pDv" = (

@@ -1467,13 +1467,11 @@
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "ado" = (
-/obj/structure/table/wood,
-/obj/item/taperecorder,
-/obj/item/restraints/handcuffs,
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/structure/closet/secure_closet/detective,
 /turf/open/floor/plasteel/dark,
 /area/security/detectives_office)
 "adp" = (
@@ -1817,9 +1815,6 @@
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "adX" = (
-/obj/structure/table/wood,
-/obj/item/book/manual/wiki/security_space_law,
-/obj/item/camera/detective,
 /obj/item/radio/intercom{
 	name = "Station Intercom";
 	pixel_x = -26
@@ -1828,6 +1823,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/machinery/vending/wardrobe/det_wardrobe,
 /turf/open/floor/plasteel/dark,
 /area/security/detectives_office)
 "adZ" = (
@@ -1984,11 +1980,6 @@
 /area/security/prison)
 "aep" = (
 /obj/structure/rack,
-/obj/item/storage/briefcase{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/storage/secure/briefcase,
 /obj/machinery/airalarm/unlocked{
 	dir = 4;
 	pixel_x = -23
@@ -2000,6 +1991,8 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/item/book/manual/wiki/security_space_law,
+/obj/item/camera/detective,
 /turf/open/floor/plasteel/dark,
 /area/security/detectives_office)
 "aeq" = (
@@ -3333,6 +3326,8 @@
 	dir = 8
 	},
 /obj/structure/cable,
+/obj/structure/bed/dogbed/lia,
+/mob/living/simple_animal/hostile/carp/cayenne/lia,
 /turf/open/floor/plasteel,
 /area/security/brig)
 "ahB" = (
@@ -9927,6 +9922,7 @@
 	},
 /obj/item/folder/red,
 /obj/item/hand_labeler,
+/obj/item/taperecorder,
 /turf/open/floor/plasteel/grimy,
 /area/security/detectives_office)
 "azp" = (

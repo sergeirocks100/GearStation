@@ -1352,6 +1352,8 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
 	dir = 5
 	},
+/obj/structure/bed/dogbed/lia,
+/mob/living/simple_animal/hostile/carp/cayenne/lia,
 /turf/open/floor/carpet,
 /area/crew_quarters/heads/hos)
 "adP" = (
@@ -6619,14 +6621,12 @@
 "arT" = (
 /obj/structure/rack,
 /obj/item/storage/briefcase,
-/obj/machinery/airalarm{
-	pixel_y = 23
-	},
 /turf/open/floor/wood,
 /area/lawoffice)
 "arU" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
+/obj/machinery/airalarm/directional/west,
 /turf/open/floor/wood,
 /area/lawoffice)
 "arX" = (
@@ -11550,7 +11550,8 @@
 	},
 /area/chapel/main)
 "aHp" = (
-/obj/structure/filingcabinet/chestdrawer,
+/obj/structure/bed/dogbed/mcgriff,
+/mob/living/simple_animal/pet/dog/pug/mcgriff,
 /turf/open/floor/plasteel/showroomfloor,
 /area/security/warden)
 "aHq" = (
@@ -40398,10 +40399,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
-/mob/living/simple_animal/hostile/lizard{
-	name = "Wags-His-Tail";
-	real_name = "Wags-His-Tail"
-	},
+/mob/living/simple_animal/hostile/lizard/wags_his_tail,
 /turf/open/floor/plasteel,
 /area/janitor)
 "cAN" = (
@@ -46312,6 +46310,15 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer3,
 /turf/open/floor/plasteel,
 /area/engine/gravity_generator)
+"ike" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/obj/structure/sign/departments/lawyer{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel,
+/area/hallway/primary/fore)
 "ilk" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Gravity Generator";
@@ -82009,7 +82016,7 @@ ahr
 aih
 aiX
 erF
-aov
+ike
 aph
 arT
 ata
