@@ -37943,14 +37943,15 @@
 /turf/open/floor/engine,
 /area/engine/engineering)
 "sNr" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/flashlight,
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/stripes/line,
-/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on{
-	dir = 1
-	},
 /turf/open/floor/engine,
 /area/engine/engineering)
 "sNs" = (
+/obj/structure/cable,
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
@@ -37960,10 +37961,10 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
-/obj/structure/cable,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "sNt" = (
+/obj/structure/cable,
 /obj/machinery/light,
 /obj/machinery/status_display/evac{
 	pixel_y = -32
@@ -37972,10 +37973,10 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/bot,
-/obj/structure/cable,
 /turf/open/floor/plasteel/dark,
 /area/engine/engineering)
 "sNu" = (
+/obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer/on{
 	dir = 1
 	},
@@ -37985,16 +37986,12 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/structure/cable,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "sNv" = (
-/obj/effect/turf_decal/stripes/line,
 /obj/structure/cable,
-/obj/effect/turf_decal/bot,
-/obj/machinery/atmospherics/components/unary/portables_connector/visible{
-	dir = 1
-	},
+/obj/structure/closet/crate/bin,
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "sNw" = (
@@ -38043,7 +38040,6 @@
 	dir = 6
 	},
 /obj/structure/cable,
-/obj/structure/closet/crate/bin,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "sNC" = (
