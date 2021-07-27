@@ -6898,6 +6898,7 @@
 /area/engine/atmos)
 "arg" = (
 /obj/machinery/airalarm/directional/south,
+/obj/machinery/light,
 /turf/open/floor/wood,
 /area/crew_quarters/theatre)
 "ark" = (
@@ -13874,6 +13875,10 @@
 /area/crew_quarters/theatre)
 "aNb" = (
 /obj/structure/piano,
+/obj/machinery/light{
+	dir = 1;
+	light_color = "#cee5d2"
+	},
 /turf/open/floor/wood,
 /area/crew_quarters/theatre)
 "aNc" = (
@@ -13903,6 +13908,9 @@
 "aNk" = (
 /obj/structure/closet/crate/bin,
 /obj/machinery/airalarm/directional/north,
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/kitchen)
 "aNl" = (
@@ -13910,6 +13918,9 @@
 /area/crew_quarters/kitchen)
 "aNm" = (
 /obj/machinery/deepfryer,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/kitchen)
 "aNn" = (
@@ -15752,6 +15763,9 @@
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 8
 	},
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/plasteel/dark,
 /area/hydroponics)
 "aTR" = (
@@ -15879,6 +15893,9 @@
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
 /area/hydroponics)
@@ -16490,6 +16507,9 @@
 	dir = 1
 	},
 /obj/machinery/airalarm/directional/east,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/theatre)
 "aVP" = (
@@ -17095,6 +17115,9 @@
 	dir = 4
 	},
 /obj/machinery/hydroponics/constructable,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/hydroponics)
 "aXV" = (
@@ -18474,6 +18497,9 @@
 /obj/item/kirbyplants{
 	icon_state = "plant-22"
 	},
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/plasteel,
 /area/crew_quarters/bar/atrium)
 "bcR" = (
@@ -18505,6 +18531,9 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/kitchen)
 "bdd" = (
@@ -20148,6 +20177,9 @@
 	},
 /obj/effect/turf_decal/tile/neutral,
 /obj/machinery/firealarm/directional/west,
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/bar/atrium)
 "biC" = (
@@ -23576,7 +23608,7 @@
 	},
 /obj/machinery/firealarm/directional/east,
 /turf/open/floor/plasteel/dark,
-/area/crew_quarters/kitchen)
+/area/hydroponics)
 "doD" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/engine_waste{
 	dir = 4
@@ -27792,6 +27824,7 @@
 /obj/structure/closet/secure_closet/bar{
 	req_access_txt = "25"
 	},
+/obj/machinery/light/small,
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/bar/atrium)
 "jxc" = (
@@ -28268,6 +28301,25 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/maintenance/port)
+"kuV" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/item/kirbyplants{
+	icon_state = "plant-22"
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/crew_quarters/bar/atrium)
 "kwu" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Crematorium";
@@ -31741,6 +31793,22 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/library)
+"oQq" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/crew_quarters/bar/atrium)
 "oQL" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -32323,6 +32391,15 @@
 /obj/effect/landmark/start/chaplain,
 /turf/open/floor/plasteel/grimy,
 /area/chapel/main)
+"pKS" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/light{
+	light_color = "#cee5d2"
+	},
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "pKV" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Solars";
@@ -33905,6 +33982,18 @@
 /obj/structure/lattice,
 /turf/open/floor/plating/asteroid/airless,
 /area/asteroid/nearstation)
+"rWo" = (
+/obj/structure/kitchenspike,
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/light/small{
+	brightness = 3;
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/crew_quarters/kitchen/coldroom)
 "rWQ" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -38006,6 +38095,22 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel/white,
 /area/science/research)
+"upU" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/service)
 "uqB" = (
 /obj/machinery/door/airlock/external{
 	name = "External Docking Port"
@@ -38527,6 +38632,25 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/fore)
+"vev" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/crew_quarters/bar/atrium)
 "veZ" = (
 /obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
 /obj/effect/turf_decal/tile/neutral{
@@ -76038,7 +76162,7 @@ bsk
 sJX
 aXi
 sJX
-aIX
+vev
 aXi
 sJX
 aIX
@@ -77054,7 +77178,7 @@ aGB
 aHE
 aIB
 bdK
-bcN
+kuV
 sJX
 sJX
 bcR
@@ -77066,7 +77190,7 @@ sJX
 sJX
 aVa
 sJX
-sJX
+oQq
 aXi
 njV
 sJX
@@ -77074,7 +77198,7 @@ sJX
 sJX
 sJX
 sJX
-bcN
+kuV
 bdK
 beC
 sEl
@@ -78349,7 +78473,7 @@ aRc
 bgc
 aTm
 sJT
-svD
+upU
 aWa
 aWI
 sKp
@@ -78599,7 +78723,7 @@ sIK
 bdR
 aOX
 aNn
-aNn
+rWo
 aOX
 bxQ
 bci
@@ -79118,7 +79242,7 @@ aoK
 bxQ
 bcZ
 aSe
-aTm
+pKS
 sJT
 liU
 aWc
