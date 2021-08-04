@@ -6030,6 +6030,10 @@
 /area/engine/atmos)
 "apG" = (
 /obj/machinery/portable_atmospherics/canister/water_vapor,
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/janitor)
 "apI" = (
@@ -27237,12 +27241,20 @@
 /area/quartermaster/qm)
 "bAT" = (
 /obj/machinery/vending/wardrobe/jani_wardrobe,
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/janitor)
 "bAU" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer1,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
 	dir = 10
+	},
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
 	},
 /turf/open/floor/plasteel,
 /area/janitor)
@@ -27809,6 +27821,10 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/janitor)
 "bCu" = (
@@ -27830,6 +27846,10 @@
 	dir = 9
 	},
 /obj/structure/cable,
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/janitor)
 "bCx" = (
@@ -28201,6 +28221,10 @@
 	},
 /obj/item/pen,
 /obj/item/key/janitor,
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/janitor)
 "bDr" = (
@@ -28208,10 +28232,18 @@
 /obj/item/restraints/legcuffs/beartrap,
 /obj/item/storage/box/mousetraps,
 /obj/item/storage/box/mousetraps,
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/janitor)
 "bDs" = (
 /obj/structure/reagent_dispensers/watertank,
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/janitor)
 "bDv" = (
@@ -28277,6 +28309,10 @@
 /obj/machinery/airalarm{
 	pixel_y = 23
 	},
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/janitor)
 "bDJ" = (
@@ -28284,6 +28320,10 @@
 /obj/item/storage/box/lights/mixed,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer3{
 	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
 	},
 /turf/open/floor/plasteel,
 /area/janitor)
@@ -28295,6 +28335,10 @@
 	c_tag = "Custodial Closet"
 	},
 /obj/vehicle/ridden/janicart,
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/janitor)
 "bDL" = (
@@ -28305,12 +28349,20 @@
 	pixel_x = -25
 	},
 /obj/structure/cable,
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/janitor)
 "bDM" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
 	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
 	},
 /turf/open/floor/plasteel,
 /area/janitor)
@@ -28755,12 +28807,20 @@
 /obj/structure/chair/stool,
 /obj/effect/landmark/start/janitor,
 /obj/structure/cable,
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/janitor)
 "bFg" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/janitor)
 "bFh" = (
@@ -28776,6 +28836,10 @@
 	dir = 6
 	},
 /obj/structure/cable,
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/janitor)
 "bFj" = (
@@ -28795,6 +28859,10 @@
 "bFk" = (
 /obj/item/mop,
 /obj/item/reagent_containers/glass/bucket,
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/janitor)
 "bFm" = (
@@ -29173,6 +29241,10 @@
 	pixel_y = -29
 	},
 /obj/item/reagent_containers/spray/cleaner,
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/janitor)
 "bGC" = (
@@ -29192,6 +29264,10 @@
 /area/science/mixing)
 "bGD" = (
 /obj/structure/janitorialcart,
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/janitor)
 "bGE" = (
@@ -29200,6 +29276,10 @@
 	dir = 1
 	},
 /obj/machinery/light,
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/janitor)
 "bGF" = (
@@ -40400,6 +40480,10 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
 /mob/living/simple_animal/hostile/lizard/wags_his_tail,
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/janitor)
 "cAN" = (
