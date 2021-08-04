@@ -585,3 +585,15 @@
 	inhand_icon_state = "pkplush"
 	attack_verb = list("hugged", "squeezed")
 	squeak_override = list('sound/weapons/thudswoosh.ogg'=1)
+
+/obj/item/toy/plush/batong
+	name = "batong"
+	desc = "A cheaply made toy made to look like a stun baton."
+	icon_state = "batong"
+	worn_icon_state = "baton"
+	inhand_icon_state = "baton"
+	lefthand_file = 'icons/mob/inhands/equipment/security_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/equipment/security_righthand.dmi'
+	slot_flags = ITEM_SLOT_BELT
+	attack_verb = list("beaten")
+	squeak_override = list('sound/effects/batong.ogg'= 1)

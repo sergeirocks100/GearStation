@@ -50,6 +50,7 @@ GLOBAL_LIST_INIT(arcade_prize_pool, list(
 		/obj/item/toy/plush/goatplushie = 2,
 		/obj/item/toy/plush/moth = 2,
 		/obj/item/toy/plush/pkplush = 2,
+		/obj/item/toy/plush/batong = 2,
 		/obj/item/storage/belt/military/snack = 2,
 		/obj/item/toy/brokenradio = 2,
 		/obj/item/toy/braintoy = 2,
