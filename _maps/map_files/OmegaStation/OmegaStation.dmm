@@ -17615,7 +17615,7 @@
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
 "bao" = (
-/obj/machinery/nuclearbomb/syndicate,
+/obj/machinery/nuclearbomb/beer,
 /turf/open/floor/plating,
 /area/maintenance/port/central)
 "baw" = (
