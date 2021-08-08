@@ -25267,10 +25267,15 @@
 /turf/open/floor/engine,
 /area/engine/supermatter)
 "fXn" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 9
+	dir = 4
 	},
+/obj/structure/sign/warning/electricshock{
+	pixel_x = 32;
+	pixel_y = -32
+	},
+/obj/structure/cable,
+/obj/machinery/light/small,
 /turf/open/floor/plating,
 /area/maintenance/solars/starboard/fore)
 "fYj" = (
@@ -25646,6 +25651,9 @@
 /obj/item/stack/sheet/metal/five,
 /obj/item/stack/cable_coil/five,
 /obj/item/circuitboard/machine/paystand,
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/vacant_room/commissary)
 "gDF" = (
@@ -25926,13 +25934,13 @@
 	dir = 4
 	},
 /obj/machinery/door/poddoor/shutters{
-	id = "commissaryshutters";
+	id = "commissaryshutter";
 	name = "Vacant Commissary Shutters"
 	},
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/turf/open/floor/plating,
+/turf/open/floor/plasteel,
 /area/vacant_room/commissary)
 "hfp" = (
 /obj/machinery/mass_driver{
@@ -27940,6 +27948,15 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/chapel/main)
+"jPV" = (
+/obj/structure/cable,
+/obj/machinery/power/apc{
+	areastring = "/area/maintenance/solars/starboard/fore";
+	name = "Starboard Bow Solar APC";
+	pixel_y = -26
+	},
+/turf/open/floor/plating,
+/area/maintenance/solars/starboard/fore)
 "jQa" = (
 /obj/machinery/computer/nanite_cloud_controller,
 /turf/open/floor/plasteel/dark,
@@ -27976,7 +27993,6 @@
 /turf/open/floor/plasteel/white,
 /area/medical/medbay)
 "jXc" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on,
 /turf/open/floor/plating,
 /area/maintenance/solars/starboard/fore)
 "jXp" = (
@@ -28808,8 +28824,12 @@
 /area/maintenance/starboard/central)
 "lkt" = (
 /obj/structure/cable,
-/obj/machinery/power/terminal{
-	dir = 4
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/machinery/power/solar_control{
+	id = "forestarboard";
+	name = "Starboard Bow Solar Control"
 	},
 /turf/open/floor/plating,
 /area/maintenance/solars/starboard/fore)
@@ -29258,6 +29278,10 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plating,
 /area/medical/morgue)
+"lHb" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/solars/starboard/fore)
 "lHc" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -29324,18 +29348,17 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
 "lKA" = (
-/turf/open/floor/plating,
-/area/maintenance/solars/starboard/fore)
-"lKT" = (
-/obj/structure/cable,
-/obj/machinery/light/small{
-	dir = 1
+/obj/machinery/door/airlock/engineering{
+	name = "Starboard Bow Solar Access";
+	req_access_txt = "10"
 	},
-/obj/machinery/power/solar_control{
-	id = "forestarboard";
-	name = "Starboard Bow Solar Control"
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
 	},
-/turf/open/floor/plating,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
 /area/maintenance/solars/starboard/fore)
 "lLg" = (
 /obj/structure/closet/crate/freezer/blood,
@@ -30039,10 +30062,8 @@
 /area/crew_quarters/dorms)
 "mGW" = (
 /obj/structure/cable,
-/obj/machinery/power/apc{
-	areastring = "/area/maintenance/solars/starboard/fore";
-	name = "Starboard Bow Solar APC";
-	pixel_y = -26
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 9
 	},
 /turf/open/floor/plating,
 /area/maintenance/solars/starboard/fore)
@@ -31431,15 +31452,8 @@
 /turf/open/floor/plasteel,
 /area/crew_quarters/bar/atrium)
 "oBD" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/structure/sign/warning/electricshock{
-	pixel_x = 32;
-	pixel_y = -32
-	},
 /obj/structure/cable,
-/obj/machinery/light/small,
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/maintenance/solars/starboard/fore)
 "oBV" = (
@@ -32776,6 +32790,9 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
@@ -34063,12 +34080,18 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
 "rVQ" = (
-/obj/structure/sign/warning/securearea{
-	pixel_x = -32
+/obj/effect/turf_decal/delivery,
+/obj/machinery/airalarm{
+	pixel_y = 24
 	},
-/obj/structure/lattice,
-/turf/open/floor/plating/asteroid/airless,
-/area/asteroid/nearstation)
+/obj/machinery/camera{
+	c_tag = "Starboard Bow Solar";
+	network = list("ss13","engine")
+	},
+/obj/structure/cable,
+/obj/machinery/power/smes,
+/turf/open/floor/plating,
+/area/maintenance/solars/starboard/fore)
 "rWQ" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -37709,7 +37732,7 @@
 /turf/open/floor/plasteel/dark,
 /area/science/xenobiology)
 "tAb" = (
-/obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
 /turf/open/floor/plating,
 /area/maintenance/solars/starboard/fore)
 "tBK" = (
@@ -38058,15 +38081,13 @@
 /area/library)
 "uef" = (
 /obj/machinery/door/poddoor/shutters{
-	id = "commissaryshutters";
+	id = "commissaryshutter";
 	name = "Vacant Commissary Shutters"
 	},
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/turf/open/floor/plasteel,
 /area/vacant_room/commissary)
 "uet" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -39009,6 +39030,9 @@
 	},
 /obj/effect/turf_decal/trimline/brown/filled/warning{
 	dir = 9
+	},
+/obj/machinery/light/small{
+	dir = 8
 	},
 /turf/open/floor/plasteel,
 /area/vacant_room/commissary)
@@ -40671,16 +40695,10 @@
 /turf/open/floor/plasteel,
 /area/science/robotics/mechbay)
 "xBV" = (
-/obj/effect/turf_decal/delivery,
-/obj/machinery/airalarm{
-	pixel_y = 24
-	},
-/obj/machinery/camera{
-	c_tag = "Starboard Bow Solar";
-	network = list("ss13","engine")
-	},
 /obj/structure/cable,
-/obj/machinery/power/smes,
+/obj/machinery/power/terminal{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/maintenance/solars/starboard/fore)
 "xDf" = (
@@ -80944,7 +80962,7 @@ oIP
 drn
 pCY
 drn
-lKT
+oBD
 lKA
 oBD
 aqZ
@@ -81715,9 +81733,9 @@ uga
 uga
 aad
 drn
-drn
-drn
-oIP
+rVQ
+lHb
+jPV
 asc
 mTL
 ath
@@ -81971,10 +81989,10 @@ aaa
 uga
 aaa
 aaa
-aaa
-snr
-aac
-rVQ
+drn
+drn
+drn
+oIP
 asc
 jtK
 wLM
