@@ -27948,15 +27948,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/chapel/main)
-"jPV" = (
-/obj/structure/cable,
-/obj/machinery/power/apc{
-	areastring = "/area/maintenance/solars/starboard/fore";
-	name = "Starboard Bow Solar APC";
-	pixel_y = -26
-	},
-/turf/open/floor/plating,
-/area/maintenance/solars/starboard/fore)
 "jQa" = (
 /obj/machinery/computer/nanite_cloud_controller,
 /turf/open/floor/plasteel/dark,
@@ -29278,10 +29269,6 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plating,
 /area/medical/morgue)
-"lHb" = (
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/maintenance/solars/starboard/fore)
 "lHc" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -30067,6 +30054,15 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/solars/starboard/fore)
+"mHJ" = (
+/obj/structure/cable,
+/obj/machinery/power/apc{
+	areastring = "/area/maintenance/solars/starboard/fore";
+	name = "Starboard Bow Solar APC";
+	pixel_y = -26
+	},
+/turf/open/floor/plating,
+/area/maintenance/solars/starboard/fore)
 "mIA" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -30413,6 +30409,10 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/grass,
 /area/hallway/secondary/entry)
+"ndK" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/solars/starboard/fore)
 "ndQ" = (
 /obj/structure/cable,
 /obj/machinery/power/apc{
@@ -81734,8 +81734,8 @@ uga
 aad
 drn
 rVQ
-lHb
-jPV
+ndK
+mHJ
 asc
 mTL
 ath
@@ -81992,7 +81992,7 @@ aaa
 drn
 drn
 drn
-oIP
+drn
 asc
 jtK
 wLM
