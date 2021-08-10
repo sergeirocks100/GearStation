@@ -24408,6 +24408,14 @@
 /obj/effect/turf_decal/tile/purple,
 /turf/open/floor/plasteel/white,
 /area/science/research)
+"eJZ" = (
+/obj/effect/turf_decal/delivery,
+/obj/machinery/door/window/westright{
+	name = "Cargo Office Delivery";
+	req_access_txt = "31"
+	},
+/turf/open/floor/plasteel,
+/area/quartermaster/storage)
 "eKa" = (
 /obj/machinery/button/crematorium{
 	id = "cremawheat";
@@ -24458,6 +24466,15 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/science/lab)
+"eMR" = (
+/obj/structure/cable,
+/obj/machinery/power/apc{
+	areastring = "/area/maintenance/solars/starboard/fore";
+	name = "Starboard Bow Solar APC";
+	pixel_y = -26
+	},
+/turf/open/floor/plating,
+/area/maintenance/solars/starboard/fore)
 "eMW" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
@@ -30054,15 +30071,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/solars/starboard/fore)
-"mHJ" = (
-/obj/structure/cable,
-/obj/machinery/power/apc{
-	areastring = "/area/maintenance/solars/starboard/fore";
-	name = "Starboard Bow Solar APC";
-	pixel_y = -26
-	},
-/turf/open/floor/plating,
-/area/maintenance/solars/starboard/fore)
 "mIA" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -30409,10 +30417,6 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/grass,
 /area/hallway/secondary/entry)
-"ndK" = (
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/maintenance/solars/starboard/fore)
 "ndQ" = (
 /obj/structure/cable,
 /obj/machinery/power/apc{
@@ -30475,6 +30479,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/hallway/secondary/entry)
+"ngr" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/solars/starboard/fore)
 "nhm" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/navbeacon{
@@ -81233,7 +81241,7 @@ aeh
 ayF
 sHZ
 aPk
-aJc
+eJZ
 aRg
 aUA
 baZ
@@ -81734,8 +81742,8 @@ uga
 aad
 drn
 rVQ
-ndK
-mHJ
+ngr
+eMR
 asc
 mTL
 ath
