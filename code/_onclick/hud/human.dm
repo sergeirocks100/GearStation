@@ -84,30 +84,21 @@
 /datum/hud/human/New(mob/living/carbon/human/owner)
 	..()
 
-	var/widescreen_layout = FALSE
-	if(owner.client?.prefs?.widescreenpref)
-		widescreen_layout = TRUE
-
 	var/obj/screen/using
 	var/obj/screen/inventory/inv_box
 
 	using = new/obj/screen/language_menu
 	using.icon = ui_style
-	if(!widescreen_layout)
-		using.screen_loc = UI_BOXLANG
 	using.hud = src
 	static_inventory += using
 
 	using = new/obj/screen/skills
 	using.icon = ui_style
-	if(!widescreen_layout)
-		using.screen_loc = UI_BOXLANG
+	using.hud = src
 	static_inventory += using
 
 	using = new /obj/screen/area_creator
 	using.icon = ui_style
-	if(!widescreen_layout)
-		using.screen_loc = UI_BOXAREA
 	using.hud = src
 	static_inventory += using
 
