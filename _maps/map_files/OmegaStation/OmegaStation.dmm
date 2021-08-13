@@ -3427,6 +3427,7 @@
 "ahV" = (
 /obj/machinery/mineral/equipment_vendor,
 /obj/effect/turf_decal/stripes/line,
+/obj/machinery/firealarm/directional/north,
 /turf/open/floor/plasteel,
 /area/quartermaster/miningdock)
 "ahX" = (
@@ -26026,19 +26027,11 @@
 /turf/open/floor/plasteel/dark,
 /area/science/research)
 "hjl" = (
-/obj/structure/table/reinforced,
 /obj/machinery/airalarm{
 	dir = 1;
 	pixel_y = -22
 	},
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -24
-	},
-/obj/item/paper_bin,
-/obj/item/pen,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel,
+/turf/closed/wall,
 /area/quartermaster/miningdock)
 "hkn" = (
 /obj/machinery/door/firedoor,
@@ -83557,7 +83550,7 @@ aaa
 aaa
 aaa
 aaa
-aVu
+hDi
 ahV
 aiB
 ajg
