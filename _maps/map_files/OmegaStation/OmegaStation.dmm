@@ -3971,9 +3971,6 @@
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "ajF" = (
-/obj/structure/chair/office{
-	dir = 4
-	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 1
 	},
@@ -4152,21 +4149,21 @@
 	},
 /area/hallway/primary/starboard)
 "akn" = (
-/obj/structure/table/reinforced,
 /obj/machinery/light,
 /obj/machinery/requests_console{
 	department = "Mining";
 	name = "Mining Dock RC";
 	pixel_y = -32
 	},
-/obj/item/folder/yellow,
-/obj/item/toy/figure/miner,
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
+	},
+/obj/structure/chair/office{
+	dir = 4
 	},
 /turf/open/floor/plasteel,
 /area/quartermaster/miningdock)
@@ -12413,18 +12410,20 @@
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "aIQ" = (
-/obj/machinery/computer/shuttle/mining{
-	dir = 8
-	},
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
+/obj/structure/table/reinforced,
+/obj/item/folder/yellow,
+/obj/item/toy/figure/miner,
 /turf/open/floor/plasteel,
 /area/quartermaster/miningdock)
 "aIR" = (
-/obj/structure/reagent_dispensers/fueltank,
 /obj/effect/turf_decal/delivery,
+/obj/machinery/computer/shuttle/mining{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/quartermaster/miningdock)
 "aIS" = (
@@ -25971,7 +25970,7 @@
 /obj/structure/chair/comfy/brown,
 /obj/effect/landmark/xeno_spawn,
 /turf/open/floor/wood,
-/area/asteroid/nearstation)
+/area/maintenance/starboard/aft)
 "hgC" = (
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple{
@@ -26640,7 +26639,7 @@
 /turf/open/floor/wood{
 	icon_state = "wood-broken6"
 	},
-/area/asteroid/nearstation)
+/area/maintenance/starboard/aft)
 "idD" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp,
@@ -27235,7 +27234,7 @@
 /turf/open/floor/wood{
 	icon_state = "wood-broken2"
 	},
-/area/asteroid/nearstation)
+/area/maintenance/starboard/aft)
 "iTY" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -27604,7 +27603,7 @@
 /obj/item/storage/briefcase,
 /obj/item/taperecorder,
 /turf/open/floor/wood,
-/area/asteroid/nearstation)
+/area/maintenance/starboard/aft)
 "jlU" = (
 /obj/structure/cable,
 /obj/machinery/door/airlock{
@@ -27676,7 +27675,7 @@
 "jtp" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
-/area/asteroid/nearstation)
+/area/maintenance/starboard/aft)
 "jtG" = (
 /obj/machinery/pipedispenser,
 /turf/open/floor/plasteel/white,
@@ -27968,7 +27967,7 @@
 /turf/open/floor/wood{
 	icon_state = "wood-broken4"
 	},
-/area/asteroid/nearstation)
+/area/maintenance/starboard/aft)
 "jSo" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -28408,10 +28407,6 @@
 	},
 /turf/open/floor/plasteel/white/corner,
 /area/hallway/secondary/entry)
-"kGo" = (
-/obj/effect/spawner/structure/window/reinforced/tinted,
-/turf/open/floor/plating,
-/area/asteroid/nearstation)
 "kGz" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
@@ -30402,7 +30397,7 @@
 /obj/item/book/manual/wiki/detective,
 /obj/item/camera/detective,
 /turf/open/floor/wood,
-/area/asteroid/nearstation)
+/area/maintenance/starboard/aft)
 "ndE" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -31673,7 +31668,7 @@
 	pixel_y = 6
 	},
 /turf/open/floor/wood,
-/area/asteroid/nearstation)
+/area/maintenance/starboard/aft)
 "oJL" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/medical/glass{
@@ -31829,7 +31824,7 @@
 "oYw" = (
 /obj/structure/dresser,
 /turf/open/floor/wood,
-/area/asteroid/nearstation)
+/area/maintenance/starboard/aft)
 "pbT" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -33376,7 +33371,7 @@
 /area/security/brig)
 "qUY" = (
 /turf/open/floor/wood,
-/area/asteroid/nearstation)
+/area/maintenance/starboard/aft)
 "qXW" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plating{
@@ -33986,7 +33981,7 @@
 "rOv" = (
 /obj/machinery/vending/cigarette,
 /turf/open/floor/wood,
-/area/asteroid/nearstation)
+/area/maintenance/starboard/aft)
 "rPi" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/power/apc{
@@ -37556,7 +37551,7 @@
 /obj/item/electronics/firelock,
 /obj/item/electronics/airlock,
 /turf/open/floor/wood,
-/area/asteroid/nearstation)
+/area/maintenance/starboard/aft)
 "tqN" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -37846,7 +37841,7 @@
 /obj/structure/table/wood,
 /obj/item/electronics/airlock,
 /turf/open/floor/wood,
-/area/asteroid/nearstation)
+/area/maintenance/starboard/aft)
 "tMJ" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/stripes/box,
@@ -37872,7 +37867,7 @@
 /turf/open/floor/wood{
 	icon_state = "wood-broken4"
 	},
-/area/asteroid/nearstation)
+/area/maintenance/starboard/aft)
 "tPO" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 1
@@ -38594,7 +38589,7 @@
 	req_access_txt = "12"
 	},
 /turf/open/floor/wood,
-/area/asteroid/nearstation)
+/area/maintenance/starboard/aft)
 "uMG" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 9
@@ -38840,7 +38835,7 @@
 /obj/item/grenade/smokebomb,
 /obj/item/restraints/handcuffs,
 /turf/open/floor/wood,
-/area/asteroid/nearstation)
+/area/maintenance/starboard/aft)
 "vgF" = (
 /obj/structure/cable,
 /obj/structure/closet/crate,
@@ -40016,7 +40011,7 @@
 	},
 /obj/item/lighter,
 /turf/open/floor/wood,
-/area/asteroid/nearstation)
+/area/maintenance/starboard/aft)
 "wNi" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 10
@@ -40085,7 +40080,7 @@
 "wSy" = (
 /obj/effect/spawner/structure/window/reinforced/tinted,
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/starboard/aft)
 "wSE" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -40525,7 +40520,7 @@
 	},
 /obj/item/clothing/head/fedora/det_hat,
 /turf/open/floor/wood,
-/area/asteroid/nearstation)
+/area/maintenance/starboard/aft)
 "xuT" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/bot,
@@ -82326,7 +82321,7 @@ wtK
 tpy
 jtp
 jlR
-kGo
+wSy
 aad
 aad
 aad
@@ -82583,7 +82578,7 @@ wtK
 tMI
 iTn
 rOv
-kGo
+wSy
 aad
 aad
 aac
@@ -82840,7 +82835,7 @@ rnu
 oJD
 jtp
 tOd
-kGo
+wSy
 aaa
 aaa
 aaa
@@ -83097,7 +83092,7 @@ rnu
 icA
 jtp
 hgv
-kGo
+wSy
 aac
 aaa
 aaa
@@ -83354,7 +83349,7 @@ rnu
 jtp
 jtp
 wMe
-kGo
+wSy
 aac
 aaa
 aaa
@@ -83608,10 +83603,10 @@ kIq
 dla
 fwu
 rnu
-uVJ
+fsl
 uMy
-uVJ
-uVJ
+fsl
+fsl
 aad
 aaa
 aaa
@@ -83868,7 +83863,7 @@ rnu
 ndp
 qUY
 oYw
-kGo
+wSy
 aaa
 aaa
 aaa
@@ -84125,7 +84120,7 @@ rnu
 vgo
 jRj
 xtr
-kGo
+wSy
 aaa
 aaa
 aaa
@@ -84379,9 +84374,9 @@ grs
 dla
 lzL
 rnu
-kGo
-kGo
-kGo
+wSy
+wSy
+wSy
 wSy
 aaa
 aaa
