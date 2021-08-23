@@ -13,6 +13,7 @@
 		#include "map_files\OmegaStation\OmegaStation.dmm"
 		#include "map_files\BoxStation\BoxStation.dmm"
 		#include "map_files\LimaStation\LimaStation.dmm"
+		#include "map_files\LambdaStation\LambdaStation.dmm"
 
 		#ifdef TRAVISBUILDING
 			#include "templates.dm"
