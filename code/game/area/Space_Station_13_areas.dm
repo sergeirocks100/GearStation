@@ -1148,6 +1148,14 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/vacant_room/office
 	name = "Vacant Office"
 	icon_state = "vacant_office"
+	
+/area/vacant_room/office/a
+	name = "Vacant Office A"
+	icon_state = "vacant_office"
+	
+/area/vacant_room/office/b
+	name = "Vacant Office B"
+	icon_state = "vacant_office"
 
 /area/vacant_room/commissary
 	name = "Vacant Commissary"

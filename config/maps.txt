@@ -44,6 +44,10 @@ map limastation
 	votable
 endmap
 
+map lambdastation
+	votable
+endmap
+
 
 
 map runtimestation
