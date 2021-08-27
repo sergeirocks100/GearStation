@@ -34214,15 +34214,10 @@
 /obj/effect/turf_decal/tile{
 	dir = 4
 	},
-/obj/machinery/computer/arcade,
-/turf/open/floor/plasteel,
-/area/hallway/secondary/exit/departure_lounge)
-"bui" = (
-/obj/effect/turf_decal/tile{
-	dir = 8
+/obj/machinery/computer/arcade{
+	dir = 1
 	},
-/obj/effect/turf_decal/tile/red,
-/turf/closed/wall/r_wall,
+/turf/open/floor/plasteel,
 /area/hallway/secondary/exit/departure_lounge)
 "buj" = (
 /obj/machinery/light{
@@ -61545,7 +61540,9 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/starboard)
 "cBb" = (
-/obj/machinery/computer/arcade,
+/obj/machinery/computer/arcade{
+	dir = 1
+	},
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 1
 	},
@@ -133355,7 +133352,7 @@ hMI
 eXk
 bnL
 btu
-bui
+bmY
 bmY
 aac
 aac
