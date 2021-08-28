@@ -29125,9 +29125,6 @@
 /turf/open/floor/plasteel,
 /area/security/brig)
 "jzb" = (
-/obj/structure/displaycase{
-	start_showpiece_type = /obj/item/reagent_containers/food/snacks/cake/chocolate
-	},
 /turf/open/floor/circuit/green,
 /area/ai_monitored/turret_protected/aisat_interior)
 "jzh" = (
@@ -68727,18 +68724,6 @@
 "vhb" = (
 /turf/closed/wall,
 /area/library/printer)
-"vhl" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
-	dir = 8
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/hallway/primary/central)
 "vhv" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -112637,7 +112622,7 @@ qCC
 ybc
 qbc
 xxc
-vhl
+tco
 xLO
 wLo
 itL
@@ -112894,7 +112879,7 @@ fvd
 ybc
 vQR
 oRP
-vhl
+tco
 xLO
 wLo
 itL
@@ -113151,7 +113136,7 @@ tho
 ybc
 vQR
 xxc
-vhl
+tco
 xLO
 wLo
 itL
