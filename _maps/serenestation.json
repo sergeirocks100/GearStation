@@ -1,0 +1,11 @@
+{
+	"map_name": "Serene Station",
+	"map_path": "map_files/SereneStation",
+	"map_file": "SereneStation.dmm",
+	"shuttles": {
+		"cargo": "cargo_serene",
+		"ferry": "ferry_fancy",
+		"whiteship": "whiteship_meta",
+		"emergency": "emergency_serene"
+	}
+}

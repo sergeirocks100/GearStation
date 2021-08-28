@@ -659,3 +659,21 @@
 /datum/map_template/shuttle/labour/lima
     suffix = "lima"
     name = "labour shuttle (Lima)"
+
+/datum/map_template/shuttle/cargo/serene
+	suffix = "serene"
+	name = "supply shuttle (Serene)"
+
+/datum/map_template/shuttle/arrival/serene
+	suffix = "serene"
+	name = "arrival shuttle (Serene)"
+
+/datum/map_template/shuttle/emergency/serene
+	suffix = "serene"
+	name = "Serene Station Emergency Shuttle"
+	credit_cost = 4000
+	description = "The standard-issue escape shuttle for models of station this large. Will get you home in moderate style."
+
+/datum/map_template/shuttle/mining/serene
+	suffix = "serene"
+	name = "mining shuttle (Serene)"
