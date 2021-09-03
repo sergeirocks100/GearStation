@@ -5240,15 +5240,6 @@
 /area/ai_monitored/security/armory)
 "ana" = (
 /obj/structure/rack,
-/obj/item/gun/energy/e_gun/advtaser{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/gun/energy/e_gun/advtaser,
-/obj/item/gun/energy/e_gun/advtaser{
-	pixel_x = 3;
-	pixel_y = -3
-	},
 /obj/machinery/airalarm{
 	pixel_y = 22
 	},
@@ -5257,6 +5248,15 @@
 	},
 /obj/effect/turf_decal/tile/red{
 	dir = 1
+	},
+/obj/item/gun/energy/disabler{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/gun/energy/disabler,
+/obj/item/gun/energy/disabler{
+	pixel_x = 3;
+	pixel_y = -3
 	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
@@ -5280,7 +5280,7 @@
 	pixel_y = 28
 	},
 /obj/item/gun/energy/e_gun/dragnet,
-/obj/item/clothing/suit/armor/laserproof,
+/obj/item/clothing/suit/hooded/ablative,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "anc" = (
