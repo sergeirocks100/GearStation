@@ -48,13 +48,11 @@ map lambdastation
 	votable
 endmap
 
-map iceserene
+map icelambda
 	votable
 endmap
 
-map serenestation
-	votable
-endmap
+
 
 map runtimestation
 endmap

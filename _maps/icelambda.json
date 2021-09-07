@@ -1,18 +1,18 @@
 {
-   "map_name":"Ice Serene",
-   "map_path":"map_files/IceSerene",
+   "map_name":"Ice Lambda",
+   "map_path":"map_files/IceLambda",
    "map_file":[
       "IcemoonUnderground_Below.dmm",
       "IcemoonUnderground_Above.dmm",
-      "IceSerene.dmm"
+      "IceLambda.dmm"
    ],
    "space_ruin_levels":0,
    "space_empty_levels":0,
    "shuttles":{
-      "cargo":"cargo_serene",
-      "ferry":"ferry_fancy",
-      "whiteship":"whiteship_meta",
-      "emergency":"emergency_serene"
+      "cargo": "cargo_box",
+      "ferry": "ferry_fancy",
+      "whiteship": "whiteship_meta",
+      "emergency": "emergency_meta"
    },
    "traits":[
       {

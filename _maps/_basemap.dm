@@ -14,8 +14,7 @@
 		#include "map_files\BoxStation\BoxStation.dmm"
 		#include "map_files\LimaStation\LimaStation.dmm"
 		#include "map_files\LambdaStation\LambdaStation.dmm"
-		#include "map_files\IceSerene\IceSerene.dmm"
-		#include "map_files\SereneStation\SereneStation.dmm"
+		#include "map_files\IceLambda\IceLambda.dmm"
 
 		#ifdef TRAVISBUILDING
 			#include "templates.dm"
