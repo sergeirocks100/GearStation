@@ -96896,10 +96896,11 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/obj/structure/filingcabinet/chestdrawer,
 /obj/machinery/airalarm{
 	pixel_y = 23
 	},
+/obj/structure/bed/dogbed,
+/mob/living/simple_animal/opossum/morty,
 /turf/open/floor/plasteel/dark,
 /area/medical/morgue)
 "dDR" = (

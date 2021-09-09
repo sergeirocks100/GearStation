@@ -25740,7 +25740,8 @@
 /turf/open/floor/plasteel/dark,
 /area/medical/morgue)
 "boD" = (
-/obj/item/ectoplasm,
+/obj/structure/bed/dogbed,
+/mob/living/simple_animal/opossum/morty,
 /turf/open/floor/plasteel/dark,
 /area/medical/morgue)
 "boE" = (

@@ -72732,6 +72732,15 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit/departure_lounge)
+"eZb" = (
+/obj/machinery/light/small{
+	dir = 8;
+	light_color = "#d8b1b1"
+	},
+/obj/structure/bed/dogbed,
+/mob/living/simple_animal/opossum/morty,
+/turf/open/floor/plasteel/dark,
+/area/medical/morgue)
 "fcd" = (
 /obj/structure/chair{
 	dir = 8
@@ -123584,7 +123593,7 @@ cDY
 cDY
 cDY
 brS
-buJ
+eZb
 cDY
 cDY
 buJ

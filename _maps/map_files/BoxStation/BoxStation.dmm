@@ -20364,15 +20364,16 @@
 /obj/item/roller,
 /obj/item/roller,
 /obj/item/roller,
+/obj/item/storage/box/bodybags,
 /turf/open/floor/plasteel/dark,
 /area/medical/morgue)
 "bhq" = (
-/obj/structure/table,
-/obj/item/storage/box/bodybags,
 /obj/machinery/light/small{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/bed/dogbed,
+/mob/living/simple_animal/opossum/morty,
 /turf/open/floor/plasteel/dark,
 /area/medical/morgue)
 "bhr" = (

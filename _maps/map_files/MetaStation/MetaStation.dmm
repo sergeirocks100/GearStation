@@ -72834,6 +72834,9 @@
 /area/security/prison)
 "mNW" = (
 /obj/structure/disposalpipe/segment,
+/obj/structure/chair/office{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/medical/morgue)
 "mRb" = (
@@ -73933,9 +73936,6 @@
 /turf/open/floor/plasteel/dark,
 /area/medical/morgue)
 "oOy" = (
-/obj/structure/chair/office{
-	dir = 4
-	},
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/dark,
 /area/medical/morgue)
@@ -75537,17 +75537,11 @@
 /turf/open/floor/plasteel/dark,
 /area/security/execution/education)
 "rdB" = (
-/obj/structure/table/reinforced,
-/obj/item/paper_bin{
-	pixel_x = 6;
-	pixel_y = 4
-	},
-/obj/item/paper/guides/jobs/medical/morgue{
-	pixel_x = -4
-	},
 /obj/machinery/light/small{
 	dir = 4
 	},
+/obj/structure/bed/dogbed,
+/mob/living/simple_animal/opossum/morty,
 /turf/open/floor/plasteel/dark,
 /area/medical/morgue)
 "ren" = (
