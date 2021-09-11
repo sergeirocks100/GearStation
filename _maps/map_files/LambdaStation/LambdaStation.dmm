@@ -60637,7 +60637,9 @@
 /obj/structure/chair{
 	dir = 4
 	},
-/obj/machinery/light,
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "czt" = (
@@ -72674,6 +72676,15 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
+"eQc" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/machinery/computer/shuttle/mining/common{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/entry)
 "eRM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -72732,15 +72743,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit/departure_lounge)
-"eZb" = (
-/obj/machinery/light/small{
-	dir = 8;
-	light_color = "#d8b1b1"
-	},
-/obj/structure/bed/dogbed,
-/mob/living/simple_animal/opossum/morty,
-/turf/open/floor/plasteel/dark,
-/area/medical/morgue)
 "fcd" = (
 /obj/structure/chair{
 	dir = 8
@@ -72748,6 +72750,18 @@
 /obj/machinery/light/small,
 /turf/open/floor/plasteel/grimy,
 /area/security/brig)
+"feV" = (
+/obj/docking_port/stationary{
+	dir = 2;
+	dwidth = 3;
+	height = 5;
+	id = "commonmining_home";
+	name = "SS13: Common Mining Dock";
+	roundstart_template = /datum/map_template/shuttle/mining_common/meta;
+	width = 7
+	},
+/turf/open/space/basic,
+/area/space)
 "fjH" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 4
@@ -73775,6 +73789,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
+"jFB" = (
+/obj/machinery/door/airlock/external{
+	name = "External Docking Port"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/plating,
+/area/hallway/secondary/entry)
 "jFK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -73862,6 +73883,15 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
+"kcH" = (
+/obj/machinery/light/small{
+	dir = 8;
+	light_color = "#d8b1b1"
+	},
+/obj/structure/bed/dogbed,
+/mob/living/simple_animal/opossum/morty,
+/turf/open/floor/plasteel/dark,
+/area/medical/morgue)
 "kcN" = (
 /obj/structure/flora/tree/palm,
 /obj/machinery/camera/autoname{
@@ -74083,6 +74113,15 @@
 	},
 /turf/open/floor/plating,
 /area/quartermaster/storage)
+"lLs" = (
+/obj/machinery/door/airlock/external{
+	name = "External Docking Port"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/hallway/secondary/entry)
 "lNj" = (
 /obj/machinery/conveyor{
 	dir = 1;
@@ -76550,6 +76589,9 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
+"xPa" = (
+/turf/open/floor/plating,
+/area/hallway/secondary/entry)
 "xQh" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 4
@@ -104917,9 +104959,9 @@ ctK
 cyj
 cvH
 czs
-cyn
-aab
-aab
+cvG
+cvG
+cvG
 aab
 aab
 aab
@@ -105174,10 +105216,10 @@ cyK
 iup
 cqk
 cza
-cvG
-aab
-aab
-aab
+jFB
+xPa
+lLs
+feV
 aab
 aab
 aab
@@ -105430,10 +105472,10 @@ cvK
 cyL
 cvE
 cvE
-cyM
+eQc
 cvG
-aab
-aab
+cvG
+cvG
 aab
 aab
 aab
@@ -105688,7 +105730,7 @@ cyM
 cvG
 cxc
 cyn
-cyn
+cvG
 aab
 aab
 aab
@@ -123593,7 +123635,7 @@ cDY
 cDY
 cDY
 brS
-eZb
+kcH
 cDY
 cDY
 buJ
