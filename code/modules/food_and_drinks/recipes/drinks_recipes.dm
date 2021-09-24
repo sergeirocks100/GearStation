@@ -166,6 +166,10 @@
 /datum/chemical_reaction/fireballcola
 	results = list(/datum/reagent/consumable/ethanol/fireballcola = 3)
 	required_reagents = list(/datum/reagent/consumable/ethanol/cinnamonwhiskey = 2, /datum/reagent/consumable/space_cola = 1)
+	
+/datum/chemical_reaction/firecider
+	results = list(/datum/reagent/consumable/ethanol/firecider = 3)
+	required_reagents = list(/datum/reagent/consumable/ethanol/hcider = 2, /datum/reagent/consumable/ethanol/cinnamonwhiskey = 1)
 
 /datum/chemical_reaction/whiskeysoda
 	results = list(/datum/reagent/consumable/ethanol/whiskeysoda = 3)

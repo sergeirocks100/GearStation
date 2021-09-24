@@ -200,6 +200,16 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_icon_state = "fireballcola"
 	glass_name = "\improper Fireball Cola"
 	glass_desc = "Cinnamon whiskey and cola - like a regular whiskey cola, but with more burning."
+	
+/datum/reagent/consumable/ethanol/firecider
+	name = "Fire Cider"
+	description = "Apples, alcohol, and cinnamon, a match made in heaven."
+	color = "#f29224" // 242, 146, 36
+	boozepwr = 70
+	taste_description = "fiery cider"
+	glass_icon_state = "fireballcider"
+	glass_name = "\improper Fireball Cider"
+	glass_desc = "A toasty hot glass of apple cider and cinnamon whisky - makes you feel warm and fuzzy inside."
 
 /datum/reagent/consumable/ethanol/whiskey/kong
 	name = "Kong"
