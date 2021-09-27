@@ -160,7 +160,7 @@
 			if("Chaplain")
 				heirloom_type = pick(/obj/item/toy/windup_toolbox, /obj/item/reagent_containers/food/drinks/bottle/holywater)
 			if("Assistant")
-				heirloom_type = pick(/obj/item/storage/toolbox/mechanical/old/heirloom, /obj/item/clothing/gloves/cut/heirloom)
+				heirloom_type = /obj/item/storage/toolbox/mechanical/old/heirloom
 			//Security/Command
 			if("Captain")
 				heirloom_type = /obj/item/reagent_containers/food/drinks/flask/gold
