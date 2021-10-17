@@ -429,7 +429,7 @@ Regarding sprites & sounds, you must credit the artist and possibly the codebase
 
 Any assets from Goonstation, or any other assets under the [Creative Commons 3.0 BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/3.0/) or other non commercial licenses, are banned from use on Gearstation.
 
-Replacement or removal of non-commercially licensed content on the codebase is welcomed and encouraged.
+Replacement or removal of non-commercially licensed assets on the codebase is welcomed and encouraged.
 
 ## Banned content
 Do not add any of the following in a Pull Request or risk getting the PR closed:
