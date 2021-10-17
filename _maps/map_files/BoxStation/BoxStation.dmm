@@ -48176,6 +48176,14 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/mixing)
+"kwZ" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white/corner{
+	dir = 1
+	},
+/area/hallway/secondary/exit)
 "kxC" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer3{
@@ -105951,7 +105959,7 @@ aXy
 aZe
 aCR
 aCR
-mvb
+kwZ
 bdy
 beI
 bgc
@@ -106208,7 +106216,7 @@ aXD
 aZj
 baD
 bbG
-aPq
+mvb
 bdy
 beH
 bgc
