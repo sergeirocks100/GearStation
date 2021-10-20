@@ -117,6 +117,19 @@
 /obj/structure/closet/emcloset,
 /turf/open/floor/plasteel/white,
 /area/science/xenobiology)
+"aaE" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 1
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 5;
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
 "aaH" = (
 /obj/machinery/camera{
 	c_tag = "Server Room";
@@ -138,6 +151,36 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/science/server)
+"aaK" = (
+/obj/structure/table/wood/fancy/blue,
+/obj/machinery/light{
+	dir = 8;
+	light_color = "#e8eaff"
+	},
+/obj/structure/sign/painting/library_secure{
+	pixel_y = 32
+	},
+/obj/machinery/door/window{
+	name = "Secure Art Exhibition";
+	req_access_txt = "37"
+	},
+/turf/open/floor/wood,
+/area/library)
+"aaL" = (
+/obj/structure/table/wood/fancy/blue,
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#c1caff"
+	},
+/obj/structure/sign/painting/library_secure{
+	pixel_y = 32
+	},
+/obj/machinery/door/window/southright{
+	name = "Secure Art Exhibition";
+	req_access_txt = "37"
+	},
+/turf/open/floor/wood,
+/area/library)
 "aaM" = (
 /obj/machinery/power/solar{
 	id = "foreport";
@@ -1522,6 +1565,13 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/mixing)
+"aeZ" = (
+/obj/structure/cable,
+/obj/machinery/status_display/ai{
+	pixel_y = 32
+	},
+/turf/open/floor/wood,
+/area/library)
 "afa" = (
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
@@ -32262,8 +32312,7 @@
 /obj/machinery/status_display/ai{
 	pixel_y = 32
 	},
-/obj/structure/cable,
-/turf/open/floor/wood,
+/turf/closed/wall,
 /area/library)
 "bsd" = (
 /obj/structure/disposalpipe/segment{
@@ -33034,6 +33083,7 @@
 /area/medical/abandoned)
 "btV" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/obj/structure/cable,
 /turf/open/floor/wood,
 /area/library)
 "btW" = (
@@ -33410,6 +33460,7 @@
 /area/library)
 "buM" = (
 /obj/machinery/bookbinder,
+/obj/structure/cable,
 /turf/open/floor/wood,
 /area/library)
 "buN" = (
@@ -33417,6 +33468,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
+/obj/structure/cable,
 /turf/open/floor/wood,
 /area/library)
 "buO" = (
@@ -34277,7 +34329,6 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/structure/cable,
 /turf/open/floor/wood,
 /area/library)
 "bwJ" = (
@@ -35636,6 +35687,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
 	dir = 4
 	},
+/obj/structure/cable,
 /turf/open/floor/wood,
 /area/library)
 "bAe" = (
@@ -48746,19 +48798,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/storage/primary)
-"cbe" = (
-/obj/structure/extinguisher_cabinet{
-	pixel_x = 5;
-	pixel_y = -32
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral/filled/line{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/hallway/secondary/exit)
 "cbf" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
@@ -124377,9 +124416,9 @@ bFn
 cbc
 brA
 bwI
-bsD
-bsD
-bsD
+bsE
+bsE
+bsE
 bsD
 buR
 buR
@@ -124632,12 +124671,12 @@ bpi
 bQc
 bHi
 tkv
-brB
+brA
+bsE
+bsE
+bsE
+bsE
 bsD
-bsE
-bsE
-bsE
-bsE
 bsg
 bvT
 brA
@@ -124888,9 +124927,9 @@ aRj
 bpi
 bQb
 bFn
-tkv
-brB
-bsD
+aaE
+brA
+brA
 brA
 brA
 brA
@@ -125146,12 +125185,12 @@ bpi
 bQb
 bHQ
 bvd
-brB
+brA
+aaK
+pij
+pij
+pij
 bsD
-pij
-pij
-pij
-bsE
 bsg
 bsg
 bwL
@@ -125402,13 +125441,13 @@ aRj
 bpi
 bQd
 bFn
-cbe
+tkv
 brA
-bwI
+aaL
 bsG
 bsG
 bsG
-bsE
+bsD
 bsg
 bsg
 bwL
@@ -125665,7 +125704,7 @@ bsc
 brA
 brA
 brA
-bsE
+bsD
 bsg
 bsg
 brA
@@ -125919,7 +125958,7 @@ bFn
 cYc
 brA
 cMX
-bsE
+bsD
 bAd
 btV
 buN
@@ -127203,7 +127242,7 @@ bQc
 bHi
 bQq
 brA
-bsD
+aeZ
 bsE
 btq
 bUZ
