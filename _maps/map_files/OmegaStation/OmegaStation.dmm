@@ -39054,7 +39054,11 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 4
 	},
-/turf/closed/wall,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plasteel,
 /area/maintenance/starboard/central)
 "vtI" = (
 /obj/item/stack/ore/glass,
