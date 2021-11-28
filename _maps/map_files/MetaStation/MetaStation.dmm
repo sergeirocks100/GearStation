@@ -37862,12 +37862,15 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "bLI" = (
-/obj/effect/spawner/structure/window,
 /obj/machinery/door/poddoor/preopen{
 	id = "kitchenwindow";
 	name = "kitchen shutters"
 	},
-/turf/open/floor/plating,
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/turf/open/floor/plasteel/cafeteria{
+	dir = 5
+	},
 /area/crew_quarters/kitchen)
 "bLJ" = (
 /obj/machinery/requests_console{
@@ -37891,20 +37894,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/kitchen)
-"bLM" = (
-/obj/machinery/deepfryer,
-/obj/effect/turf_decal/trimline/brown/warning{
-	dir = 10
-	},
-/turf/open/floor/plasteel/cafeteria{
-	dir = 5
-	},
-/area/crew_quarters/kitchen)
 "bLN" = (
-/obj/machinery/deepfryer,
-/obj/effect/turf_decal/trimline/brown/warning{
-	dir = 6
-	},
+/obj/structure/table,
+/obj/machinery/microwave,
 /turf/open/floor/plasteel/cafeteria{
 	dir = 5
 	},
@@ -40766,9 +40758,7 @@
 "bSR" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/disposalpipe/segment,
-/obj/effect/turf_decal/trimline/green/filled/line{
-	dir = 4
-	},
+/obj/effect/turf_decal/trimline/green/filled/corner,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "bSS" = (
@@ -64455,10 +64445,11 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard)
 "dgq" = (
-/obj/effect/turf_decal/trimline/green/filled/line,
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
+/obj/structure/chair/stool/bar,
+/obj/effect/turf_decal/tile/bar,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "dgr" = (
@@ -67140,8 +67131,6 @@
 	pixel_y = -24;
 	req_access_txt = "28"
 	},
-/obj/structure/table,
-/obj/machinery/microwave,
 /turf/open/floor/plasteel/cafeteria{
 	dir = 5
 	},
@@ -68875,6 +68864,7 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
+/obj/structure/chair/stool/bar,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "gxl" = (
@@ -71027,17 +71017,11 @@
 /turf/open/floor/wood,
 /area/maintenance/port/aft)
 "jZS" = (
-/obj/effect/turf_decal/tile/green{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/green,
 /obj/item/kirbyplants{
 	icon_state = "plant-21"
 	},
-/obj/effect/turf_decal/tile/green{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/green{
+/obj/effect/turf_decal/trimline/green/filled/line,
+/obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
@@ -71916,7 +71900,7 @@
 /area/medical/medbay/central)
 "loW" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 6
+	dir = 4
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/kitchen)
@@ -74955,6 +74939,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/maintenance/department/science)
+"qqh" = (
+/obj/machinery/deepfryer,
+/obj/effect/turf_decal/trimline/brown/warning{
+	dir = 10
+	},
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "qsb" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -78107,9 +78098,12 @@
 	},
 /area/maintenance/port)
 "vAE" = (
-/obj/structure/table,
-/obj/machinery/microwave,
-/turf/open/floor/plasteel/cafeteria,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+	},
+/turf/open/floor/plasteel/cafeteria{
+	dir = 5
+	},
 /area/crew_quarters/kitchen)
 "vBx" = (
 /obj/structure/reagent_dispensers/fueltank,
@@ -78231,11 +78225,13 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/secondary)
 "vLs" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/structure/disposalpipe/segment,
-/obj/effect/turf_decal/trimline/green/filled/corner,
-/turf/open/floor/plasteel,
-/area/hallway/primary/central)
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/open/floor/plasteel/cafeteria{
+	dir = 5
+	},
+/area/crew_quarters/kitchen)
 "vLD" = (
 /obj/structure/lattice,
 /turf/open/space/basic,
@@ -78818,9 +78814,10 @@
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
 "wyV" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
-	dir = 1
+/obj/effect/turf_decal/trimline/brown/warning{
+	dir = 9
 	},
+/obj/machinery/deepfryer,
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/kitchen)
 "wzm" = (
@@ -112559,7 +112556,7 @@ oJP
 bNu
 oJP
 oJP
-vLs
+oJP
 bSR
 bUc
 bVp
@@ -113327,9 +113324,9 @@ vDQ
 abS
 bKe
 bLJ
-bLK
-bLK
 vAE
+vLs
+pVb
 ecJ
 bST
 bUf
@@ -113586,7 +113583,7 @@ bKf
 bLK
 loW
 wyV
-pVb
+qqh
 bRR
 bST
 bUg
@@ -114097,7 +114094,7 @@ bFn
 bHc
 bIw
 hnx
-bLM
+bLN
 hBB
 bOS
 bQD
