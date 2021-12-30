@@ -52978,8 +52978,6 @@
 	},
 /obj/item/stack/cable_coil,
 /obj/item/stack/cable_coil,
-/obj/item/rcl/pre_loaded,
-/obj/item/rcl/pre_loaded,
 /turf/open/floor/plasteel,
 /area/engine/break_room)
 "ckz" = (
@@ -58781,8 +58779,6 @@
 	},
 /obj/item/electronics/airlock,
 /obj/item/electronics/airlock,
-/obj/item/rcl/pre_loaded,
-/obj/item/rcl/pre_loaded,
 /turf/open/floor/plasteel,
 /area/engine/storage_shared)
 "cyq" = (
