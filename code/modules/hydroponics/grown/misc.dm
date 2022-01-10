@@ -67,7 +67,7 @@
 //Galaxy Thistle
 /obj/item/seeds/galaxythistle
 	name = "pack of galaxythistle seeds"
-	desc = "An impressive species of weed that is thought to have evolved from the simple milk thistle. Contains flavolignans that can help repair a damaged liver."
+	desc = "An impressive species of succulent weed that is thought to have evolved from the simple desert cactus. Contains flavolignans that can help repair a damaged liver."
 	icon_state = "seed-galaxythistle"
 	species = "galaxythistle"
 	plantname = "Galaxythistle"
@@ -93,12 +93,12 @@
 
 /obj/item/reagent_containers/food/snacks/grown/galaxythistle
 	seed = /obj/item/seeds/galaxythistle
-	name = "galaxythistle flower head"
-	desc = "This spiny cluster of florets reminds you of the highlands."
+	name = "galaxythistle fruit"
+	desc = "This spiny fruit reminds you of the desert."
 	icon_state = "galaxythistle"
 	filling_color = "#1E7549"
 	bitesize_mod = 3
-	foodtype = VEGETABLES
+	foodtype = FRUIT
 	wine_power = 35
 	tastes = list("thistle" = 2, "artichoke" = 1)
 

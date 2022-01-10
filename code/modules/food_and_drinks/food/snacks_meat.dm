@@ -306,7 +306,7 @@
 
 /obj/item/reagent_containers/food/snacks/nugget/Initialize()
 	. = ..()
-	var/shape = pick("lump", "star", "lizard", "corgi")
+	var/shape = pick("lump", "horn", "toolbox", "corgi")
 	desc = "A 'chicken' nugget vaguely shaped like a [shape]."
 	icon_state = "nugget_[shape]"
 

@@ -53,11 +53,11 @@
 	distill_reagent = /datum/reagent/consumable/vanilla //Takes longer, but you can get even more vanilla from it.
 
 /obj/item/seeds/cocoapod/bungotree
-	name = "pack of bungo tree seeds"
-	desc = "These seeds grow into bungo trees. They appear to be heavy and almost perfectly spherical."
+	name = "pack of bungo bush seeds"
+	desc = "These seeds grow into bungo bushes. They appear to be heavy and almost perfectly spherical."
 	icon_state = "seed-bungotree"
 	species = "bungotree"
-	plantname = "Bungo Tree"
+	plantname = "Bungo Bush"
 	product = /obj/item/reagent_containers/food/snacks/grown/bungofruit
 	lifespan = 30
 	maturation = 4
