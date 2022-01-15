@@ -10420,13 +10420,8 @@
 	},
 /area/crew_quarters/theatre)
 "aEh" = (
-/obj/structure/table/wood,
-/obj/item/storage/crayons,
-/obj/item/toy/crayon/spraycan{
-	pixel_x = -6
-	},
-/obj/item/toy/crayon/spraycan{
-	pixel_x = 5
+/obj/structure/chair/comfy/black{
+	dir = 4
 	},
 /turf/open/floor/wood,
 /area/library)
@@ -11852,7 +11847,13 @@
 /turf/closed/wall,
 /area/hydroponics)
 "aIs" = (
-/obj/structure/filingcabinet,
+/obj/structure/table/wood,
+/obj/structure/disposalpipe/segment,
+/obj/item/paper_bin{
+	pixel_x = 1;
+	pixel_y = 9
+	},
+/obj/item/stack/package_wrap,
 /turf/open/floor/wood,
 /area/library)
 "aIt" = (
@@ -11890,12 +11891,7 @@
 /turf/open/floor/wood,
 /area/library)
 "aIy" = (
-/obj/structure/table/wood,
-/obj/item/paper_bin{
-	pixel_x = 1;
-	pixel_y = 9
-	},
-/obj/item/stack/package_wrap,
+/obj/structure/filingcabinet,
 /turf/open/floor/wood,
 /area/library)
 "aIz" = (
@@ -12518,7 +12514,7 @@
 /turf/open/floor/plasteel,
 /area/hydroponics)
 "aJP" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer3{
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
 	dir = 4
 	},
 /turf/open/floor/wood,
@@ -12866,6 +12862,14 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/structure/table/wood,
+/obj/item/storage/crayons,
+/obj/item/toy/crayon/spraycan{
+	pixel_x = -6
+	},
+/obj/item/toy/crayon/spraycan{
+	pixel_x = 5
+	},
 /turf/open/floor/wood,
 /area/library)
 "aLa" = (
@@ -13477,7 +13481,10 @@
 /turf/open/floor/plasteel,
 /area/hydroponics)
 "aMH" = (
-/obj/machinery/bookbinder,
+/obj/structure/easel,
+/obj/item/canvas/nineteen_nineteen,
+/obj/item/canvas/twentythree_nineteen,
+/obj/item/canvas/twentythree_twentythree,
 /turf/open/floor/wood,
 /area/library)
 "aMI" = (
@@ -13918,6 +13925,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
+/obj/structure/chair/stool,
 /turf/open/floor/wood,
 /area/library)
 "aNW" = (
@@ -14234,13 +14242,10 @@
 /turf/open/floor/plasteel/dark,
 /area/hydroponics)
 "aOS" = (
-/obj/machinery/airalarm{
-	dir = 4;
-	pixel_x = -22
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer3{
+	dir = 4
 	},
-/obj/machinery/light{
-	dir = 8
-	},
+/obj/structure/chair/stool,
 /turf/open/floor/wood,
 /area/library)
 "aOT" = (
@@ -14338,6 +14343,10 @@
 /obj/item/camera,
 /obj/item/radio/intercom{
 	pixel_y = 25
+	},
+/obj/structure/sign/painting/library_private{
+	pixel_x = 32;
+	pixel_y = 32
 	},
 /turf/open/floor/engine/cult,
 /area/library)
@@ -45029,7 +45038,6 @@
 /area/maintenance/fore)
 "gvK" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer1,
-/obj/structure/chair/stool,
 /turf/open/floor/wood,
 /area/library)
 "gvP" = (
@@ -46497,6 +46505,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/aisat_interior)
+"iim" = (
+/obj/machinery/bookbinder,
+/turf/open/floor/wood,
+/area/library)
 "iiu" = (
 /obj/machinery/computer/camera_advanced/xenobio{
 	dir = 4
@@ -46934,6 +46946,9 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/structure/chair/comfy/black{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/library)
 "iNy" = (
@@ -47213,6 +47228,13 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel/white,
 /area/medical/psychology)
+"jjU" = (
+/obj/structure/table/wood,
+/obj/machinery/computer/libraryconsole{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/library)
 "jkE" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
@@ -47612,8 +47634,13 @@
 /turf/closed/wall,
 /area/medical/medbay/lobby)
 "jKa" = (
-/obj/structure/table/wood,
-/obj/machinery/computer/libraryconsole,
+/obj/machinery/airalarm{
+	dir = 4;
+	pixel_x = -22
+	},
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/wood,
 /area/library)
 "jKh" = (
@@ -100328,9 +100355,9 @@ anf
 jSz
 anf
 anf
-anf
-anf
-anf
+aoP
+aoP
+aAs
 aFu
 aFu
 aFu
@@ -100583,11 +100610,11 @@ alP
 alP
 anf
 jSz
-anf
-anf
-aoP
-aoP
-aAs
+alP
+alP
+alP
+alP
+alP
 aFu
 aPb
 aRN
@@ -100840,11 +100867,11 @@ dGr
 aCD
 aEa
 jSz
-alP
-alP
-alP
-alP
-alP
+aFu
+aMH
+aOS
+jKa
+iim
 aFu
 aFu
 aFu
@@ -101098,11 +101125,11 @@ aCC
 aEC
 jSz
 aFu
-aIs
+aIt
 aJP
-aOS
-aMH
-aFu
+aIt
+aIt
+aIt
 emV
 emV
 iNv
@@ -101870,7 +101897,7 @@ hcG
 aFu
 aHd
 aIx
-aLh
+aIs
 aLh
 fTq
 aNV
@@ -101879,7 +101906,7 @@ aIt
 sSv
 aIt
 mZB
-jKa
+aIt
 aXu
 aYW
 aVQ
@@ -102130,7 +102157,7 @@ aJG
 aMK
 aMK
 aIt
-aIt
+jjU
 aPd
 aQq
 aRP
