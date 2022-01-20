@@ -18198,6 +18198,10 @@
 /area/crew_quarters/kitchen)
 "bcu" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/effect/turf_decal/bot,
+/obj/structure/chair{
+	dir = 4
+	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
 "bcv" = (
@@ -22620,6 +22624,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/robotics/lab)
+"cmv" = (
+/obj/effect/turf_decal/delivery,
+/obj/item/kirbyplants{
+	icon_state = "plant-21"
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
 "cmB" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
@@ -32367,6 +32378,10 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 9
 	},
+/obj/effect/turf_decal/bot,
+/obj/structure/chair{
+	dir = 4
+	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
 "pKk" = (
@@ -34285,6 +34300,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/checkpoint)
+"sjC" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
 "skn" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -39663,6 +39685,9 @@
 /area/science/xenobiology)
 "wjS" = (
 /obj/effect/turf_decal/bot,
+/obj/structure/chair{
+	dir = 8
+	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
 "wkL" = (
@@ -72522,7 +72547,7 @@ sJG
 sJG
 sJG
 aWM
-aoH
+bhX
 bet
 bet
 bet
@@ -72781,7 +72806,7 @@ sJG
 aWY
 bhX
 bhX
-bhX
+aoH
 blZ
 byk
 jqM
@@ -82285,7 +82310,7 @@ vrd
 oBV
 qQU
 aWR
-bcx
+cmv
 aYb
 aYV
 sKP
@@ -83056,7 +83081,7 @@ gDx
 ptG
 rNB
 aWR
-bcx
+cmv
 aYg
 skn
 sKP
@@ -85376,7 +85401,7 @@ aZX
 bcu
 bcu
 pKj
-bdo
+sjC
 bej
 sKP
 wdt
