@@ -22624,13 +22624,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/robotics/lab)
-"cmv" = (
-/obj/effect/turf_decal/delivery,
-/obj/item/kirbyplants{
-	icon_state = "plant-21"
-	},
-/turf/open/floor/plasteel,
-/area/hallway/secondary/exit)
 "cmB" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
@@ -22705,6 +22698,13 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/medbay)
+"coN" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
 "coR" = (
 /obj/structure/sign/warning/securearea,
 /turf/closed/wall,
@@ -30861,6 +30861,13 @@
 	dir = 1
 	},
 /area/chapel/main)
+"nKo" = (
+/obj/effect/turf_decal/delivery,
+/obj/item/kirbyplants{
+	icon_state = "plant-21"
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
 "nLx" = (
 /obj/item/clothing/gloves/color/latex,
 /obj/item/clothing/suit/apron/surgical,
@@ -31921,9 +31928,9 @@
 /turf/open/floor/plasteel/white,
 /area/science/research)
 "pgw" = (
-/obj/structure/table/wood/fancy,
-/obj/item/storage/book/bible,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/altar_of_gods,
+/obj/item/storage/book/bible,
 /turf/open/floor/plasteel/grimy,
 /area/chapel/main)
 "pgN" = (
@@ -34300,13 +34307,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/checkpoint)
-"sjC" = (
-/obj/effect/turf_decal/bot,
-/obj/structure/chair{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/hallway/secondary/exit)
 "skn" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -82310,7 +82310,7 @@ vrd
 oBV
 qQU
 aWR
-cmv
+nKo
 aYb
 aYV
 sKP
@@ -83081,7 +83081,7 @@ gDx
 ptG
 rNB
 aWR
-cmv
+nKo
 aYg
 skn
 sKP
@@ -85401,7 +85401,7 @@ aZX
 bcu
 bcu
 pKj
-sjC
+coN
 bej
 sKP
 wdt

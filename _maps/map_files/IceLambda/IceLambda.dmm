@@ -51330,7 +51330,6 @@
 /area/chapel/main)
 "chM" = (
 /obj/structure/table/wood,
-/obj/item/storage/book/bible,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
@@ -71088,6 +71087,11 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
+"imp" = (
+/obj/structure/altar_of_gods,
+/obj/item/storage/book/bible,
+/turf/open/floor/carpet,
+/area/chapel/main)
 "imv" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
@@ -112556,7 +112560,7 @@ cfo
 cfZ
 cgR
 chM
-cgR
+imp
 cgR
 cgU
 clf
