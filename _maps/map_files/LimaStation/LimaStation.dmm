@@ -2546,9 +2546,18 @@
 /turf/open/floor/plasteel,
 /area/security/prison)
 "ans" = (
-/obj/structure/sink{
-	pixel_y = 26
+/obj/structure/closet/crate/hydroponics{
+	desc = "A place to store your public garden utensiles!";
+	name = "Public Garden Crate"
 	},
+/obj/item/seeds/wheat,
+/obj/item/seeds/tomato,
+/obj/item/seeds/tower,
+/obj/item/seeds/potato,
+/obj/item/seeds/banana,
+/obj/item/seeds/apple,
+/obj/item/seeds/corn,
+/obj/item/seeds/random,
 /turf/open/floor/plasteel,
 /area/hydroponics/garden)
 "ant" = (
@@ -6493,14 +6502,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
-"aPF" = (
-/obj/effect/spawner/structure/window,
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/turf/open/floor/plasteel/white,
-/area/medical/exam_room)
 "aPG" = (
 /obj/machinery/light,
 /obj/effect/turf_decal/tile/blue{
@@ -8352,18 +8353,10 @@
 /turf/open/floor/plasteel,
 /area/hydroponics/garden)
 "aZN" = (
-/obj/structure/closet/crate/hydroponics{
-	desc = "A container with the most basic seeds for anyone with a green thumb.";
-	name = "Seed Crate"
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = 11
 	},
-/obj/item/seeds/wheat,
-/obj/item/seeds/tomato,
-/obj/item/seeds/tower,
-/obj/item/seeds/potato,
-/obj/item/seeds/banana,
-/obj/item/seeds/apple,
-/obj/item/seeds/corn,
-/obj/item/seeds/random,
 /turf/open/floor/plasteel,
 /area/hydroponics/garden)
 "aZO" = (
@@ -9410,7 +9403,7 @@
 /area/crew_quarters/kitchen)
 "bfb" = (
 /obj/effect/spawner/structure/window/reinforced/tinted,
-/turf/open/floor/plasteel/cafeteria,
+/turf/open/floor/plating,
 /area/medical/break_room)
 "bfd" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
@@ -20528,7 +20521,7 @@
 "gYd" = (
 /obj/effect/spawner/structure/window/reinforced/tinted,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plasteel/cafeteria,
+/turf/open/floor/plating,
 /area/medical/break_room)
 "gYn" = (
 /obj/structure/cable,
@@ -24556,12 +24549,8 @@
 /area/medical/medbay/central)
 "jCM" = (
 /obj/effect/spawner/structure/window,
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/plating,
 /area/medical/exam_room)
 "jDr" = (
 /obj/machinery/door/firedoor,
@@ -24636,12 +24625,8 @@
 /area/quartermaster/office)
 "jFw" = (
 /obj/effect/spawner/structure/window,
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/plating,
 /area/medical/exam_room)
 "jFK" = (
 /obj/effect/decal/cleanable/generic,
@@ -28511,11 +28496,7 @@
 /area/medical/medbay/central)
 "meM" = (
 /obj/effect/spawner/structure/window,
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/plating,
 /area/medical/exam_room)
 "mfe" = (
 /obj/machinery/power/smes{
@@ -32641,6 +32622,14 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
+"ovY" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/obj/machinery/disposal/bin,
+/obj/effect/turf_decal/stripes/box,
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
 "owc" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -44701,7 +44690,7 @@
 	id = "barShutters";
 	name = "privacy shutters"
 	},
-/turf/open/floor/wood,
+/turf/open/floor/plating,
 /area/crew_quarters/bar)
 "vEG" = (
 /obj/effect/turf_decal/stripes/line,
@@ -80664,7 +80653,7 @@ rPF
 ptc
 wtF
 xbx
-xbx
+ovY
 wpF
 wpF
 vEA
@@ -84761,7 +84750,7 @@ giX
 gVf
 hTj
 vNy
-aPF
+meM
 pjr
 skh
 skh
@@ -85018,7 +85007,7 @@ gmE
 auw
 hVa
 bgP
-aPF
+meM
 pjr
 skh
 ndN
@@ -85789,7 +85778,7 @@ beO
 nkR
 ezy
 vNy
-aPF
+meM
 pjr
 mit
 iQN
@@ -86303,7 +86292,7 @@ xjj
 xjj
 hXq
 vNy
-aPF
+meM
 pjr
 skh
 skh
@@ -86799,8 +86788,8 @@ hbY
 wSE
 aXW
 pHd
-pHd
 ans
+ePY
 ePY
 bcj
 yaE
@@ -87055,9 +87044,9 @@ aLY
 aJa
 wSE
 aYd
-xFe
 pHd
 szm
+ePY
 aZN
 xrI
 yaE
