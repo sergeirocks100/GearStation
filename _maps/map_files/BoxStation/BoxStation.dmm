@@ -30997,10 +30997,6 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/monkey_recycler,
-/obj/machinery/door/airlock/maintenance{
-	name = "Air Supply Maintenance";
-	req_access_txt = "12"
-	},
 /turf/open/floor/plasteel,
 /area/science/xenobiology)
 "bMq" = (
