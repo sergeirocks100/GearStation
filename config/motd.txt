@@ -12,7 +12,7 @@
 
 <p>You can join us on our Discord server <a href="https://discord.gg/DCddpQ5MzM"><b><u>by clicking here.</b></u></a></p>
 
-<h3>If you enjoy playing here <b>please consider dropping some money in <a href="https://hosthavoc.com/billing/index.php?m=public_pay&hash_id=YozBj331xy7b"><u>the bucket.</u>.</b></a></h3>
+<p>If you enjoy playing here, please consider dropping some money in <b><a href="https://hosthavoc.com/billing/index.php?m=public_pay&hash_id=YozBj331xy7b"><u>the bucket.</b></u></a></p>
 
 
 
