@@ -1959,7 +1959,7 @@
 /turf/open/floor/plating,
 /area/hallway/secondary/exit)
 "afF" = (
-/obj/machinery/computer/arcade,
+/obj/effect/spawner/randomarcade,
 /obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/security/prison)
@@ -16059,7 +16059,7 @@
 	},
 /area/chapel/main)
 "aUL" = (
-/obj/machinery/computer/arcade{
+/obj/effect/spawner/randomarcade{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/red{
@@ -17811,7 +17811,7 @@
 /turf/open/floor/plasteel,
 /area/crew_quarters/bar)
 "baa" = (
-/obj/machinery/computer/arcade{
+/obj/effect/spawner/randomarcade{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
@@ -18939,7 +18939,7 @@
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/ai_upload)
 "bdi" = (
-/obj/machinery/computer/arcade{
+/obj/effect/spawner/randomarcade{
 	dir = 4
 	},
 /turf/open/floor/wood,

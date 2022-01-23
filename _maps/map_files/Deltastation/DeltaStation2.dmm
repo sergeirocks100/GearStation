@@ -4906,7 +4906,7 @@
 /turf/open/floor/plasteel,
 /area/maintenance/starboard/fore)
 "anz" = (
-/obj/machinery/computer/arcade{
+/obj/effect/spawner/randomarcade{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/cobweb,
@@ -5438,7 +5438,7 @@
 /turf/open/floor/plasteel/dark,
 /area/maintenance/starboard/fore)
 "aox" = (
-/obj/machinery/computer/arcade,
+/obj/effect/spawner/randomarcade,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -5452,7 +5452,7 @@
 /turf/open/floor/plasteel/dark,
 /area/maintenance/starboard/fore)
 "aoy" = (
-/obj/machinery/computer/arcade,
+/obj/effect/spawner/randomarcade,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -7135,7 +7135,7 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
 "arX" = (
-/obj/machinery/computer/arcade{
+/obj/effect/spawner/randomarcade{
 	dir = 1
 	},
 /turf/open/floor/plating,
@@ -7171,7 +7171,7 @@
 /turf/open/floor/plasteel/dark,
 /area/maintenance/starboard/fore)
 "asa" = (
-/obj/machinery/computer/arcade{
+/obj/effect/spawner/randomarcade{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -18215,7 +18215,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
 	dir = 4
 	},
-/obj/machinery/computer/arcade{
+/obj/effect/spawner/randomarcade{
 	dir = 8
 	},
 /obj/machinery/status_display/evac{
@@ -19117,7 +19117,7 @@
 "aPl" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
-/obj/machinery/computer/arcade{
+/obj/effect/spawner/randomarcade{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
@@ -112195,7 +112195,7 @@
 /turf/open/floor/plasteel,
 /area/science/research)
 "iaI" = (
-/obj/machinery/computer/arcade{
+/obj/effect/spawner/randomarcade{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/neutral{
@@ -112694,7 +112694,7 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/fore)
 "jsS" = (
-/obj/machinery/computer/arcade{
+/obj/effect/spawner/randomarcade{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -116192,7 +116192,7 @@
 /turf/open/floor/plasteel,
 /area/engine/gravity_generator)
 "tKn" = (
-/obj/machinery/computer/arcade{
+/obj/effect/spawner/randomarcade{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/neutral{

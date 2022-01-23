@@ -1648,7 +1648,7 @@
 /turf/open/floor/plasteel,
 /area/security/prison)
 "ajg" = (
-/obj/machinery/computer/arcade,
+/obj/effect/spawner/randomarcade,
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "ajh" = (
@@ -18870,7 +18870,7 @@
 /turf/open/floor/plating,
 /area/maintenance/port)
 "fWi" = (
-/obj/machinery/computer/arcade,
+/obj/effect/spawner/randomarcade,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
@@ -37019,7 +37019,7 @@
 /turf/open/floor/plating,
 /area/maintenance/central/secondary)
 "qZi" = (
-/obj/machinery/computer/arcade,
+/obj/effect/spawner/randomarcade,
 /turf/open/floor/carpet/black,
 /area/crew_quarters/dorms)
 "qZI" = (

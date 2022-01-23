@@ -30151,7 +30151,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/red,
-/obj/machinery/computer/arcade,
+/obj/effect/spawner/randomarcade,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit/departure_lounge)
 "bmY" = (
@@ -33171,7 +33171,7 @@
 /obj/effect/turf_decal/tile{
 	dir = 4
 	},
-/obj/machinery/computer/arcade{
+/obj/effect/spawner/randomarcade{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
@@ -39082,7 +39082,7 @@
 /turf/open/floor/plating,
 /area/maintenance/port)
 "bGI" = (
-/obj/machinery/computer/arcade,
+/obj/effect/spawner/randomarcade,
 /turf/open/floor/plating,
 /area/maintenance/port)
 "bGJ" = (
@@ -44447,7 +44447,7 @@
 	dir = 8;
 	light_color = "#e8eaff"
 	},
-/obj/machinery/computer/arcade{
+/obj/effect/spawner/randomarcade{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
@@ -54235,7 +54235,7 @@
 /turf/open/floor/carpet,
 /area/chapel/office)
 "cnC" = (
-/obj/machinery/computer/arcade{
+/obj/effect/spawner/randomarcade{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
@@ -59939,7 +59939,7 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/starboard)
 "cBb" = (
-/obj/machinery/computer/arcade{
+/obj/effect/spawner/randomarcade{
 	dir = 1
 	},
 /obj/effect/turf_decal/trimline/neutral/filled/line{
@@ -65955,7 +65955,7 @@
 /turf/open/floor/plasteel,
 /area/engine/atmos)
 "cNo" = (
-/obj/machinery/computer/arcade{
+/obj/effect/spawner/randomarcade{
 	dir = 8
 	},
 /turf/open/floor/plating,
@@ -67342,7 +67342,7 @@
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "cQM" = (
-/obj/machinery/computer/arcade,
+/obj/effect/spawner/randomarcade,
 /turf/open/floor/plasteel/cafeteria,
 /area/security/prison)
 "cQN" = (

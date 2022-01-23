@@ -27723,7 +27723,7 @@
 /obj/effect/turf_decal/trimline/red/filled/warning{
 	dir = 4
 	},
-/obj/machinery/computer/arcade,
+/obj/effect/spawner/randomarcade,
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/plasteel,
 /area/security/prison)
@@ -38689,7 +38689,7 @@
 /area/science/genetics)
 "uTJ" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/computer/arcade{
+/obj/effect/spawner/randomarcade{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
@@ -39749,7 +39749,7 @@
 	},
 /area/hallway/secondary/entry)
 "wnw" = (
-/obj/machinery/computer/arcade{
+/obj/effect/spawner/randomarcade{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/neutral{
