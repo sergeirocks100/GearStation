@@ -24562,6 +24562,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/airlock/unres,
 /turf/open/floor/plasteel/white,
 /area/medical/exam_room)
 "jDH" = (
@@ -32622,14 +32623,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
-"ovY" = (
-/obj/structure/disposalpipe/trunk{
-	dir = 4
-	},
-/obj/machinery/disposal/bin,
-/obj/effect/turf_decal/stripes/box,
-/turf/open/floor/plasteel,
-/area/hallway/primary/central)
 "owc" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -49446,6 +49439,14 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/disposal)
+"ycA" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/obj/machinery/disposal/bin,
+/obj/effect/turf_decal/stripes/box,
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
 "ycC" = (
 /obj/machinery/firealarm{
 	dir = 4;
@@ -80653,7 +80654,7 @@ rPF
 ptc
 wtF
 xbx
-ovY
+ycA
 wpF
 wpF
 vEA
