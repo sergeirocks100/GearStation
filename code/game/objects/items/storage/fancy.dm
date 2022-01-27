@@ -246,7 +246,6 @@
 			use_icon_state = "cigarette"
 
 		. += "[use_icon_state]_[cig_position]"
-		
 			cig_position++
 
 /obj/item/storage/fancy/cigarettes/attack(mob/living/carbon/M as mob, mob/living/carbon/user as mob)
