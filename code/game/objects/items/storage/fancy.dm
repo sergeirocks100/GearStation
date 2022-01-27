@@ -174,6 +174,8 @@
 	var/spawn_coupon = TRUE
 	/// For VV'ing, set this to true if you want to force the coupon to give an omen
 	var/rigged_omen = FALSE
+	///Do we not have our own handling for cig overlays?
+	var/display_cigs = TRUE
 
 /obj/item/storage/fancy/cigarettes/attack_self(mob/user)
 	if(contents.len == 0 && spawn_coupon)
@@ -226,21 +228,25 @@
 	. = ..()
 	if(fancy_open && contents.len)
 		. += "[icon_state]_open"
-		var/cig_position = 1
-		for(var/C in contents)
-			var/mutable_appearance/inserted_overlay = mutable_appearance(icon)
 
-			if(istype(C, /obj/item/lighter/greyscale))
-				inserted_overlay.icon_state = "lighter_in"
-			else if(istype(C, /obj/item/lighter))
-				inserted_overlay.icon_state = "zippo_in"
-			else if(candy)
-				inserted_overlay.icon_state = "candy"
-			else
-				inserted_overlay.icon_state = "cigarette"
+	if(!display_cigs)
+		return
 
-			inserted_overlay.icon_state = "[inserted_overlay.icon_state]_[cig_position]"
-			. += inserted_overlay
+	var/cig_position = 1
+	for(var/C in contents)
+		var/use_icon_state = ""
+
+		if(istype(C, /obj/item/lighter/greyscale))
+			use_icon_state = "lighter_in"
+		else if(istype(C, /obj/item/lighter))
+			use_icon_state = "zippo_in"
+		else if(candy)
+			use_icon_state = "candy"
+		else
+			use_icon_state = "cigarette"
+
+		. += "[use_icon_state]_[cig_position]"
+		
 			cig_position++
 
 /obj/item/storage/fancy/cigarettes/attack(mob/living/carbon/M as mob, mob/living/carbon/user as mob)
@@ -378,6 +384,7 @@
 	icon_type = "premium cigar"
 	spawn_type = /obj/item/clothing/mask/cigarette/cigar
 	spawn_coupon = FALSE
+	display_cigs = FALSE
 
 /obj/item/storage/fancy/cigarettes/cigars/ComponentInitialize()
 	. = ..()
@@ -396,8 +403,7 @@
 	if(fancy_open)
 		var/cigar_position = 1 //generate sprites for cigars in the box
 		for(var/obj/item/clothing/mask/cigarette/cigar/smokes in contents)
-			var/mutable_appearance/cigar_overlay = mutable_appearance(icon, "[smokes.icon_off]_[cigar_position]")
-			. += cigar_overlay
+			. += "[smokes.icon_off]_[cigar_position]"
 			cigar_position++
 
 /obj/item/storage/fancy/cigarettes/cigars/cohiba
