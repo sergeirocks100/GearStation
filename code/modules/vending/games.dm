@@ -15,7 +15,8 @@
 					/obj/item/cardpack/series_one = 10,
 					/obj/item/cardpack/resin = 10,
 					/obj/item/storage/card_binder = 10)
-	contraband = list(/obj/item/dice/fudge = 9)
+	contraband = list(/obj/item/dice/fudge = 9,
+					/obj/item/instrument/musicalmoth=1)
 	premium = list(/obj/item/melee/skateboard/pro = 3,
 					/obj/item/melee/skateboard/hoverboard = 1)
 	refill_canister = /obj/item/vending_refill/games
