@@ -77679,13 +77679,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/patients_rooms)
-"uTI" = (
-/obj/effect/turf_decal/tile/yellow{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/yellow,
-/turf/closed/wall,
-/area/medical/morgue)
 "uVk" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -104629,7 +104622,7 @@ kmq
 cCe
 nla
 ore
-uTI
+cCe
 cCe
 cHI
 cID
