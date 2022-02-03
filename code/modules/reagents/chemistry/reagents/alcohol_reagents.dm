@@ -166,10 +166,10 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	description = "Cinnamon whiskey. Feel the burn."
 	color = "#f29224" //rgb: 242, 146, 36
 	boozepwr = 75
-	taste_description = "fiery molasses"
+	taste_description = "spicy molasses"
 	glass_icon_state = "cinnamonwhiskeyglass"
 	glass_name = "glass of whiskey"
-	glass_desc = "Red-hot cinnamon whisky in a shot glass."
+	glass_desc = "Red-hot cinnamon whiskey in a shot glass."
 	
 /datum/reagent/consumable/ethanol/c4cocktail
 	name = "C-4 Cocktail"
@@ -187,7 +187,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	color = "#f29224" // 242, 146, 36
 	glass_icon_state = "cinnamontoastcocktail"
 	boozepwr = 45
-	taste_description = "creamy cinnamon"
+	taste_description = "creamy, sweet cinnamon"
 	glass_name = "\improper Cinnamon Toast Cocktail"
 	glass_desc = "Kind of like drinking left-over cereal milk, but for people with a drinking problem."
 	
@@ -196,20 +196,73 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	description = "Like a Whiskey Cola, but with added painful burning sensation."
 	color = "#f20224" //242, 146, 36
 	boozepwr = 70
-	taste_description = "fiery cola"
+	taste_description = "spicy cola"
 	glass_icon_state = "fireballcola"
 	glass_name = "\improper Fireball Cola"
 	glass_desc = "Cinnamon whiskey and cola - like a regular whiskey cola, but with more burning."
 	
 /datum/reagent/consumable/ethanol/firecider
-	name = "Fire Cider"
+	name = "Plasma Cider"
 	description = "Apples, alcohol, and cinnamon, a match made in heaven."
 	color = "#f29224" // 242, 146, 36
 	boozepwr = 70
-	taste_description = "fiery cider"
+	taste_description = "spicy cider"
 	glass_icon_state = "fireballcider"
-	glass_name = "\improper Fireball Cider"
-	glass_desc = "A toasty hot glass of apple cider and cinnamon whisky - makes you feel warm and fuzzy inside."
+	glass_name = "\improper Plasmaball Cider"
+	glass_desc = "A toasty hot glass of apple cider and cinnamon whiskey - makes you feel warm and fuzzy inside."
+	
+/datum/reagent/consumable/ethanol/dragonsblood
+	name = "Dragon's Blood"
+	description = "Burning hot and bright red, just like the mythical namesake."
+	color = "#b01522" //176, 21, 34
+	boozepwr = 50
+	taste_description = "fiery punch"
+	glass_icon_state = "dragonsblood"
+	glass_name = "\improper Dragon's Blood"
+	glass_desc = "Burning hot and bright red, just like the mythical namesake."
+	
+/datum/reagent/consumable/ethanol/dragonsspit
+	name = "Dragon's Spit"
+	description = "The simplest idea possible; take something hot, and make it hotter."
+	color = "#f29224" // 242, 146, 36
+	boozepwr = 50
+	taste_description = "burning"
+	glass_icon_state = "dragonsspit"
+	glass_name = "\improper Dragon's Spit"
+	glass_desc = "The simplest idea possible; take something hot, and make it hotter."
+	
+/datum/reagent/consumable/ethanol/firerita
+	name = "Plasma-rita"
+	description = "Triple sec, Cinnamon Whiskey, and Tequila, eugh. Less a cocktail more than throwing whatever's on the shelf in a glass."
+	color = "#f0133c" //rgb: 240, 19, 60
+	boozepwr = 60
+	quality = DRINK_NICE
+	taste_description = "the liquid on a bar mat"
+	glass_icon_state = "firerita"
+	glass_name = "Plasma-rita"
+	glass_desc = "Looks pretty, offends a sane person's taste buds. Then again, anyone who orders this probably lacks one of those two traits."
+	
+/datum/reagent/consumable/ethanol/magica
+	name = "Magica"
+	description = "A bitter mix with a burning aftertaste."
+	color = "#f0133c" //rgb: 240, 19, 60
+	boozepwr = 60
+	quality = DRINK_NICE
+	taste_description = "spicy bitterness"
+	glass_icon_state = "magica"
+	glass_name = "Magica"
+	glass_desc = "Bitter, with an annoying aftertaste of spice. Supposedly inspired by wearers of bath robes."
+	
+/datum/reagent/consumable/ethanol/manhattanfireball
+	name = "Manhattan Plasmaball"
+	description = "A timeless classic made with a burning hot twist."
+	color = "#f29224" // 242, 146, 36
+	boozepwr = 30
+	quality = DRINK_NICE
+	taste_description = "spicy dryness"
+	glass_icon_state = "manhattanfireball"
+	glass_name = "Manhattan Plasmaball"
+	glass_desc = "A timeless classic made with a burning hot twist."
 
 /datum/reagent/consumable/ethanol/whiskey/kong
 	name = "Kong"

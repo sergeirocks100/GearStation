@@ -170,6 +170,26 @@
 /datum/chemical_reaction/firecider
 	results = list(/datum/reagent/consumable/ethanol/firecider = 3)
 	required_reagents = list(/datum/reagent/consumable/ethanol/hcider = 2, /datum/reagent/consumable/ethanol/cinnamonwhiskey = 1)
+	
+/datum/chemical_reaction/dragonsblood
+	results = list(/datum/reagent/consumable/ethanol/dragonsblood = 3)
+	required_reagents = list(/datum/reagent/consumable/ethanol/cinnamonwhiskey = 2, /datum/reagent/consumable/berryjuice = 1)
+	
+/datum/chemical_reaction/dragonsspit
+	results = list(/datum/reagent/consumable/ethanol/dragonsspit = 3)
+	required_reagents = list(/datum/reagent/consumable/ethanol/cinnamonwhiskey = 2, /datum/reagent/consumable/capsaicin = 1)
+	
+/datum/chemical_reaction/firerita
+	results = list(/datum/reagent/consumable/ethanol/firerita = 5)
+	required_reagents = list(/datum/reagent/consumable/ethanol/cinnamonwhiskey = 1, /datum/reagent/consumable/ethanol/triple_sec = 1, /datum/reagent/consumable/ethanol/tequila = 3)
+	
+/datum/chemical_reaction/magica
+	results = list(/datum/reagent/consumable/ethanol/magica = 3)
+	required_reagents = list(/datum/reagent/consumable/ethanol/cinnamonwhiskey = 1, /datum/reagent/consumable/ethanol/fernet = 1)
+	
+/datum/chemical_reaction/manhattanfireball
+	results = list(/datum/reagent/consumable/ethanol/manhattanfireball = 3)
+	required_reagents = list(/datum/reagent/consumable/ethanol/cinnamonwhiskey = 2, /datum/reagent/consumable/ethanol/vermouth = 1)
 
 /datum/chemical_reaction/whiskeysoda
 	results = list(/datum/reagent/consumable/ethanol/whiskeysoda = 3)
