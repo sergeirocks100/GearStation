@@ -14191,8 +14191,12 @@
 /turf/open/floor/wood,
 /area/crew_quarters/theatre)
 "aOK" = (
-/obj/effect/spawner/structure/window,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/structure/chair/stool/bar,
+/turf/open/floor/plasteel,
 /area/crew_quarters/bar)
 "aOL" = (
 /obj/effect/turf_decal/tile/bar,
@@ -14415,8 +14419,8 @@
 "aPw" = (
 /obj/machinery/disposal/bin,
 /obj/structure/sign/plaques/deempisi{
-	pixel_x = -28;
-	pixel_y = -4
+	pixel_x = -9;
+	pixel_y = 27
 	},
 /obj/structure/disposalpipe/trunk{
 	dir = 4
@@ -14424,7 +14428,7 @@
 /obj/machinery/button/door{
 	id = "barShutters";
 	name = "bar shutters";
-	pixel_x = 4;
+	pixel_x = 8;
 	pixel_y = 28
 	},
 /obj/effect/turf_decal/tile/bar,
@@ -17390,7 +17394,6 @@
 /turf/open/floor/plasteel,
 /area/crew_quarters/kitchen)
 "aYL" = (
-/obj/machinery/light,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
 	dir = 4
 	},
@@ -17406,7 +17409,7 @@
 /obj/machinery/button/door{
 	id = "kitchen";
 	name = "Kitchen Shutters Control";
-	pixel_x = -1;
+	pixel_x = 24;
 	pixel_y = -24;
 	req_access_txt = "28"
 	},
@@ -18365,9 +18368,7 @@
 	},
 /area/hallway/primary/starboard)
 "bbA" = (
-/obj/machinery/camera{
-	c_tag = "Starboard Primary Hallway 2"
-	},
+/obj/structure/chair/stool/bar,
 /turf/open/floor/plasteel/white/corner{
 	dir = 1
 	},
@@ -27244,6 +27245,15 @@
 /obj/effect/turf_decal/trimline/blue/filled/warning,
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/aft)
+"bBo" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kitchen";
+	name = "kitchen shutters"
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "bBq" = (
 /obj/structure/disposalpipe/junction/flip{
 	dir = 2
@@ -44187,6 +44197,14 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/prison)
+"fjy" = (
+/obj/machinery/camera{
+	c_tag = "Starboard Primary Hallway 2"
+	},
+/turf/open/floor/plasteel/white/corner{
+	dir = 1
+	},
+/area/hallway/primary/starboard)
 "fkd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -54898,15 +54916,14 @@
 /turf/closed/wall/r_wall,
 /area/maintenance/disposal/incinerator)
 "tXW" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "kitchen";
-	name = "kitchen shutters"
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
 	},
+/obj/structure/table/reinforced,
 /obj/structure/displaycase/forsale/kitchen,
-/turf/open/floor/plasteel/cafeteria,
-/area/crew_quarters/kitchen)
+/turf/open/floor/plasteel,
+/area/crew_quarters/bar)
 "tYa" = (
 /obj/machinery/door/window{
 	dir = 1;
@@ -56422,14 +56439,11 @@
 /turf/open/floor/plating,
 /area/science/nanite)
 "wlq" = (
-/obj/structure/table/reinforced,
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
+/obj/machinery/light{
+	dir = 8
 	},
-/obj/structure/displaycase/forsale/kitchen,
-/turf/open/floor/plasteel,
-/area/crew_quarters/bar)
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "wlL" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -56936,6 +56950,16 @@
 	},
 /turf/open/floor/plating,
 /area/storage/tech)
+"wTl" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kitchen";
+	name = "kitchen shutters"
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/table/reinforced,
+/obj/structure/displaycase/forsale/kitchen,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "wTy" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
@@ -93763,7 +93787,7 @@ aJD
 aKP
 aMx
 aNJ
-aMx
+aOL
 aOL
 aOL
 nhc
@@ -94020,7 +94044,7 @@ aJC
 aKO
 aMw
 aNI
-aMw
+aQc
 aOK
 acN
 acN
@@ -94278,12 +94302,12 @@ aJC
 aJC
 aJC
 aJC
-aJC
+tXW
 aXj
 aVy
 aSY
 aVy
-wlq
+aVy
 aYI
 bah
 aJC
@@ -95568,7 +95592,7 @@ aRA
 aVz
 aVz
 aVz
-aVz
+wlq
 aYJ
 aJI
 bbz
@@ -95827,8 +95851,8 @@ tqj
 tqj
 tqj
 aYL
-aJI
-bbz
+bBo
+bbA
 fcF
 bdq
 nnA
@@ -96085,7 +96109,7 @@ aVB
 aVz
 osO
 baj
-bbz
+bbA
 aYV
 pLy
 nnA
@@ -96342,7 +96366,7 @@ akS
 aXm
 osO
 bak
-bbz
+bbA
 aYV
 pLy
 nnA
@@ -96599,7 +96623,7 @@ cCq
 aVz
 cAg
 bak
-bbz
+bbA
 aYV
 pLy
 cBm
@@ -96855,8 +96879,8 @@ aTO
 cCq
 aVz
 osO
-tXW
-bbz
+bak
+bbA
 aYV
 pLy
 bdc
@@ -97112,7 +97136,7 @@ rsI
 rsI
 rsI
 aYM
-aJI
+wTl
 bbA
 aYV
 pLy
@@ -97370,7 +97394,7 @@ aVH
 aXn
 aYN
 aJI
-bbz
+fjy
 aYV
 pLy
 nnA

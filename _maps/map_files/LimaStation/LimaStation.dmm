@@ -5612,8 +5612,8 @@
 	name = "Serving Hatch"
 	},
 /obj/structure/disposalpipe/segment,
-/obj/item/storage/fancy/donut_box,
 /obj/structure/table/reinforced,
+/obj/structure/displaycase/forsale/kitchen,
 /turf/open/floor/plasteel,
 /area/crew_quarters/kitchen)
 "aJu" = (
@@ -26285,11 +26285,15 @@
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
 "kzY" = (
-/obj/machinery/smartfridge/drinks{
-	icon_state = "boozeomat"
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kitchen";
+	name = "Serving Hatch"
 	},
-/turf/closed/wall,
-/area/crew_quarters/bar)
+/obj/structure/table/reinforced,
+/obj/item/storage/fancy/donut_box,
+/turf/open/floor/plasteel,
+/area/crew_quarters/kitchen)
 "kAw" = (
 /obj/machinery/door/airlock/atmos/glass{
 	desc = "This door doesn't lead anywhere, what idiot decided this was a good idea?";
@@ -35708,9 +35712,12 @@
 /turf/open/floor/plasteel,
 /area/science/mixing)
 "qeN" = (
-/obj/structure/displaycase/captain,
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
+	},
+/obj/structure/displaycase/captain{
+	req_access = null;
+	req_access_txt = "20"
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/captain)
@@ -37125,6 +37132,7 @@
 	dir = 8
 	},
 /obj/structure/table/reinforced,
+/obj/structure/displaycase/forsale/kitchen,
 /turf/open/floor/plasteel,
 /area/crew_quarters/kitchen)
 "rbu" = (
@@ -43086,12 +43094,12 @@
 /turf/open/floor/plasteel/dark,
 /area/storage/tech)
 "uGP" = (
-/obj/machinery/door/airlock/glass{
-	name = "Bar";
-	req_access_txt = "25"
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/machinery/door/window/eastleft{
+	name = "Bar Door";
+	req_one_access_txt = "25;28"
 	},
 /turf/open/floor/wood,
 /area/crew_quarters/bar)
@@ -45573,6 +45581,11 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
+"wbV" = (
+/obj/structure/table/reinforced,
+/obj/structure/displaycase/forsale/kitchen,
+/turf/open/floor/wood,
+/area/crew_quarters/bar)
 "wcm" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood,
@@ -78088,7 +78101,7 @@ wpF
 uTs
 yaR
 yaR
-nNk
+wbV
 ePJ
 jQG
 jQG
@@ -79347,7 +79360,7 @@ bZl
 nBT
 bdN
 bdD
-uMe
+kzY
 khu
 wSt
 aJL
@@ -79630,8 +79643,8 @@ tIK
 wpF
 wpF
 uGP
-kzY
-yaR
+nNk
+ePJ
 kcm
 bhO
 yaR
