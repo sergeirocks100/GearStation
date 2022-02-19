@@ -1006,6 +1006,11 @@
 
 
 //FEMALE UNDERWEAR
+/datum/sprite_accessory/underwear/female_basic
+	name = "Ladies' Basic"
+	icon_state = "female_basic"
+	gender = FEMALE
+
 /datum/sprite_accessory/underwear/female_bikini
 	name = "Ladies' Bikini"
 	icon_state = "female_bikini"
