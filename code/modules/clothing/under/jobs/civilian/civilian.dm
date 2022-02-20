@@ -30,7 +30,6 @@
 	name = "chaplain's jumpsuit"
 	icon_state = "chaplain"
 	inhand_icon_state = "bl_suit"
-	can_adjust = FALSE
 
 /obj/item/clothing/under/rank/civilian/chaplain/skirt
 	name = "chaplain's jumpskirt"
@@ -38,7 +37,6 @@
 	icon_state = "chapblack_skirt"
 	inhand_icon_state = "bl_suit"
 	body_parts_covered = CHEST|GROIN|ARMS
-	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 
 /obj/item/clothing/under/rank/civilian/chef
