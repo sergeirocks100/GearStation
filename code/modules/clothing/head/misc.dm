@@ -472,3 +472,9 @@
 	desc = "Hee-ho!"
 	icon_state = "JackFrostHat"
 	inhand_icon_state = "JackFrostHat"
+	
+/obj/item/clothing/head/sovietcaptain
+	name = "captain's cap"
+	desc = "It's good being the king."
+	icon_state = "hgpiratecap"
+	inhand_icon_state = "hgpiratecap"

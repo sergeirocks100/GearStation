@@ -235,6 +235,13 @@ LINEN BINS
 	icon_state = "sheetian"
 	inhand_icon_state = "sheetian"
 	dream_messages = list("a dog", "a corgi", "woof", "bark", "arf")
+	
+/obj/item/bedsheet/soviet
+	name = "\improper Soviet bedsheet"
+	desc = "It has a hammer and sickle on it, so you can seize the means of sleeping."
+	icon_state = "sheetsoviet"
+	inhand_icon_state = "sheetred"
+	dream_messages = list("iron curtains", "the proletariat", "the motherland", "grizzly bears")
 
 /obj/item/bedsheet/cosmos
 	name = "cosmic space bedsheet"

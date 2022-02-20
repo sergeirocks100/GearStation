@@ -224,3 +224,15 @@
 	name = "grilling shorts"
 	desc = "For when all you want in life is to grill for god's sake!"
 	icon_state = "cookjorts"
+
+/obj/item/clothing/under/rank/civilian/denim
+	desc = "A denim jumpsuit. Perfect for menial labor."
+	name = "denim jumpsuit"
+	icon_state = "denim"
+
+/obj/item/clothing/under/rank/civilian/denim/skirt
+	name = "denim jumpskirt"
+	desc = "A denim jumpskirt. Perfect for menial labor."
+	icon_state = "janitor_skirt"
+	body_parts_covered = CHEST|GROIN|ARMS
+	fitted = FEMALE_UNIFORM_TOP
