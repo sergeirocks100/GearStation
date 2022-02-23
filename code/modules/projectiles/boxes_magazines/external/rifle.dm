@@ -24,3 +24,17 @@
 /obj/item/ammo_box/magazine/m556/phasic
 	name = "toploader magazine (5.56mm Phasic)"
 	ammo_type = /obj/item/ammo_casing/a556/phasic
+
+/obj/item/ammo_box/magazine/ak47mag
+	name = "banana clip (7.62mm)"
+	icon_state = "ak47mag"
+	ammo_type = /obj/item/ammo_casing/a762
+	caliber = "a762"
+	max_ammo = 30
+
+/obj/item/ammo_box/magazine/ak47mag/update_icon()
+	..()
+	if(ammo_count())
+		icon_state = "[initial(icon_state)]-ammo"
+	else
+		icon_state = "[initial(icon_state)]"

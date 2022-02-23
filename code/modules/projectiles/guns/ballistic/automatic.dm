@@ -358,3 +358,19 @@
 	actions_types = list()
 	fire_sound = 'sound/weapons/laser.ogg'
 	casing_ejector = FALSE
+
+// AK47 //
+
+/obj/item/gun/ballistic/automatic/ak47
+	name = "\improper AK-47"
+	desc = "An assault rifle of Soviet origin, chambered in 7.62×39mm. The design is reliable and simple enough that it hasn't changed much in the 600 years or so it's been produced."
+	icon_state = "ak47"
+	inhand_icon_state = "ak47"
+	mag_type = /obj/item/ammo_box/magazine/ak47mag
+	fire_delay = 2
+	burst_size = 3
+	can_bayonet = TRUE
+	knife_x_offset = 26
+	knife_y_offset = 12
+	mag_display = TRUE
+	empty_indicator = TRUE
