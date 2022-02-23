@@ -45317,6 +45317,16 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
+"gIL" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
+/obj/machinery/button/massdriver{
+	id = "chapelgun";
+	name = "Chapel Mass Driver";
+	pixel_x = 23
+	},
+/turf/open/floor/plasteel/dark,
+/area/chapel/main)
 "gIW" = (
 /obj/machinery/door/airlock/security{
 	name = "Permabrig Visitation"
@@ -105602,7 +105612,7 @@ aAB
 asB
 aFz
 aGU
-aFA
+gIL
 aFA
 aMJ
 aNW
