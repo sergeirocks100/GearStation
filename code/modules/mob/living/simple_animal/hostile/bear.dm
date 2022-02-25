@@ -180,3 +180,13 @@ mob/living/simple_animal/hostile/bear/butter/AttackingTarget() //Makes some atta
 			L.Knockdown(20)
 			playsound(loc, 'sound/misc/slip.ogg', 15)
 			L.visible_message("<span class='danger'>[L] slips on butter!</span>")
+			
+mob/living/simple_animal/hostile/bear/wojtek
+	name = "Wojtek"
+	icon_state = "brownbear"
+	icon_living = "brownbear"
+	icon_dead = "brownbear_dead"
+	icon_gib = "brownbear_gib"
+	desc = "The Security Supervisor's pet bear. Suprisingly friendly, for a 550 pound mass of muscle and claw."
+	gender = MALE
+	faction = list("neutral")
