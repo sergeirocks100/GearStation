@@ -370,6 +370,18 @@
 /datum/chemical_reaction/bluecherryshake
 	results = list(/datum/reagent/consumable/bluecherryshake = 3)
 	required_reagents = list(/datum/reagent/consumable/bluecherryjelly = 1, /datum/reagent/consumable/ice = 1, /datum/reagent/consumable/cream = 1)
+	
+/datum/chemical_reaction/drink/vanillashake
+	results = list(/datum/reagent/consumable/vanillashake = 3)
+	required_reagents = list(/datum/reagent/consumable/vanilla = 1, /datum/reagent/consumable/ice = 1, /datum/reagent/consumable/cream = 1)
+
+/datum/chemical_reaction/drink/caramelshake
+	results = list(/datum/reagent/consumable/caramelshake = 3)
+	required_reagents = list(/datum/reagent/consumable/caramel = 1, /datum/reagent/consumable/ice = 1, /datum/reagent/consumable/cream = 1)
+
+/datum/chemical_reaction/drink/choccyshake
+	results = list(/datum/reagent/consumable/choccyshake = 3)
+	required_reagents = list(/datum/reagent/consumable/coco = 1, /datum/reagent/consumable/ice = 1, /datum/reagent/consumable/cream = 1)
 
 /datum/chemical_reaction/drunkenblumpkin
 	results = list(/datum/reagent/consumable/ethanol/drunkenblumpkin = 4)
@@ -608,3 +620,39 @@
 /datum/chemical_reaction/mauna_loa
 	results = list(/datum/reagent/consumable/ethanol/mauna_loa = 5)
 	required_reagents = list(/datum/reagent/consumable/capsaicin = 2, /datum/reagent/consumable/ethanol/kahlua = 1, /datum/reagent/consumable/ethanol/bahama_mama = 2)
+
+/datum/chemical_reaction/godfather
+	results = list(/datum/reagent/consumable/ethanol/godfather = 2)
+	required_reagents = list(/datum/reagent/consumable/ethanol/amaretto = 1, /datum/reagent/consumable/ethanol/whiskey = 1)
+
+/datum/chemical_reaction/godmother
+	results = list(/datum/reagent/consumable/ethanol/godmother = 2)
+	required_reagents = list(/datum/reagent/consumable/ethanol/amaretto = 1, /datum/reagent/consumable/ethanol/vodka = 1)
+
+/datum/chemical_reaction/amaretto_alexander
+	results = list(/datum/reagent/consumable/ethanol/amaretto_alexander = 3)
+	required_reagents = list(/datum/reagent/consumable/ethanol/amaretto = 1, /datum/reagent/consumable/ethanol/creme_de_cacao = 1, /datum/reagent/consumable/cream = 1)
+
+/datum/chemical_reaction/ginger_amaretto
+	results = list(/datum/reagent/consumable/ethanol/ginger_amaretto = 4)
+	required_reagents = list(/datum/reagent/consumable/ethanol/amaretto = 1, /datum/reagent/consumable/sol_dry = 1, /datum/reagent/consumable/ice = 1, /datum/reagent/consumable/lemonjuice = 1)
+
+/datum/chemical_reaction/drink/roy_rogers
+	results = list(/datum/reagent/consumable/roy_rogers = 3)
+	required_reagents = list(/datum/reagent/consumable/space_cola = 2, /datum/reagent/consumable/grenadine = 1)
+
+/datum/chemical_reaction/drink/shirley_temple
+	results = list(/datum/reagent/consumable/shirley_temple = 3)
+	required_reagents = list(/datum/reagent/consumable/sol_dry = 2, /datum/reagent/consumable/grenadine = 1)
+
+/datum/chemical_reaction/drink/agua_fresca
+	results = list(/datum/reagent/consumable/agua_fresca = 3)
+	required_reagents = list(/datum/reagent/consumable/watermelonjuice = 4, /datum/reagent/consumable/ice = 1, /datum/reagent/water = 2, /datum/reagent/consumable/limejuice = 2, /datum/reagent/consumable/menthol = 1)
+
+/datum/chemical_reaction/drink/cinderella
+	results = list(/datum/reagent/consumable/cinderella = 50)
+	required_reagents = list(/datum/reagent/consumable/pineapplejuice = 10, /datum/reagent/consumable/orangejuice = 10, /datum/reagent/consumable/lemonjuice = 5, /datum/reagent/consumable/ice = 5, /datum/reagent/consumable/sol_dry = 20)
+
+/datum/chemical_reaction/drink/italian_coco
+	results = list(/datum/reagent/consumable/italian_coco = 10)
+	required_reagents = list(/datum/reagent/consumable/hot_coco  = 5, /datum/reagent/consumable/corn_starch = 1, /datum/reagent/consumable/cream = 4)

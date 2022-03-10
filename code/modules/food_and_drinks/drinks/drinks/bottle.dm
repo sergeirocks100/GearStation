@@ -335,6 +335,12 @@
 	icon_state = "hcider"
 	volume = 50
 	list_reagents = list(/datum/reagent/consumable/ethanol/hcider = 50)
+	
+/obj/item/reagent_containers/food/drinks/bottle/amaretto
+	name = "Luini Amaretto"
+	desc = "A gentle and syrup like drink, tastes of almonds and apricots"
+	icon_state = "disaronno"
+	list_reagents = list(/datum/reagent/consumable/ethanol/amaretto = 100)
 
 /obj/item/reagent_containers/food/drinks/bottle/grappa
 	name = "Phillipes well-aged Grappa"
