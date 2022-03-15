@@ -454,6 +454,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/crew_quarters/theatre/abandoned
 	name = "Abandoned Theatre"
 	icon_state = "abandoned_theatre"
+	
+/area/crew_quarters/observatory
+	name = "Observatory"
+	icon_state = "observatory"
 
 /area/library
 	name = "Library"
@@ -794,6 +798,14 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	mood_bonus = 3
 	mood_message = "<span class='nicegreen'>I feel at ease here.\n</span>"
 	ambientsounds = list('sound/ambience/aurora_caelus_short.ogg')
+	
+/area/medical/research
+	name = "Medical Research"
+	icon_state = "med_res"
+	
+/area/medical/robotics
+	name = "Robotics"
+	icon_state = "roboticsmed"
 
 //Security
 
@@ -1112,6 +1124,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Starboard Emergency Storage"
 	icon_state = "emergency_storage"
 
+/area/storage/emergency/port
+	name = "Port Emergency Storage"
+	icon_state = "emergency_storage"
+	
 /area/storage/emergency/port
 	name = "Port Emergency Storage"
 	icon_state = "emergency_storage"
