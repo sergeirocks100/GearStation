@@ -1,0 +1,142 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"b" = (
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/supply)
+"e" = (
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/shuttle/supply)
+"f" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/shuttle/supply)
+"g" = (
+/obj/machinery/door/airlock/titanium{
+	name = "Supply Shuttle Airlock";
+	req_access_txt = "31"
+	},
+/turf/open/floor/plating,
+/area/shuttle/supply)
+"h" = (
+/obj/machinery/door/airlock/titanium{
+	name = "Supply Shuttle Airlock";
+	req_access_txt = "31"
+	},
+/obj/docking_port/mobile/supply{
+	dir = 4;
+	dwidth = 3;
+	width = 11
+	},
+/turf/open/floor/plating,
+/area/shuttle/supply)
+"i" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/shuttle/supply)
+"l" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/shuttle/supply)
+"s" = (
+/turf/template_noop,
+/area/template_noop)
+"w" = (
+/turf/closed/wall/mineral/titanium/interior,
+/area/shuttle/supply)
+
+(1,1,1) = {"
+b
+b
+b
+g
+b
+b
+b
+h
+b
+b
+s
+"}
+(2,1,1) = {"
+b
+e
+e
+e
+e
+i
+e
+e
+e
+w
+b
+"}
+(3,1,1) = {"
+b
+e
+e
+e
+e
+e
+e
+e
+e
+e
+b
+"}
+(4,1,1) = {"
+b
+f
+e
+e
+e
+e
+e
+e
+e
+e
+b
+"}
+(5,1,1) = {"
+b
+e
+e
+e
+e
+e
+e
+e
+e
+e
+b
+"}
+(6,1,1) = {"
+b
+e
+e
+e
+e
+l
+e
+e
+e
+w
+b
+"}
+(7,1,1) = {"
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+s
+"}

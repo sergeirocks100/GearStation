@@ -1,0 +1,287 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"j" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/machinery/light,
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/shuttle/arrival)
+"n" = (
+/obj/machinery/light,
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/shuttle/arrival)
+"p" = (
+/turf/closed/wall/mineral/titanium/overspace,
+/area/shuttle/arrival)
+"v" = (
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/arrival)
+"y" = (
+/obj/machinery/door/airlock/titanium{
+	name = "Arrivals Shuttle"
+	},
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/shuttle/arrival)
+"B" = (
+/obj/structure/closet/wardrobe/grey,
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/shuttle/arrival)
+"D" = (
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/shuttle/arrival)
+"E" = (
+/obj/structure/closet/secure_closet/personal,
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/shuttle/arrival)
+"I" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/shuttle/arrival)
+"M" = (
+/obj/structure/shuttle/engine/propulsion/right{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/shuttle/arrival)
+"R" = (
+/obj/structure/shuttle/engine/propulsion/left{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/shuttle/arrival)
+"T" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/shuttle/arrival)
+"W" = (
+/obj/item/radio/intercom/directional/west,
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/shuttle/arrival)
+"Y" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/shuttle/arrival)
+"Z" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/shuttle/arrival)
+
+(1,1,1) = {"
+a
+a
+p
+v
+v
+v
+p
+a
+a
+"}
+(2,1,1) = {"
+a
+p
+v
+D
+W
+D
+v
+p
+a
+"}
+(3,1,1) = {"
+p
+v
+B
+D
+Z
+D
+B
+v
+p
+"}
+(4,1,1) = {"
+v
+B
+B
+D
+D
+D
+B
+B
+v
+"}
+(5,1,1) = {"
+v
+Y
+D
+D
+D
+D
+D
+n
+v
+"}
+(6,1,1) = {"
+v
+E
+I
+D
+D
+D
+I
+E
+v
+"}
+(7,1,1) = {"
+v
+E
+I
+I
+D
+I
+I
+E
+v
+"}
+(8,1,1) = {"
+v
+T
+I
+I
+D
+I
+I
+j
+v
+"}
+(9,1,1) = {"
+y
+D
+D
+D
+D
+D
+D
+D
+y
+"}
+(10,1,1) = {"
+v
+E
+I
+I
+D
+I
+I
+E
+v
+"}
+(11,1,1) = {"
+v
+E
+I
+I
+D
+I
+I
+E
+v
+"}
+(12,1,1) = {"
+v
+T
+I
+I
+D
+I
+I
+j
+v
+"}
+(13,1,1) = {"
+v
+E
+I
+I
+D
+I
+I
+E
+v
+"}
+(14,1,1) = {"
+v
+E
+I
+I
+D
+I
+I
+E
+v
+"}
+(15,1,1) = {"
+v
+T
+I
+D
+D
+D
+I
+j
+v
+"}
+(16,1,1) = {"
+y
+D
+D
+D
+D
+D
+D
+D
+y
+"}
+(17,1,1) = {"
+v
+D
+D
+D
+D
+D
+D
+D
+v
+"}
+(18,1,1) = {"
+p
+v
+v
+D
+D
+D
+v
+v
+p
+"}
+(19,1,1) = {"
+a
+p
+M
+R
+v
+M
+R
+p
+a
+"}

@@ -400,6 +400,12 @@
 	description = "A large shuttle with a center biodome that is flourishing with life. Frolick with the monkeys! (Extra monkeys are stored on the bridge.)"
 	admin_notes = "Pretty freakin' large, almost as big as Raven or Cere. Excercise caution with it."
 	credit_cost = 8000
+	
+/datum/map_template/shuttle/emergency/sdonut
+	suffix = "sdonut"
+	name = "Space Soviet Emergency Shuttle"
+	credit_cost = 2000
+	description = "Built by gulag laborers in Soviet controlled areas of space, this minimally equipped shuttle is just enough to get you off of the station. Comes with beds."
 
 /datum/map_template/shuttle/ferry/base
 	suffix = "base"
@@ -525,6 +531,10 @@
 /datum/map_template/shuttle/arrival/donut
 	suffix = "donut"
 	name = "arrival shuttle (Donut)"
+	
+/datum/map_template/shuttle/cargo/sdonut
+	suffix = "sdonut"
+	name = "cargo ferry (Soviet Donut)"
 
 /datum/map_template/shuttle/infiltrator/basic
 	suffix = "basic"
@@ -581,6 +591,10 @@
 /datum/map_template/shuttle/arrival/omega
 	suffix = "omega"
 	name = "arrival shuttle (Omega)"
+	
+/datum/map_template/shuttle/arrival/sdonut
+	suffix = "sdonut"
+	name = "arrival shuttle (Soviet Donut)"
 
 /datum/map_template/shuttle/aux_base/default
 	suffix = "default"
