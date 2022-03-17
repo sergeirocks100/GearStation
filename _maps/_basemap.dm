@@ -15,6 +15,7 @@
 		#include "map_files\LimaStation\LimaStation.dmm"
 		#include "map_files\LambdaStation\LambdaStation.dmm"
 		#include "map_files\IceLambda\IceLambda.dmm"
+		#include "map_files\SovietDonut\SovietDonut.dmm"
 
 		#ifdef TRAVISBUILDING
 			#include "templates.dm"

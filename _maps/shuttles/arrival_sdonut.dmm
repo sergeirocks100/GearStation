@@ -17,6 +17,15 @@
 "v" = (
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/arrival)
+"w" = (
+/obj/docking_port/mobile/arrivals{
+	dwidth = 4;
+	height = 19;
+	name = "soviet donut arrivals shuttle";
+	width = 9
+	},
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/arrival)
 "y" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Arrivals Shuttle"
@@ -279,7 +288,7 @@ a
 p
 M
 R
-v
+w
 M
 R
 p

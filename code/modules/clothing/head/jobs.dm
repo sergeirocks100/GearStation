@@ -153,6 +153,16 @@
 	name = "head of security beret"
 	desc = "A robust beret for the Head of Security, for looking stylish while not sacrificing protection."
 	icon_state = "hosberetblack"
+	
+/obj/item/clothing/head/hos/beret/leiutenant
+	name = "leiutenant beret"
+	desc = "A robust beret for the Leiutenant, for looking stylish while not sacrificing protection."
+	icon_state = "beret_badge"
+	
+/obj/item/clothing/head/hos/beret/securitysupervisor
+	name = "security supervisor beret"
+	desc = "A robust beret for the Security Supervisor, for looking stylish while not sacrificing protection."
+	icon_state = "beret_badge"
 
 /obj/item/clothing/head/hos/beret/syndicate
 	name = "syndicate beret"

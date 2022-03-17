@@ -52,6 +52,10 @@ map icelambda
 	votable
 endmap
 
+map sovietdonut
+	votable
+endmap
+
 
 
 map runtimestation

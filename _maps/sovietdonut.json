@@ -1,0 +1,11 @@
+{
+    "map_name": "Soviet Donut",
+    "map_path": "map_files/SovietDonut",
+    "map_file": "SovietDonut.dmm",
+    "shuttles": {
+	    "cargo": "cargo_sdonut",
+	    "ferry": "ferry_sdonut",
+	    "whiteship": "whiteship_box",
+	    "emergency": "emergency_sdonut"
+    }
+}
