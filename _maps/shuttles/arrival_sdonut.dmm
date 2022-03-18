@@ -55,6 +55,12 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/arrival)
+"Q" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/shuttle/arrival)
 "R" = (
 /obj/structure/shuttle/engine/propulsion/left{
 	dir = 4
@@ -276,9 +282,9 @@ v
 p
 v
 v
-D
-D
-D
+Q
+Q
+Q
 v
 v
 p

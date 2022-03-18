@@ -41,8 +41,17 @@
 /obj/machinery/light,
 /turf/open/floor/mineral/titanium/tiled/blue,
 /area/shuttle/escape)
+"l" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/space)
 "m" = (
 /obj/item/storage/firstaid,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
 /turf/open/floor/mineral/titanium/tiled/blue,
 /area/space)
 "r" = (
@@ -131,6 +140,9 @@
 /area/shuttle/escape)
 "O" = (
 /obj/item/storage/firstaid/toxin,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
 /turf/open/floor/mineral/titanium/tiled/blue,
 /area/space)
 "Q" = (
@@ -145,6 +157,9 @@
 /area/shuttle/escape)
 "T" = (
 /obj/item/storage/firstaid/fire,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
 /turf/open/floor/mineral/titanium/tiled/blue,
 /area/space)
 "V" = (
@@ -343,9 +358,9 @@ s
 w
 s
 m
-v
+l
 O
-v
+l
 T
 s
 w

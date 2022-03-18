@@ -89,6 +89,32 @@
 	foodtype = JUNKFOOD | FRUIT | SUGAR
 	custom_price = 90
 	value = FOOD_JUNK
+	
+/obj/item/reagent_containers/food/snacks/semki
+	name = "Semki Sunflower Seeds"
+	icon_state = "semki"
+	desc = "The favorite snack of Space Soviets."
+	trash = /obj/item/trash/semki
+	list_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/sugar = 4)
+	junkiness = 25
+	filling_color = "#8B0000"
+	tastes = list("salty seeds" = 1)
+	foodtype = JUNKFOOD | SUGAR
+	custom_price = 60
+	value = FOOD_JUNK
+	
+/obj/item/reagent_containers/food/snacks/pistachios
+	name = "Dafoe Farms Pistachios"
+	icon_state = "pistachios"
+	desc = "Don't crack your teeth on the shells."
+	trash = /obj/item/trash/pistachios
+	list_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/sugar = 4)
+	junkiness = 25
+	filling_color = "#8B0000"
+	tastes = list("salty nuts" = 1)
+	foodtype = JUNKFOOD | SUGAR
+	custom_price = 60
+	value = FOOD_JUNK
 
 /obj/item/reagent_containers/food/snacks/no_raisin/healthy
 	name = "homemade raisins"
