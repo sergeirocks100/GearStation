@@ -176,7 +176,7 @@
 /area/quartermaster/storage)
 "aD" = (
 /obj/structure/table,
-/obj/item/storage/firstaid,
+/obj/item/storage/firstaid/regular,
 /obj/machinery/atmospherics/pipe/simple/general/hidden{
 	dir = 8
 	},
@@ -850,6 +850,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
+"cO" = (
+/obj/structure/closet/firecloset,
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
 "cP" = (
 /obj/machinery/atmospherics/pipe/manifold/general/visible{
 	dir = 4
@@ -900,6 +904,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/crew_quarters/dorms)
+"cY" = (
+/obj/structure/table/wood,
+/obj/machinery/computer/bookmanagement{
+	dir = 1
+	},
+/turf/open/floor/plasteel/grimy,
+/area/library)
 "cZ" = (
 /obj/structure/table,
 /obj/machinery/atmospherics/pipe/manifold/general/hidden,
@@ -909,8 +920,10 @@
 /turf/open/floor/plasteel,
 /area/crew_quarters/dorms)
 "da" = (
-/obj/machinery/power/smes,
 /obj/structure/cable,
+/obj/machinery/power/smes{
+	charge = 5e+006
+	},
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
 "db" = (
@@ -980,7 +993,7 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
-/obj/structure/closet,
+/obj/structure/closet/firecloset,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "dl" = (
@@ -1539,7 +1552,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/blue,
-/obj/structure/table,
+/obj/structure/closet/emcloset,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "fd" = (
@@ -1998,7 +2011,7 @@
 /obj/item/assembly/flash,
 /obj/item/storage/box/flashbangs,
 /obj/item/restraints/handcuffs,
-/obj/item/melee/baton,
+/obj/item/melee/baton/loaded,
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/east,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
@@ -3150,11 +3163,11 @@
 /area/science/mixing/chamber)
 "jO" = (
 /obj/structure/table/wood,
-/obj/item/ammo_box/a762,
-/obj/item/gun/ballistic/revolver/nagant,
 /obj/machinery/atmospherics/pipe/simple/general/hidden{
 	dir = 5
 	},
+/obj/item/ammo_box/n762,
+/obj/item/gun/ballistic/revolver/nagant,
 /turf/open/floor/plasteel/grimy,
 /area/security/detectives_office)
 "jP" = (
@@ -4154,6 +4167,9 @@
 /obj/machinery/camera/autoname{
 	dir = 8
 	},
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/plasteel,
 /area/teleporter)
 "np" = (
@@ -4750,7 +4766,7 @@
 /area/crew_quarters/bar/atrium)
 "pi" = (
 /obj/structure/table,
-/obj/item/storage/firstaid,
+/obj/item/storage/firstaid/regular,
 /turf/open/floor/plasteel/dark,
 /area/bridge)
 "pj" = (
@@ -5278,7 +5294,7 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 8
 	},
-/obj/structure/closet,
+/obj/structure/closet/firecloset,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "qS" = (
@@ -5978,6 +5994,7 @@
 	dir = 9
 	},
 /obj/machinery/airalarm/directional/south,
+/obj/machinery/rnd/production/protolathe/department/cargo,
 /turf/open/floor/plasteel,
 /area/quartermaster/office)
 "tf" = (
@@ -7009,6 +7026,15 @@
 	},
 /turf/closed/wall/r_wall,
 /area/security/nuke_storage)
+"wz" = (
+/obj/machinery/atmospherics/pipe/simple/general/hidden,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/structure/closet/firecloset,
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
 "wA" = (
 /obj/machinery/power/terminal{
 	dir = 8
@@ -7482,7 +7508,7 @@
 /obj/item/storage/box/flashbangs,
 /obj/item/restraints/handcuffs,
 /obj/item/assembly/flash,
-/obj/item/melee/baton,
+/obj/item/melee/baton/loaded,
 /obj/item/gun/energy/disabler,
 /obj/structure/cable,
 /obj/machinery/light{
@@ -7492,7 +7518,7 @@
 /area/security/main)
 "xS" = (
 /obj/structure/table,
-/obj/item/storage/firstaid,
+/obj/item/storage/firstaid/regular,
 /obj/machinery/atmospherics/pipe/simple/general/hidden,
 /turf/open/floor/wood,
 /area/crew_quarters/heads/cmo)
@@ -7867,6 +7893,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/structure/closet/firecloset,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "zc" = (
@@ -8359,7 +8386,7 @@
 	},
 /obj/effect/turf_decal/tile/blue,
 /obj/structure/table,
-/obj/item/storage/firstaid,
+/obj/item/storage/firstaid/regular,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "AG" = (
@@ -8567,6 +8594,13 @@
 /obj/machinery/atmospherics/pipe/simple/general/hidden,
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/cafeteria)
+"Bm" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/closet/emcloset,
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
 "Bn" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/general/hidden{
@@ -9422,12 +9456,13 @@
 /turf/open/floor/engine/vacuum,
 /area/science/mixing/chamber)
 "Ef" = (
-/obj/structure/table/wood,
-/obj/machinery/computer/bookmanagement{
-	dir = 1
+/obj/structure/cable,
+/obj/machinery/door/airlock/external{
+	name = "External Access";
+	req_access_txt = "13"
 	},
-/turf/open/floor/plasteel/grimy,
-/area/library)
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "Eg" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Security Maintenance";
@@ -9998,7 +10033,7 @@
 /obj/item/storage/box/flashbangs,
 /obj/item/restraints/handcuffs,
 /obj/item/assembly/flash,
-/obj/item/melee/baton,
+/obj/item/melee/baton/loaded,
 /obj/item/gun/energy/disabler,
 /turf/open/floor/plasteel,
 /area/security/main)
@@ -10546,6 +10581,12 @@
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/plasteel,
 /area/bridge)
+"HB" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/teleporter)
 "HC" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/general/hidden,
@@ -10777,7 +10818,7 @@
 /obj/item/storage/box/flashbangs,
 /obj/item/restraints/handcuffs,
 /obj/item/assembly/flash,
-/obj/item/melee/baton,
+/obj/item/melee/baton/loaded,
 /obj/machinery/atmospherics/pipe/simple/general/hidden,
 /turf/open/floor/plasteel,
 /area/security/brig)
@@ -10870,6 +10911,10 @@
 /obj/machinery/atmospherics/pipe/simple/general/hidden,
 /turf/closed/wall,
 /area/library)
+"IH" = (
+/obj/structure/closet/firecloset,
+/turf/open/floor/plasteel,
+/area/hallway/secondary/entry)
 "II" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/general/hidden{
@@ -10902,7 +10947,7 @@
 /area/vacant_room/office)
 "IM" = (
 /obj/structure/table,
-/obj/item/storage/firstaid,
+/obj/item/storage/firstaid/regular,
 /turf/open/floor/plasteel/white,
 /area/medical/research)
 "IN" = (
@@ -10981,7 +11026,7 @@
 /area/medical/medbay/central)
 "Ja" = (
 /obj/structure/table,
-/obj/item/storage/firstaid,
+/obj/item/storage/firstaid/regular,
 /obj/item/crowbar,
 /turf/open/floor/plasteel,
 /area/medical/robotics)
@@ -12109,11 +12154,11 @@
 /area/security/main)
 "MC" = (
 /obj/structure/table,
-/obj/item/storage/firstaid{
-	pixel_x = -5
+/obj/item/storage/firstaid/regular{
+	pixel_x = -4
 	},
-/obj/item/storage/firstaid{
-	pixel_x = -5
+/obj/item/storage/firstaid/regular{
+	pixel_x = -4
 	},
 /obj/item/storage/firstaid/brute{
 	pixel_x = 13
@@ -12326,7 +12371,7 @@
 /obj/item/storage/box/flashbangs,
 /obj/item/restraints/handcuffs,
 /obj/item/assembly/flash,
-/obj/item/melee/baton,
+/obj/item/melee/baton/loaded,
 /obj/item/gun/energy/disabler,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/general/hidden{
@@ -12399,7 +12444,7 @@
 /obj/item/storage/box/flashbangs,
 /obj/item/restraints/handcuffs,
 /obj/item/assembly/flash,
-/obj/item/melee/baton,
+/obj/item/melee/baton/loaded,
 /obj/machinery/atmospherics/pipe/simple/general/hidden,
 /obj/machinery/light{
 	dir = 4
@@ -13733,7 +13778,7 @@
 /obj/item/storage/box/flashbangs,
 /obj/item/restraints/handcuffs,
 /obj/item/assembly/flash,
-/obj/item/melee/baton,
+/obj/item/melee/baton/loaded,
 /obj/item/gun/energy/disabler,
 /obj/structure/cable,
 /obj/machinery/airalarm/directional/east,
@@ -13745,7 +13790,7 @@
 "RI" = (
 /obj/structure/window/reinforced,
 /obj/structure/table,
-/obj/item/storage/firstaid,
+/obj/item/storage/firstaid/regular,
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
 "RJ" = (
@@ -14076,10 +14121,6 @@
 /obj/machinery/firealarm/directional/west,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
-"SG" = (
-/obj/machinery/bookbinder,
-/turf/open/floor/plasteel/grimy,
-/area/library)
 "SH" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible,
 /obj/structure/table,
@@ -15177,6 +15218,10 @@
 "VY" = (
 /turf/open/floor/plasteel/white,
 /area/science/lab)
+"VZ" = (
+/obj/machinery/bookbinder,
+/turf/open/floor/plasteel/grimy,
+/area/library)
 "Wa" = (
 /obj/structure/table/reinforced,
 /obj/structure/window{
@@ -16341,7 +16386,7 @@
 /obj/item/storage/box/flashbangs,
 /obj/item/restraints/handcuffs,
 /obj/item/assembly/flash,
-/obj/item/melee/baton,
+/obj/item/melee/baton/loaded,
 /obj/item/gun/energy/disabler,
 /obj/machinery/light{
 	dir = 4
@@ -16360,6 +16405,10 @@
 /obj/machinery/airalarm/directional/west,
 /turf/open/floor/plasteel/dark,
 /area/bridge)
+"ZK" = (
+/obj/structure/closet/emcloset,
+/turf/open/floor/plasteel,
+/area/hallway/secondary/entry)
 "ZL" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/machinery/light{
@@ -33029,8 +33078,8 @@ pS
 kY
 pp
 eb
-fk
-fk
+IH
+ZK
 Hj
 cg
 cg
@@ -43553,7 +43602,7 @@ Of
 Of
 TV
 xG
-kF
+HB
 Wm
 ue
 TV
@@ -45872,15 +45921,15 @@ EE
 WN
 WN
 WN
-XG
+cO
 zb
 XG
 XG
 tp
 XG
 ny
-zb
-XG
+Bm
+Rt
 WV
 nd
 Ra
@@ -46400,7 +46449,7 @@ jj
 Uw
 FC
 vU
-Ef
+cY
 vU
 dU
 vU
@@ -47136,7 +47185,7 @@ AF
 ZP
 ji
 fc
-ZT
+wz
 ZT
 Tu
 yF
@@ -47686,7 +47735,7 @@ Uw
 FC
 Ea
 Hg
-SG
+VZ
 oE
 oE
 FC
@@ -52266,9 +52315,9 @@ cg
 FW
 FW
 FW
+Ef
 uF
-uF
-uF
+Ef
 ry
 uF
 nQ
