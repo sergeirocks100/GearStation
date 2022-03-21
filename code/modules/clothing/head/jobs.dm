@@ -162,7 +162,7 @@
 /obj/item/clothing/head/hos/beret/securitysupervisor
 	name = "security supervisor beret"
 	desc = "A robust beret for the Security Supervisor, for looking stylish while not sacrificing protection."
-	icon_state = "beret_badge"
+	icon_state = "beret_badge_green"
 
 /obj/item/clothing/head/hos/beret/syndicate
 	name = "syndicate beret"
