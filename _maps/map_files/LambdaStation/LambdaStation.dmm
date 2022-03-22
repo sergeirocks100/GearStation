@@ -10930,12 +10930,12 @@
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 4
 	},
-/obj/effect/turf_decal/trimline/purple/filled/corner{
-	dir = 8
-	},
 /obj/machinery/light{
 	dir = 8;
 	light_color = "#e8eaff"
+	},
+/obj/effect/turf_decal/trimline/purple/filled/corner{
+	dir = 1
 	},
 /turf/open/floor/plasteel/white,
 /area/science/research)
@@ -11621,9 +11621,6 @@
 /turf/open/floor/carpet/red,
 /area/crew_quarters/heads/hos)
 "ayP" = (
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 8
-	},
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 4
 	},
@@ -12711,11 +12708,11 @@
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 4
 	},
-/obj/effect/turf_decal/trimline/purple/filled/corner{
-	dir = 1
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/effect/turf_decal/trimline/purple/filled/corner{
+	dir = 8
 	},
 /turf/open/floor/plasteel/white,
 /area/science/research)
@@ -13644,6 +13641,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/structure/cable,
+/obj/effect/turf_decal/trimline/purple/filled/line,
 /turf/open/floor/plasteel/white,
 /area/space)
 "aDd" = (
@@ -21610,6 +21608,9 @@
 	dir = 8;
 	name = "Station Intercom";
 	pixel_x = -28
+	},
+/obj/effect/turf_decal/trimline/purple/filled/corner{
+	dir = 8
 	},
 /turf/open/floor/plasteel/white,
 /area/science/research)
@@ -65591,6 +65592,9 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 8
+	},
 /turf/open/floor/plasteel/white,
 /area/science/research)
 "cMj" = (
@@ -72940,6 +72944,12 @@
 /obj/effect/turf_decal/tile/yellow,
 /turf/open/floor/plasteel,
 /area/engine/break_room)
+"mUh" = (
+/obj/effect/turf_decal/trimline/purple/filled/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/space)
 "mWq" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 9
@@ -73865,6 +73875,15 @@
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/security/prison)
+"sXW" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/science/research)
 "sZf" = (
 /obj/machinery/rnd/bepis,
 /turf/open/floor/engine,
@@ -74813,6 +74832,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
+"vSU" = (
+/obj/effect/turf_decal/trimline/purple/filled/corner,
+/turf/open/floor/plasteel/white,
+/area/space)
 "vSY" = (
 /obj/structure/table,
 /obj/machinery/light{
@@ -75231,6 +75254,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
+"xJY" = (
+/obj/effect/turf_decal/trimline/purple/filled/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/space)
 "xPa" = (
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
@@ -101400,12 +101429,12 @@ aoN
 aJJ
 ava
 aTS
-ava
+sXW
 axo
 ayP
 aBn
 cMi
-cXz
+mUh
 mkb
 dJl
 acw
@@ -101919,7 +101948,7 @@ atW
 ayR
 aPu
 dWs
-cXz
+vSU
 mGg
 azy
 aAD
@@ -102433,7 +102462,7 @@ aqd
 azd
 awy
 axS
-cXz
+xJY
 avW
 azA
 aAO
