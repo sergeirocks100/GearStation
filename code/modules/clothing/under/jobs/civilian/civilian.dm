@@ -231,6 +231,6 @@
 /obj/item/clothing/under/rank/civilian/denim/skirt
 	name = "denim jumpskirt"
 	desc = "A denim jumpskirt. Perfect for menial labor."
-	icon_state = "janitor_skirt"
+	icon_state = "denim_skirt"
 	body_parts_covered = CHEST|GROIN|ARMS
 	fitted = FEMALE_UNIFORM_TOP
