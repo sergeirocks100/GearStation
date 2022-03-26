@@ -33,7 +33,7 @@
 
 /obj/item/clothing/under/rank/civilian/chaplain/skirt
 	name = "chaplain's jumpskirt"
-	desc = "It's a black jumpskirt. If you wear this, you probably need religious help more than you will be providing it."
+	desc = "It's a black jumpskirt, often worn by religious folk."
 	icon_state = "chapblack_skirt"
 	inhand_icon_state = "bl_suit"
 	body_parts_covered = CHEST|GROIN|ARMS
@@ -231,6 +231,6 @@
 /obj/item/clothing/under/rank/civilian/denim/skirt
 	name = "denim jumpskirt"
 	desc = "A denim jumpskirt. Perfect for menial labor."
-	icon_state = "janitor_skirt"
+	icon_state = "denim_skirt"
 	body_parts_covered = CHEST|GROIN|ARMS
 	fitted = FEMALE_UNIFORM_TOP
