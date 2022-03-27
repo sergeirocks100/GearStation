@@ -3155,4 +3155,6 @@
 #include "interface\menu.dm"
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
+#include "soviet_modular\soviet_job_changes.dm"
+#include "soviet_modular\soviet_job_landmarks.dm"
 // END_INCLUDE
