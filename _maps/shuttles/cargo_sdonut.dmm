@@ -16,17 +16,17 @@
 	name = "Supply Shuttle Airlock";
 	req_access_txt = "31"
 	},
+/obj/docking_port/mobile/supply{
+	dir = 4;
+	dwidth = 2;
+	width = 11
+	},
 /turf/open/floor/plating,
 /area/shuttle/supply)
 "h" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Supply Shuttle Airlock";
 	req_access_txt = "31"
-	},
-/obj/docking_port/mobile/supply{
-	dir = 4;
-	dwidth = 3;
-	width = 11
 	},
 /turf/open/floor/plating,
 /area/shuttle/supply)
