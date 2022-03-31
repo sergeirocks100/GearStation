@@ -67,6 +67,12 @@
 	icon_state = "soviet"
 	inhand_icon_state = "soviet"
 	can_adjust = FALSE
+	
+/obj/item/clothing/under/costume/soviet/skirt
+	name = "soviet skirt uniform"
+	icon_state = "soviet_skirt"
+	body_parts_covered = CHEST|GROIN|ARMS
+	fitted = FEMALE_UNIFORM_TOP
 
 /obj/item/clothing/under/costume/redcoat
 	name = "redcoat uniform"
