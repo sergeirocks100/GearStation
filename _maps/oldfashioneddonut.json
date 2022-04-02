@@ -1,7 +1,7 @@
 {
-    "map_name": "Soviet Donut",
-    "map_path": "map_files/SovietDonut",
-    "map_file": "SovietDonut.dmm",
+    "map_name": "Old-Fashioned Donut",
+    "map_path": "map_files/OldFashionedDonut",
+    "map_file": "OldFashionedDonut.dmm",
     "shuttles": {
 	    "cargo": "cargo_sdonut",
 	    "ferry": "ferry_sdonut",

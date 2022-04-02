@@ -159,6 +159,10 @@
 	payment_department = ACCOUNT_SCI
 /obj/item/vending_refill/wardrobe/robo_wardrobe
 	machine_name = "RoboDrobe"
+	
+/obj/machinery/vending/wardrobe/robo_wardrobe/med
+	icon_state = "medrobodrobe"
+	payment_department = ACCOUNT_MED
 
 /obj/machinery/vending/wardrobe/science_wardrobe
 	name = "SciDrobe"

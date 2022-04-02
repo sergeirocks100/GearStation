@@ -52,7 +52,7 @@ map icelambda
 	votable
 endmap
 
-map sovietdonut
+map oldfashioneddonut
 	votable
 endmap
 
