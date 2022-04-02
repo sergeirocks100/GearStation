@@ -13360,6 +13360,7 @@
 /area/crew_quarters/theatre)
 "aMq" = (
 /obj/structure/musician/piano{
+	dir = 8;
 	icon_state = "piano"
 	},
 /turf/open/floor/wood,

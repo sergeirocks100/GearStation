@@ -23720,6 +23720,7 @@
 /area/crew_quarters/bar/atrium)
 "aWX" = (
 /obj/structure/musician/piano{
+	dir = 8;
 	icon_state = "piano"
 	},
 /obj/machinery/airalarm{

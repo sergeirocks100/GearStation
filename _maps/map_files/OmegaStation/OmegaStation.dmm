@@ -13752,7 +13752,6 @@
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/theatre)
 "aNb" = (
-/obj/structure/musician/piano,
 /obj/machinery/light{
 	dir = 1;
 	light_color = "#cee5d2"
@@ -28728,6 +28727,15 @@
 	},
 /turf/open/floor/wood,
 /area/lawoffice)
+"lgC" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/musician/piano{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/crew_quarters/theatre)
 "lgZ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -29531,6 +29539,15 @@
 	},
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/tcommsat/server)
+"lUZ" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/chair/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/crew_quarters/theatre)
 "lVY" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -75876,8 +75893,8 @@ aWj
 jnK
 aNe
 anf
-aYA
-aYA
+lgC
+lUZ
 aYA
 aRV
 jnK

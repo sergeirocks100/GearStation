@@ -25434,7 +25434,9 @@
 /turf/open/floor/plasteel,
 /area/crew_quarters/bar/atrium)
 "bcC" = (
-/obj/structure/musician/piano,
+/obj/structure/musician/piano{
+	dir = 8
+	},
 /obj/structure/window/reinforced{
 	dir = 8
 	},
@@ -52403,7 +52405,9 @@
 	},
 /area/maintenance/aft)
 "ciL" = (
-/obj/structure/musician/piano,
+/obj/structure/musician/piano{
+	dir = 8
+	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
