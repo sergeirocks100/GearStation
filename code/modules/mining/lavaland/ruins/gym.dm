@@ -56,11 +56,13 @@
 		user.apply_status_effect(STATUS_EFFECT_EXERCISED)
 
 /obj/structure/weightmachine/stacklifter
-	icon = 'goon/icons/obj/fitness.dmi'
-	icon_state = "fitnesslifter"
-	icon_state_inuse = "fitnesslifter2"
+	icon = 'icons/obj/fitness.dmi'
+	icon_state = "stacklifter"
+	icon_state_inuse = "stacklifter-c"
 
 /obj/structure/weightmachine/stacklifter/AnimateMachine(mob/living/user)
+	var/mutable_appearance/swole_overlay_stacklifter = mutable_appearance(icon, "stacklifter-w", WALL_OBJ_LAYER)
+	add_overlay(swole_overlay_stacklifter)
 	var/lifts = 0
 	while (lifts++ < 6)
 		if (user.loc != src.loc)
@@ -69,27 +71,29 @@
 		animate(user, pixel_y = -2, time = 3)
 		sleep(3)
 		animate(user, pixel_y = -4, time = 3)
-		sleep(3)
+		sleep(2)
 		playsound(user, 'sound/effects/spring.ogg', 60, TRUE)
+	sleep(3)
+	cut_overlay(swole_overlay_stacklifter)
 
 /obj/structure/weightmachine/weightlifter
-	icon = 'goon/icons/obj/fitness.dmi'
-	icon_state = "fitnessweight"
-	icon_state_inuse = "fitnessweight-c"
+	icon = 'icons/obj/fitness.dmi'
+	icon_state = "benchpress"
+	icon_state_inuse = "benchpress-c"
 
 /obj/structure/weightmachine/weightlifter/AnimateMachine(mob/living/user)
-	var/mutable_appearance/swole_overlay = mutable_appearance(icon, "fitnessweight-w", WALL_OBJ_LAYER)
-	add_overlay(swole_overlay)
+	var/mutable_appearance/swole_overlay_benchpress = mutable_appearance(icon, "benchpress-w", WALL_OBJ_LAYER)
+	add_overlay(swole_overlay_benchpress)
 	var/reps = 0
 	user.pixel_y = 5
 	while (reps++ < 6)
 		if (user.loc != src.loc)
 			break
 		for (var/innerReps = max(reps, 1), innerReps > 0, innerReps--)
-			sleep(3)
+			sleep(4)
 			animate(user, pixel_y = (user.pixel_y == 3) ? 5 : 3, time = 3)
 		playsound(user, 'sound/effects/spring.ogg', 60, TRUE)
 	sleep(3)
 	animate(user, pixel_y = 2, time = 3)
 	sleep(3)
-	cut_overlay(swole_overlay)
+	cut_overlay(swole_overlay_benchpress)
