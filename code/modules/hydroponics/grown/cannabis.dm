@@ -10,7 +10,7 @@
 	potency = 20
 	growthstages = 1
 	instability = 40
-	growing_icon = 'goon/icons/obj/hydroponics.dmi'
+	growing_icon = 'icons/obj/hydroponics/growing.dmi'
 	icon_grow = "cannabis-grow" // Uses one growth icons set for all the subtypes
 	icon_dead = "cannabis-dead" // Same for the dead icon
 	genes = list(/datum/plant_gene/trait/repeated_harvest)
@@ -25,6 +25,8 @@
 	name = "pack of rainbow weed seeds"
 	desc = "These seeds grow into rainbow weed. Groovy... and also highly addictive."
 	icon_state = "seed-megacannabis"
+	icon_grow = "megacannabis-grow"
+	icon_dead = "megacannabis-dead"
 	species = "megacannabis"
 	plantname = "Rainbow Weed"
 	product = /obj/item/reagent_containers/food/snacks/grown/cannabis/rainbow
@@ -36,6 +38,8 @@
 	name = "pack of deathweed seeds"
 	desc = "These seeds grow into deathweed. Not groovy."
 	icon_state = "seed-blackcannabis"
+	icon_grow = "blackcannabis-grow"
+	icon_dead = "blackcannabis-dead"
 	species = "blackcannabis"
 	plantname = "Deathweed"
 	product = /obj/item/reagent_containers/food/snacks/grown/cannabis/death
@@ -47,6 +51,8 @@
 	name = "pack of lifeweed seeds"
 	desc = "I will give unto him that is munchies of the fountain of the cravings of life, freely."
 	icon_state = "seed-whitecannabis"
+	icon_grow = "whitecannabis-grow"
+	icon_dead = "whitecannabis-dead"
 	species = "whitecannabis"
 	plantname = "Lifeweed"
 	instability = 30
@@ -60,6 +66,8 @@
 	name = "pack of omega weed seeds"
 	desc = "These seeds grow into omega weed."
 	icon_state = "seed-ocannabis"
+	icon_grow = "ocannabis-grow"
+	icon_dead = "ocannabis-dead"
 	species = "ocannabis"
 	plantname = "Omega Weed"
 	product = /obj/item/reagent_containers/food/snacks/grown/cannabis/ultimate
@@ -84,7 +92,7 @@
 
 /obj/item/reagent_containers/food/snacks/grown/cannabis
 	seed = /obj/item/seeds/cannabis
-	icon = 'goon/icons/obj/hydroponics.dmi'
+	icon = 'icons/obj/hydroponics/harvest.dmi'
 	name = "cannabis leaf"
 	desc = "Recently legalized in most galaxies."
 	icon_state = "cannabis"
