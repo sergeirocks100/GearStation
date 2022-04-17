@@ -43,6 +43,14 @@
 	color = "#D4D4D4"
 	alpha = 50
 
+/obj/effect/turf_decal/tile/black
+	name = "black corner"
+	color = "#000000"
+
+/obj/effect/turf_decal/tile/white
+	name = "white corner"
+	color = "#ffffff"
+
 /obj/effect/turf_decal/tile/random // so many colors
 	name = "colorful corner"
 	color = "#E300FF" //bright pink as default for mapping

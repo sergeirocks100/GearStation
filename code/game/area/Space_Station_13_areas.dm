@@ -107,6 +107,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/maintenance/department/electrical
 	name = "Electrical Maintenance"
 	icon_state = "maint_electrical"
+	
+/area/maintenance/department/tcoms
+	name = "Telecommunications Maintenance"
+	icon_state = "tcomsatmaint"
 
 /area/maintenance/department/engine/atmos
 	name = "Atmospherics Maintenance"
@@ -368,6 +372,20 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/crew_quarters/dorms/barracks/female
 	name = "Female Sleep Barracks"
 	icon_state = "dorms_female"
+
+//Minsky Specific Areas
+
+/area/crew_quarters/dorms/a
+	name = "Dormitories"
+	icon_state = "dorms"
+	safe = TRUE
+
+/area/crew_quarters/dorms/b
+	name = "Dormitories"
+	icon_state = "dorms"
+	safe = TRUE
+
+//End Minsky Specific Areas
 
 /area/crew_quarters/toilet
 	name = "Dormitory Toilets"
@@ -674,6 +692,37 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Teleporter Room"
 	icon_state = "teleporter"
 	ambientsounds = ENGINEERING
+	
+//Minsky Specific Teleporters
+
+/area/teleporter/hub
+	ambientsounds = list('sound/ambience/ambisin2.ogg', 'sound/ambience/signal.ogg', 'sound/ambience/signal.ogg', 'sound/ambience/ambigen10.ogg', 'sound/ambience/ambitech.ogg',\
+											'sound/ambience/ambitech2.ogg', 'sound/ambience/ambitech3.ogg', 'sound/ambience/ambimystery.ogg')
+/area/teleporter/hub/bridge
+	name = "Bridge Quantum Hub"
+	icon_state = "teleporter"
+
+/area/teleporter/hub/engineering
+	name = "Engineering Quantum Hub"
+	icon_state = "teleporter"
+
+/area/teleporter/hub/medical
+	name = "Medical Quantum Hub"
+	icon_state = "teleporter"
+
+/area/teleporter/hub/science
+	name = "R&D Quantum Hub"
+	icon_state = "teleporter"
+
+/area/teleporter/hub/security
+	name = "Security Quantum Hub"
+	icon_state = "teleporter"
+
+/area/teleporter/hub/evac
+	name = "Evac Quantum Hub"
+	icon_state = "teleporter"
+
+//End Minsky specific teleporters
 
 /area/gateway
 	name = "Gateway"
@@ -717,6 +766,14 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/medical/paramedic
 	name = "Paramedic Dispatch"
 	icon_state = "paramedic"
+	
+/area/medical/paramedic/a
+	name = "Primary Paramedic Dispatch"
+	icon_state = "emergencystorage"
+
+/area/medical/paramedic/b
+	name = "Secondary Paramedic Dispatch"
+	icon_state = "emergencystorage"
 
 /area/medical/office
 	name = "Medical Office"
@@ -999,6 +1056,16 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Custodial Closet"
 	icon_state = "janitor"
 	flags_1 = CULT_PERMITTED_1
+	
+/area/janitor/a 
+	name = "Custodial Closet A"
+	icon_state = "janitor"
+	flags_1 = NONE
+
+/area/janitor/b
+	name = "Custodial Closet B"
+	icon_state = "janitor"
+	flags_1 = NONE 
 
 /area/hydroponics
 	name = "Hydroponics"
@@ -1115,6 +1182,36 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Telecomms Storage"
 	icon_state = "tcom"
 	valid_territory = FALSE
+	
+//A bunch of telecomm sattelite areas from Yog.
+
+/area/tcommsat/lounge
+	name = "Telecommunications Satellite Lounge"
+	icon_state = "tcomsatlounge"
+
+/area/tcommsat/entrance
+	name = "Telecomms Teleporter"
+	icon_state = "tcomsatentrance"
+
+/area/tcommsat/chamber
+	name = "Abandoned Satellite"
+	icon_state = "tcomsatcham"
+
+/area/ai_monitored/turret_protected/tcomsat
+	name = "Telecomms Satellite"
+	icon_state = "tcomsatlob"
+
+/area/ai_monitored/turret_protected/tcomfoyer
+	name = "Telecomms Foyer"
+	icon_state = "tcomsatentrance"
+
+/area/ai_monitored/turret_protected/tcomwest
+	name = "Telecommunications Satellite West Wing"
+	icon_state = "tcomsatwest"
+
+/area/ai_monitored/turret_protected/tcomeast
+	name = "Telecommunications Satellite East Wing"
+	icon_state = "tcomsateast"
 
 /area/storage/eva
 	name = "EVA Storage"
