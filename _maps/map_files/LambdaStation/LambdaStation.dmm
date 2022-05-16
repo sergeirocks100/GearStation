@@ -6175,7 +6175,7 @@
 "aoS" = (
 /obj/machinery/door/airlock/public/glass{
 	id_tag = "permabolt6";
-	name = "Cell 5"
+	name = "Cell 6"
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
