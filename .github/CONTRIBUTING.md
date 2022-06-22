@@ -427,15 +427,15 @@ If you are porting features/tools from other codebases, you must give them credi
 
 Regarding sprites & sounds, you must credit the artist and possibly the codebase. All GearStation assets including icons and sound are under a [Creative Commons 3.0 BY-SA license](https://creativecommons.org/licenses/by-sa/3.0/) unless otherwise indicated. 
 
-Any assets from Goonstation, or any other assets under the [Creative Commons BY-NC-SA 3.0 license](https://creativecommons.org/licenses/by-nc-sa/3.0/) or other non commercial licenses, are banned from use on Gearstation.
+Because GearStation is a codebase that believes in software freedom. assets or code that are under non-free licenses (such as the [Creative Commons 3.0 BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/3.0/) that Goonstation and Burgerstation use) are banned from use on Gearstation.
 
-Replacement or removal of non-commercially licensed assets on the codebase is welcomed and encouraged.
+The GNU website has a helpful list of free and non-free licenses [here](https://www.gnu.org/licenses/license-list.en.html).
 
 ## Banned content
 Do not add any of the following in a Pull Request or risk getting the PR closed:
 * Code where one line of code is split across mutiple lines (except for multiple, separate strings and comments; in those cases, existing longer lines must not be split up)
 * Code adding, removing, or updating the availability of alien races/species/human mutants without prior approval. Pull requests attempting to add or remove features from said races/species/mutants require prior approval as well.
-* Anything with code, sprites, sounds, maps, or anything else from Goonstation, or other codebases under non-commercial licenses.
+* Any assets or code that are under non-free licenses.
 * Anything that relies on Extools, Auxtools, or any other BYOND version dependent external DLLs to function.
 * Code which violates GitHub's [terms of service](https://github.com/site/terms).
 
