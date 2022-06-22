@@ -12,9 +12,6 @@
 /turf/open/floor/plasteel,
 /area/shuttle/escape/luxury)
 "ad" = (
-/obj/machinery/scanner_gate/luxury_shuttle{
-	layer = 2.6
-	},
 /obj/machinery/door/airlock/silver{
 	name = "First Class"
 	},
@@ -27,9 +24,6 @@
 	height = 14;
 	name = "Luxurious Emergency Shuttle";
 	width = 25
-	},
-/obj/machinery/scanner_gate/luxury_shuttle{
-	layer = 2.6
 	},
 /obj/machinery/door/airlock/silver{
 	name = "First Class"
@@ -78,8 +72,8 @@
 /area/shuttle/escape/luxury)
 "ap" = (
 /obj/structure/chair/comfy/teal{
-	icon_state = "comfychair";
-	dir = 4
+	dir = 4;
+	icon_state = "comfychair"
 	},
 /turf/open/floor/mineral/diamond,
 /area/shuttle/escape)
@@ -226,8 +220,8 @@
 /area/shuttle/escape/luxury)
 "aM" = (
 /obj/structure/chair/comfy/teal{
-	icon_state = "comfychair";
-	dir = 4
+	dir = 4;
+	icon_state = "comfychair"
 	},
 /turf/open/floor/mineral/diamond,
 /area/shuttle/escape/luxury)
@@ -455,8 +449,8 @@
 	layer = 2.9
 	},
 /turf/open/floor/holofloor/beach/coast_t{
-	icon_state = "sandwater_t";
-	dir = 8
+	dir = 8;
+	icon_state = "sandwater_t"
 	},
 /area/shuttle/escape/luxury)
 "bx" = (
@@ -523,8 +517,8 @@
 "bG" = (
 /obj/machinery/door/window/eastleft,
 /turf/open/floor/holofloor/beach/coast_t{
-	icon_state = "sandwater_t";
-	dir = 8
+	dir = 8;
+	icon_state = "sandwater_t"
 	},
 /area/shuttle/escape/luxury)
 "bH" = (
@@ -563,8 +557,8 @@
 /obj/structure/window/reinforced,
 /obj/machinery/door/window/eastright,
 /turf/open/floor/holofloor/beach/coast_t{
-	icon_state = "sandwater_t";
-	dir = 8
+	dir = 8;
+	icon_state = "sandwater_t"
 	},
 /area/shuttle/escape/luxury)
 "bN" = (
@@ -966,14 +960,6 @@
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/escape/luxury)
-"Lt" = (
-/obj/machinery/door/airlock/security/glass{
-	name = "Escape Shuttle Cell";
-	req_access_txt = "2"
-	},
-/obj/machinery/scanner_gate/luxury_shuttle,
-/turf/open/floor/mineral/plastitanium/red/brig,
-/area/shuttle/escape/luxury)
 
 (1,1,1) = {"
 aa
@@ -1185,7 +1171,7 @@ ag
 "}
 (14,1,1) = {"
 ag
-Lt
+af
 ag
 ag
 ag
