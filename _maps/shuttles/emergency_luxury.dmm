@@ -693,6 +693,7 @@
 /area/shuttle/escape/luxury)
 "ci" = (
 /obj/structure/musician/piano{
+	dir = 8;
 	icon_state = "piano"
 	},
 /turf/open/floor/carpet/green,
