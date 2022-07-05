@@ -25,6 +25,18 @@ There is an open list of approachable issues for [your inspiration here](https:/
 
 You can of course, as always, ask for help on the discord channels, or the forums, We're just here to have fun and help out, so please don't expect professional support.
 
+## Legal Notice
+
+When it comes to original, from scratch contributions, by opening a pull request on GearStation, you (And any co-contributors) agree to license your code contributions under the [GNU AGPL V3](https://www.gnu.org/licenses/agpl-3.0.html), and other forms of contributions (Icons, sounds, maps, etc.) under [Creative Commons 3.0 BY-SA](https://creativecommons.org/licenses/by-sa/3.0/).
+
+You also agree that, unless you specify otherwise in the pull request, that the Github usernames of the contributors involved, along with a link back to the pull request, are how you should be credited if someone were to port your contributiions, or otherwise make use of them in ways where credit is required.
+
+To put it simply, by contributing to GearStation, you agree to allow others to use and modify your contributions as they see fit, including for commercial purposes, as long as they give you credit, and make the source code public.
+
+If you don't want people to freely reuse and modify your stuff, don't contribute to GearStation.
+
+When it comes to contributions you didn't make entirely yourself (Ports from other codebases, use of outside code or assets, etc.), refer to the porting guidelines.
+
 ## Meet the Team
 
 **Headcoder**
