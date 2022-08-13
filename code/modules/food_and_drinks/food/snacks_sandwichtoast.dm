@@ -24,7 +24,7 @@
 	value = FOOD_FAST
 
 /obj/item/reagent_containers/food/snacks/grilledcheese
-	name = "cheese sandwich"
+	name = "grilled cheese sandwich"
 	desc = "Goes great with Tomato soup!"
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "toastedsandwich"
