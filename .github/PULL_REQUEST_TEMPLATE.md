@@ -9,9 +9,7 @@
 
 <!-- Please add a short description of why you think these changes would benefit the game. If you can't justify it in words, it might not be worth adding. -->
 
-<!-- The changelog bot is disabled, because it doesn't work properly for reasons unknown. Add changelog entries to html/changelog.html manually. -->
-
-<!--## Changelog
+## Changelog
 :cl:
 add: Added new things
 add: Added more things
@@ -29,7 +27,7 @@ refactor: refactored some code
 config: changed some config setting
 admin: messed with admin stuff
 server: something server ops should know
-/:cl:-->
+/:cl:
 
 <!-- Both :cl:'s are required for the changelog to work! You can put your name to the right of the first :cl: if you want to overwrite your GitHub username as author ingame. -->
 <!-- You can use multiple of the same prefix (they're only used for the icon ingame) and delete the unneeded ones. Despite some of the tags, changelogs should generally represent how a player might be affected by the changes rather than a summary of the PR's contents. -->
