@@ -1,0 +1,5 @@
+author: Crossedfall, ported by sergeirocks100
+delete-after: true
+changes:
+  - code_imp: I ported over the changelog actions from Bee, and this should be Gear's
+      first ever changelog entry if it works properly. Hello, world!
