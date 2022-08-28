@@ -50,7 +50,7 @@
 			return
 		if(icon_state != initial(icon_state))
 			return // We don't want to cut dyed gloves.
-		to_chat(user, "<span class='notice'>You cut the fingers off of [src].</span>")
+		to_chat(user, "<span class='notice'>You cut the fingertips off of [src].</span>")
 		qdel(src)
 		user.put_in_hands(new cut_type)
 	else
