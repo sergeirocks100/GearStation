@@ -1,0 +1,11 @@
+# Code changes
+
+Code: '**/*.dm'
+
+# Sprite changes
+
+Sprites: '**/*.dmi'
+
+# Sound changes
+
+Sound: 'sound/**/*'
