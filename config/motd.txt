@@ -1,25 +1,5 @@
 <!-- Most valid html will work in here, excluding images. -->
 
-<span class="motd">
+<h1>Welcome to Space Station 13!</h1>
 
-<body link="blue">
- 
-<h1>Welcome to Gearstation 13!</h1>
- 
-<h2>Please use the following links for your information:</h2>
- 
-<p>For the rules, as well as some useful links, check out <a href="http://gearstation.tk/"><b><u>the website.</b></u></a></p>
-
-<p>You can join us on our Discord server <a href="https://discord.gg/DCddpQ5MzM"><b><u>by clicking here.</b></u></a></p>
-
-<p>If you enjoy playing here, please consider dropping some money in <b><a href="https://hosthavoc.com/billing/index.php?m=public_pay&hash_id=YozBj331xy7b"><u>the bucket.</b></u></a></p>
-
-
-
-<h3> Notice Board: </h3>
-
-<p style="color:red;"><b>• As a reminder, out of character (OOC) communication is NOT allowed while the shift is still going, and carries serious consequences! Similarly, do not talk about the current round in OOC until it is over!<br>New players, <a href="https://tgstation13.org/wiki/Starter_guide">click here</a> for a starter guide!<br><a href="https://discord.tgstation13.org/">Consider joining our Discord server! (click here)</a></b></p>
-
-<p style="color:red;"><b>•Over utilizing any flavor of the month meme, like "imposter" or "sus" is a bit too OOC IC. Obviously if you have a reason to use them, like calling someone suspicious with sus its fine. However blurting them out at random is a bit much and we're cracking down on it. </a></b>
-
-</span>
+<i>This server is running a /tg/station 13 Git build.</i>
