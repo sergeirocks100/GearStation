@@ -449,6 +449,8 @@ Do not add any of the following in a Pull Request or risk getting the PR closed:
 * Code adding, removing, or updating the availability of alien races/species/human mutants without prior approval. Pull requests attempting to add or remove features from said races/species/mutants require prior approval as well.
 * Any assets or code that are under non-free licenses.
 * Anything that relies on Extools, Auxtools, or any other BYOND version dependent external DLLs to function.
+* Anything that contains in-game refrences to real world news events, popular culture, or internet memes.
+* Anything that's meant to generate or spread real world bigotry or prejuidice.
 * Code which violates GitHub's [terms of service](https://github.com/site/terms).
 
 Just because something isn't on this list doesn't mean that it's acceptable. Use common sense above all else.
