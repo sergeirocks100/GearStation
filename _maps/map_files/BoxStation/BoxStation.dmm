@@ -15580,9 +15580,11 @@
 /area/library)
 "aTd" = (
 /obj/structure/table/wood,
-/obj/machinery/computer/bookmanagement,
 /obj/machinery/light_switch{
 	pixel_y = 28
+	},
+/obj/machinery/computer/bookmanagement{
+	dir = 8
 	},
 /turf/open/floor/wood,
 /area/library)
@@ -51737,7 +51739,6 @@
 	dir = 1
 	},
 /obj/structure/cable,
-/obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/machinery/light/small{
 	brightness = 3;
 	dir = 8
@@ -51748,6 +51749,7 @@
 	name = "SMES room APC";
 	pixel_y = 23
 	},
+/obj/machinery/power/port_gen/pacman,
 /turf/open/floor/plasteel/dark,
 /area/engine/engine_smes)
 "pAR" = (
@@ -53678,6 +53680,15 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel/white,
 /area/medical/medbay)
+"siC" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/table,
+/obj/machinery/recharger,
+/obj/item/restraints/handcuffs,
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
 "siG" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -54262,6 +54273,15 @@
 	},
 /turf/open/floor/plating,
 /area/security/prison)
+"tfu" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/fore)
 "tgl" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -103562,7 +103582,7 @@ asA
 apE
 arx
 arx
-iuj
+tfu
 aFw
 aFw
 aFw
@@ -103819,7 +103839,7 @@ asB
 asB
 asB
 aoQ
-iuj
+tfu
 aFw
 aHg
 aIA
@@ -104076,7 +104096,7 @@ auI
 aAy
 asB
 aoP
-iuj
+tfu
 aFw
 aGY
 aII
@@ -104333,7 +104353,7 @@ avN
 iBZ
 asB
 auD
-iuj
+tfu
 aFw
 aHi
 aJU
@@ -104590,7 +104610,7 @@ avN
 asB
 asB
 anf
-iuj
+tfu
 aFw
 aHl
 aID
@@ -104847,7 +104867,7 @@ avN
 aAz
 asB
 anf
-iuj
+tfu
 aFw
 aHk
 aHk
@@ -107939,7 +107959,7 @@ aaa
 aaf
 aNa
 afa
-afE
+siC
 aPq
 aNa
 aPq
