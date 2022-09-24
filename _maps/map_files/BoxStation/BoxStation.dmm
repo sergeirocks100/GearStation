@@ -38667,16 +38667,8 @@
 /obj/effect/turf_decal/bot{
 	dir = 1
 	},
-/obj/structure/table,
-/obj/item/clothing/gloves/color/yellow,
-/obj/item/clothing/gloves/color/yellow,
-/obj/item/clothing/gloves/color/yellow,
-/obj/item/clothing/gloves/color/yellow,
-/obj/item/stock_parts/cell/emproof{
-	pixel_x = -4;
-	pixel_y = -1
-	},
 /obj/structure/cable,
+/obj/machinery/power/port_gen/pacman,
 /turf/open/floor/plasteel/dark,
 /area/engine/engine_smes)
 "cnX" = (
@@ -38947,6 +38939,15 @@
 /obj/machinery/camera{
 	c_tag = "Engineering Storage";
 	dir = 4
+	},
+/obj/structure/table,
+/obj/item/clothing/gloves/color/yellow,
+/obj/item/clothing/gloves/color/yellow,
+/obj/item/clothing/gloves/color/yellow,
+/obj/item/clothing/gloves/color/yellow,
+/obj/item/stock_parts/cell/emproof{
+	pixel_x = -4;
+	pixel_y = -1
 	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
@@ -51749,7 +51750,7 @@
 	name = "SMES room APC";
 	pixel_y = 23
 	},
-/obj/machinery/power/port_gen/pacman,
+/obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/plasteel/dark,
 /area/engine/engine_smes)
 "pAR" = (
