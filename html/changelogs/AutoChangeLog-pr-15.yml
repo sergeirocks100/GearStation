@@ -1,0 +1,6 @@
+author: sergeirocks100
+delete-after: true
+changes:
+  - bugfix: There's no longer a wire leading to nowhere in the chapel maintenance.
+  - bugfix: There's now a PACMAN in the engineering power room.
+  - bugfix: There's now a recharger in the departures holding area.
