@@ -64,6 +64,10 @@ honkies
 wetback
 wetbacks
 whitey
+aspie
+aspies
+sperg
+spergs
 
 # OOC Terms
 
@@ -88,6 +92,7 @@ sneed
 chungus
 amogus
 guh
+poggers
 
 # Shit relating to news events that are going to be 5 and a half centuries in the past when the game takes place
 
