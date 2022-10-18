@@ -47833,7 +47833,9 @@
 /area/maintenance/department/chapel/monastery)
 "cwU" = (
 /obj/structure/table/wood,
-/obj/machinery/computer/libraryconsole,
+/obj/machinery/computer/libraryconsole{
+	dir = 8
+	},
 /turf/open/floor/plasteel/dark,
 /area/library/lounge)
 "cxb" = (
