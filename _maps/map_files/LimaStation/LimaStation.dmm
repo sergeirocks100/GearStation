@@ -24371,7 +24371,9 @@
 "jyy" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/structure/table/wood,
-/obj/machinery/computer/bookmanagement,
+/obj/machinery/computer/bookmanagement{
+	dir = 4
+	},
 /obj/structure/window{
 	dir = 8
 	},

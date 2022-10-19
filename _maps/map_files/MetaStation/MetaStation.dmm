@@ -62087,7 +62087,9 @@
 /area/hallway/primary/central)
 "cVe" = (
 /obj/structure/table/wood,
-/obj/machinery/computer/bookmanagement,
+/obj/machinery/computer/bookmanagement{
+	dir = 8
+	},
 /obj/structure/noticeboard{
 	desc = "A board for pinning important notices upon. Probably helpful for keeping track of requests.";
 	dir = 8;
