@@ -12,9 +12,6 @@
 /turf/open/floor/plasteel,
 /area/shuttle/escape/luxury)
 "ad" = (
-/obj/machinery/scanner_gate/luxury_shuttle{
-	layer = 2.6
-	},
 /obj/machinery/door/airlock/silver{
 	name = "First Class"
 	},
@@ -28,9 +25,6 @@
 	name = "Luxurious Emergency Shuttle";
 	width = 25
 	},
-/obj/machinery/scanner_gate/luxury_shuttle{
-	layer = 2.6
-	},
 /obj/machinery/door/airlock/silver{
 	name = "First Class"
 	},
@@ -43,9 +37,6 @@
 	},
 /turf/open/floor/mineral/plastitanium/red/brig,
 /area/shuttle/escape/luxury)
-"ag" = (
-/turf/closed/indestructible/riveted/plastinum,
-/area/shuttle/escape/luxury)
 "ah" = (
 /obj/effect/turf_decal/delivery,
 /obj/structure/ore_box,
@@ -56,7 +47,7 @@
 /turf/open/floor/plasteel,
 /area/shuttle/escape/luxury)
 "ai" = (
-/turf/closed/indestructible/riveted/plastinum,
+/turf/closed/wall/mineral/titanium,
 /area/shuttle/escape)
 "aj" = (
 /obj/effect/turf_decal/delivery,
@@ -78,8 +69,8 @@
 /area/shuttle/escape/luxury)
 "ap" = (
 /obj/structure/chair/comfy/teal{
-	icon_state = "comfychair";
-	dir = 4
+	dir = 4;
+	icon_state = "comfychair"
 	},
 /turf/open/floor/mineral/diamond,
 /area/shuttle/escape)
@@ -117,10 +108,8 @@
 /obj/machinery/door/poddoor/shutters/indestructible{
 	id = "ohnopoors"
 	},
-/turf/closed/indestructible/opsglass{
-	desc = "A durable looking window made of an alloy of of plasma and titanium.";
-	name = "plastitanium window"
-	},
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
 /area/shuttle/escape/luxury)
 "aw" = (
 /turf/open/floor/mineral/titanium/blue,
@@ -131,9 +120,6 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/escape/luxury)
-"ay" = (
-/turf/closed/indestructible/syndicate,
 /area/shuttle/escape/luxury)
 "az" = (
 /obj/machinery/computer/communications{
@@ -226,8 +212,8 @@
 /area/shuttle/escape/luxury)
 "aM" = (
 /obj/structure/chair/comfy/teal{
-	icon_state = "comfychair";
-	dir = 4
+	dir = 4;
+	icon_state = "comfychair"
 	},
 /turf/open/floor/mineral/diamond,
 /area/shuttle/escape/luxury)
@@ -337,10 +323,8 @@
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/escape/luxury)
 "bc" = (
-/turf/closed/indestructible/opsglass{
-	desc = "A durable looking window made of an alloy of of plasma and titanium.";
-	name = "plastitanium window"
-	},
+/obj/effect/spawner/structure/window/shuttle,
+/turf/open/floor/plating,
 /area/shuttle/escape/luxury)
 "be" = (
 /obj/structure/girder,
@@ -455,8 +439,8 @@
 	layer = 2.9
 	},
 /turf/open/floor/holofloor/beach/coast_t{
-	icon_state = "sandwater_t";
-	dir = 8
+	dir = 8;
+	icon_state = "sandwater_t"
 	},
 /area/shuttle/escape/luxury)
 "bx" = (
@@ -523,8 +507,8 @@
 "bG" = (
 /obj/machinery/door/window/eastleft,
 /turf/open/floor/holofloor/beach/coast_t{
-	icon_state = "sandwater_t";
-	dir = 8
+	dir = 8;
+	icon_state = "sandwater_t"
 	},
 /area/shuttle/escape/luxury)
 "bH" = (
@@ -563,8 +547,8 @@
 /obj/structure/window/reinforced,
 /obj/machinery/door/window/eastright,
 /turf/open/floor/holofloor/beach/coast_t{
-	icon_state = "sandwater_t";
-	dir = 8
+	dir = 8;
+	icon_state = "sandwater_t"
 	},
 /area/shuttle/escape/luxury)
 "bN" = (
@@ -699,6 +683,7 @@
 /area/shuttle/escape/luxury)
 "ci" = (
 /obj/structure/musician/piano{
+	dir = 8;
 	icon_state = "piano"
 	},
 /turf/open/floor/carpet/green,
@@ -966,14 +951,6 @@
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/escape/luxury)
-"Lt" = (
-/obj/machinery/door/airlock/security/glass{
-	name = "Escape Shuttle Cell";
-	req_access_txt = "2"
-	},
-/obj/machinery/scanner_gate/luxury_shuttle,
-/turf/open/floor/mineral/plastitanium/red/brig,
-/area/shuttle/escape/luxury)
 
 (1,1,1) = {"
 aa
@@ -1120,27 +1097,27 @@ bC
 ab
 "}
 (10,1,1) = {"
-ag
-ag
+ab
+ab
 af
-ag
-ag
-ay
+ab
+ab
+ab
 av
 av
 av
-ay
+ab
 av
 av
 av
-ay
+ab
 "}
 (11,1,1) = {"
 af
 at
 at
 bD
-ag
+ab
 aA
 ao
 ao
@@ -1149,14 +1126,14 @@ ao
 ao
 ao
 ao
-ag
+ab
 "}
 (12,1,1) = {"
-ag
+ab
 bj
 at
 bD
-ag
+ab
 cE
 aG
 aK
@@ -1165,14 +1142,14 @@ bV
 aO
 aT
 cL
-ag
+ab
 "}
 (13,1,1) = {"
-ag
+ab
 at
 at
 bD
-ag
+ab
 bV
 aH
 aL
@@ -1181,14 +1158,14 @@ bV
 aP
 aU
 ch
-ag
+ab
 "}
 (14,1,1) = {"
-ag
-Lt
-ag
-ag
-ag
+ab
+af
+ab
+ab
+ab
 bV
 aC
 aE
@@ -1197,10 +1174,10 @@ bV
 aX
 aZ
 ch
-ag
+ab
 "}
 (15,1,1) = {"
-ag
+ab
 ao
 bt
 bQ
@@ -1213,10 +1190,10 @@ bV
 aY
 ba
 ch
-ag
+ab
 "}
 (16,1,1) = {"
-ag
+ab
 ao
 bu
 bF
@@ -1229,7 +1206,7 @@ bV
 aH
 aV
 ch
-ag
+ab
 "}
 (17,1,1) = {"
 ae
@@ -1245,10 +1222,10 @@ bV
 aQ
 aW
 cL
-ag
+ab
 "}
 (18,1,1) = {"
-ag
+ab
 bk
 ao
 ao
@@ -1261,7 +1238,7 @@ ao
 cI
 ao
 ao
-ag
+ab
 "}
 (19,1,1) = {"
 ad
@@ -1273,14 +1250,14 @@ bW
 bY
 ao
 ci
-ag
-ag
-ag
+ab
+ab
+ab
 bb
-ag
+ab
 "}
 (20,1,1) = {"
-ag
+ab
 am
 ao
 ao
@@ -1289,27 +1266,27 @@ cF
 bZ
 ao
 cN
-ag
+ab
 aR
 aR
 aS
-ag
+ab
 "}
 (21,1,1) = {"
-ag
+ab
 au
 bx
 bx
 au
-ag
+ab
 au
 cd
 au
-ag
+ab
 ct
 ct
 cM
-ag
+ab
 "}
 (22,1,1) = {"
 ai
@@ -1317,15 +1294,15 @@ bm
 aw
 aw
 bP
-ag
+ab
 ca
 aB
 cj
-ag
-ag
-ag
+ab
+ab
+ab
 aS
-ag
+ab
 "}
 (23,1,1) = {"
 ai
@@ -1333,15 +1310,15 @@ bE
 aw
 aw
 cz
-ag
+ab
 cG
 aB
 cH
-ag
+ab
 cu
 bb
 aS
-ag
+ab
 "}
 (24,1,1) = {"
 ai
@@ -1349,45 +1326,45 @@ ap
 aM
 aM
 aM
-ag
+ab
 cb
 aB
 cl
-ag
-ag
-ag
+ab
+ab
+ab
 cM
-ag
+ab
 "}
 (25,1,1) = {"
-ag
+ab
 az
 bi
 bl
 bv
-ag
+ab
 cb
 ce
 cm
-ag
+ab
 qa
 bb
 aS
-ag
+ab
 "}
 (26,1,1) = {"
-ag
+ab
 bc
 bc
 bc
 bc
-ag
-ag
-ag
-ag
-ag
-ag
-ag
-ag
-ag
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 "}

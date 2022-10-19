@@ -226,8 +226,7 @@
 /datum/map_template/shuttle/emergency/luxury
 	suffix = "luxury"
 	name = "Luxury Shuttle"
-	description = "A luxurious golden shuttle complete with an indoor swimming pool. Each crewmember wishing to board must bring 500 credits, payable in cash and mineral coin."
-	extra_desc = "This shuttle costs 500 credits to board."
+	description = "A luxurious golden shuttle complete with an indoor swimming pool."
 	admin_notes = "Due to the limited space for non paying crew, this shuttle may cause a riot."
 	credit_cost = 10000
 
@@ -673,21 +672,3 @@
 /datum/map_template/shuttle/labour/lima
     suffix = "lima"
     name = "labour shuttle (Lima)"
-
-/datum/map_template/shuttle/cargo/serene
-	suffix = "serene"
-	name = "supply shuttle (Serene)"
-
-/datum/map_template/shuttle/arrival/serene
-	suffix = "serene"
-	name = "arrival shuttle (Serene)"
-
-/datum/map_template/shuttle/emergency/serene
-	suffix = "serene"
-	name = "Serene Station Emergency Shuttle"
-	credit_cost = 4000
-	description = "The standard-issue escape shuttle for models of station this large. Will get you home in moderate style."
-
-/datum/map_template/shuttle/mining/serene
-	suffix = "serene"
-	name = "mining shuttle (Serene)"

@@ -14,7 +14,7 @@ $include antag_rep.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-SERVERNAME GearStation 13 [ENGLISH] [ROLEPLAY] [99% LAG FREE]
+# SERVERNAME tgstation
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 # SERVERSQLNAME tgstation
@@ -226,19 +226,19 @@ CHECK_RANDOMIZER
 
 ## set a server location for world reboot. Don't include the byond://, just give the address and port.
 ## Don't set this to the same server, BYOND will automatically restart players to the server when it has restarted.
-# SERVER 54.39.215.33:1447
+# SERVER ss13.example.com:2506
 
 ## forum address
-# FORUMURL http://gearstation.tk/forum
+# FORUMURL http://tgstation13.org/phpBB/index.php
 
 ## Wiki address
-# WIKIURL http://gearstation.tk/wiki
+# WIKIURL http://www.tgstation13.org/wiki
 
 ## Rules address
-# RULESURL http://gearstation.tk/rules.html
+# RULESURL http://www.tgstation13.org/wiki/Rules
 
 ## Github address
-# GITHUBURL https://github.com/sergeirocks100/GearStation
+# GITHUBURL https://www.github.com/tgstation/tgstation
 
 ## Round specific stats address
 ## Link to round specific parsed logs; IE statbus. It is appended with the RoundID automatically by ticker/Reboot()
@@ -252,7 +252,7 @@ CHECK_RANDOMIZER
 # GAMELOGURL
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
-# BANAPPEALS http://gearstation.tk/forum/index.php?board=4.0
+# BANAPPEALS http://justanotherday.example.com
 
 ## System command that invokes youtube-dl, used by Play Internet Sound.
 ## You can install youtube-dl with
@@ -260,7 +260,7 @@ CHECK_RANDOMIZER
 ## from https://github.com/rg3/youtube-dl/releases
 ## or your package manager
 ## The default value assumes youtube-dl is in your system PATH
-INVOKE_YOUTUBEDL youtube-dl
+# INVOKE_YOUTUBEDL youtube-dl
 
 ## In-game features
 ##Toggle for having jobs load up from the .txt
@@ -483,7 +483,7 @@ DISABLE_HIGH_POP_MC_MODE_AMOUNT 60
 ##  15x15 would be the standard square view. 21x15 is what goonstation uses for widescreen.
 ##  Setting this to something different from DEFAULT_VIEW_SQUARE will enable widescreen toggles
 ##	Do note that changing this value will affect the title screen. The title screen will have to be updated manually if this is changed.
-DEFAULT_VIEW 19x15
+DEFAULT_VIEW 15x15
 
 ##Default view size, in tiles. Should *always* be square.
 ## The alternative square viewport size if you're using a widescreen view size

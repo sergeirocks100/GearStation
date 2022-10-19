@@ -25,6 +25,18 @@ There is an open list of approachable issues for [your inspiration here](https:/
 
 You can of course, as always, ask for help on the discord channels, or the forums, We're just here to have fun and help out, so please don't expect professional support.
 
+## Legal Notice
+
+When it comes to original, from scratch contributions, by opening a pull request on GearStation, you (And any co-contributors) agree to license your code contributions under the [GNU AGPL V3](https://www.gnu.org/licenses/agpl-3.0.html), and other forms of contributions (Icons, sounds, maps, etc.) under [Creative Commons 3.0 BY-SA](https://creativecommons.org/licenses/by-sa/3.0/).
+
+You also agree that, unless you specify otherwise in the pull request, that the Github usernames of the contributors involved, along with a link back to the pull request, are how you should be credited if someone were to port your contributions, or otherwise make use of them in ways where credit is required.
+
+To put it simply, by contributing to GearStation, you agree to allow others to use and modify your contributions as they see fit, including for commercial purposes, as long as they give you credit, and make the source code public.
+
+If you don't want people to freely reuse and modify your stuff, don't contribute to GearStation.
+
+When it comes to contributions you didn't make entirely yourself (Ports from other codebases, use of outside code or assets, etc.), refer to the porting guidelines.
+
 ## Meet the Team
 
 **Headcoder**
@@ -427,16 +439,18 @@ If you are porting features/tools from other codebases, you must give them credi
 
 Regarding sprites & sounds, you must credit the artist and possibly the codebase. All GearStation assets including icons and sound are under a [Creative Commons 3.0 BY-SA license](https://creativecommons.org/licenses/by-sa/3.0/) unless otherwise indicated. 
 
-Any assets from Goonstation, or any other assets under the [Creative Commons BY-NC-SA 3.0 license](https://creativecommons.org/licenses/by-nc-sa/3.0/) or other non commercial licenses, are banned from use on Gearstation.
+Because GearStation is a codebase that believes in software freedom. assets or code that are under non-free licenses (such as the [Creative Commons 3.0 BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/3.0/) that Goonstation and Burgerstation use) are banned from use on Gearstation.
 
-Replacement or removal of non-commercially licensed assets on the codebase is welcomed and encouraged.
+The GNU website has a helpful list of free and non-free licenses [here](https://www.gnu.org/licenses/license-list.en.html).
 
 ## Banned content
 Do not add any of the following in a Pull Request or risk getting the PR closed:
 * Code where one line of code is split across mutiple lines (except for multiple, separate strings and comments; in those cases, existing longer lines must not be split up)
 * Code adding, removing, or updating the availability of alien races/species/human mutants without prior approval. Pull requests attempting to add or remove features from said races/species/mutants require prior approval as well.
-* Anything with code, sprites, sounds, maps, or anything else from Goonstation, or other codebases under non-commercial licenses.
+* Any assets or code that are under non-free licenses.
 * Anything that relies on Extools, Auxtools, or any other BYOND version dependent external DLLs to function.
+* Anything that contains in-game refrences to real world news events, popular culture, or internet memes.
+* Anything that's meant to generate or spread real world bigotry or prejuidice.
 * Code which violates GitHub's [terms of service](https://github.com/site/terms).
 
 Just because something isn't on this list doesn't mean that it's acceptable. Use common sense above all else.
