@@ -56806,10 +56806,11 @@
 /area/maintenance/port)
 "ccn" = (
 /obj/structure/table/wood,
-/obj/machinery/computer/libraryconsole,
 /obj/machinery/light_switch{
 	pixel_y = 26
 	},
+/obj/item/folder,
+/obj/item/pen,
 /turf/open/floor/plasteel/dark,
 /area/library)
 "cco" = (
@@ -57871,8 +57872,6 @@
 /area/maintenance/port)
 "cee" = (
 /obj/structure/table/wood,
-/obj/item/folder,
-/obj/item/pen,
 /obj/machinery/computer/security/telescreen/entertainment{
 	pixel_x = -32
 	},
@@ -57885,6 +57884,9 @@
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
+	},
+/obj/machinery/computer/libraryconsole{
+	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
 /area/library)
@@ -63667,7 +63669,9 @@
 /area/library)
 "cpz" = (
 /obj/structure/table/wood,
-/obj/machinery/computer/bookmanagement,
+/obj/machinery/computer/bookmanagement{
+	dir = 8
+	},
 /obj/machinery/newscaster{
 	pixel_x = 32
 	},
