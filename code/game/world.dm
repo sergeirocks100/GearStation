@@ -306,15 +306,11 @@ GLOBAL_VAR(restart_counter)
 		hostedby = CONFIG_GET(string/hostedby)
 
 	s += "<b>[station_name()]</b>";
-	s += " ("
-	s += "<a href=\"https://discord.gg/DCddpQ5MzM">" //Change this to wherever you want the hub to link to.
-	s += "Discord"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
-	s += "</a>"
-	s += "|"
-	s += "<a href=\"https://gearstation.tk/">" //Change this to wherever you want the hub to link to.
-	s += "Website"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
-	s += "</a>"
-	s += ")"
+	
+	var/discordurl = CONFIG_GET(string/discordurl)
+	var/websiteurl = CONFIG_GET(string/websiteurl)
+	s += " (<a href='[discordurl]'>Discord</a>|<a href='[websiteurl]'>Website</a>)"
+
 
 	var/players = GLOB.clients.len
 
