@@ -514,7 +514,7 @@ REQUIRED_LIVING_HOURS 0
 #DISCORD_ROLEID 000000000000000000
 
 ## Discord URL for the hub
-DISCORDURL https://discord.gg/example
+DISCORDURL https://discord.gg/DCddpQ5MzM
 
 ## Website URL for the hub
-WEBSITEURL https://example.com
+WEBSITEURL https://gearstation.tk/
