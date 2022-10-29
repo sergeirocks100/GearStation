@@ -16738,10 +16738,6 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark,
 /area/bridge)
-"aWV" = (
-/obj/machinery/holopad,
-/turf/open/floor/plasteel/dark,
-/area/bridge)
 "aWW" = (
 /obj/machinery/power/apc/highcap/five_k{
 	areastring = "/area/bridge";
@@ -86890,7 +86886,7 @@ aOE
 aPS
 aRm
 aSy
-aWV
+aTX
 aWS
 sLN
 aYw
