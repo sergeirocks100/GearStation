@@ -1,0 +1,4 @@
+author: Armhulen, ported by sergeirocks100
+delete-after: true
+changes:
+  - bugfix: Paintings no longer show an error icon.
