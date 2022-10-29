@@ -1,5 +1,0 @@
-author: Zert0x, ported and modified by sergeirocks100
-delete-after: true
-changes:
-  - server: The Discord and website links on the hub are now defined in the config,
-      instead of hardcoded.
