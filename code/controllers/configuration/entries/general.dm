@@ -503,3 +503,7 @@
 /datum/config_entry/string/discord_guildid
 
 /datum/config_entry/string/discord_roleid
+
+/datum/config_entry/string/discordurl
+
+/datum/config_entry/string/websiteurl

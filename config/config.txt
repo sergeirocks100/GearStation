@@ -512,3 +512,9 @@ REQUIRED_LIVING_HOURS 0
 
 ## Add the ID of the role you want assigning here
 #DISCORD_ROLEID 000000000000000000
+
+## Discord URL for the hub
+DISCORDURL https://discord.gg/example
+
+## Website URL for the hub
+WEBSITEURL https://example.com
