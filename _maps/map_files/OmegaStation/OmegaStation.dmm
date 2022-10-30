@@ -6162,15 +6162,6 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/maintenance/port/fore)
-"apf" = (
-/obj/structure/plasticflaps,
-/obj/machinery/door/poddoor/preopen{
-	id = "atmoslock";
-	name = "Atmospherics Lockdown Blast door"
-	},
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/plasteel,
-/area/engine/atmos)
 "apg" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
@@ -10118,12 +10109,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/starboard)
-"aBV" = (
-/obj/structure/cable,
-/obj/structure/plasticflaps/opaque,
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/plasteel,
-/area/quartermaster/storage)
 "aBY" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -24445,10 +24430,11 @@
 /turf/open/floor/plasteel/white,
 /area/science/research)
 "eJZ" = (
-/obj/effect/turf_decal/delivery,
-/obj/machinery/door/window/westright{
-	name = "Cargo Office Delivery";
-	req_access_txt = "31"
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
 	},
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
@@ -68193,7 +68179,7 @@ yba
 yba
 amI
 aoe
-apf
+buL
 apW
 aqF
 avj
@@ -81029,7 +81015,7 @@ aJQ
 aJQ
 aJQ
 aJQ
-aBV
+aJQ
 sHZ
 aJQ
 sHZ
