@@ -1903,7 +1903,6 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
-/mob/living/simple_animal/bot/mulebot,
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "ael" = (
@@ -3224,6 +3223,7 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
+/obj/machinery/autolathe,
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "ahr" = (
@@ -3968,6 +3968,9 @@
 	pixel_y = -22
 	},
 /obj/effect/turf_decal/bot,
+/obj/structure/chair{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "ajF" = (
@@ -5434,7 +5437,16 @@
 /turf/closed/wall,
 /area/crew_quarters/kitchen/coldroom)
 "anr" = (
-/obj/effect/turf_decal/loading_area,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "ans" = (
@@ -8117,7 +8129,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/closed/wall,
+/turf/closed/wall/r_wall,
 /area/science/genetics)
 "avE" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
@@ -8360,7 +8372,12 @@
 /obj/machinery/status_display/supply{
 	pixel_x = -32
 	},
-/obj/effect/turf_decal/loading_area,
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "awi" = (
@@ -12401,9 +12418,6 @@
 "aIP" = (
 /obj/structure/table,
 /obj/machinery/light,
-/obj/machinery/newscaster{
-	pixel_y = -32
-	},
 /obj/item/paper_bin,
 /obj/item/pen,
 /obj/effect/turf_decal/bot,
@@ -16122,6 +16136,12 @@
 /area/hallway/primary/starboard)
 "aVn" = (
 /obj/effect/turf_decal/bot,
+/obj/machinery/newscaster{
+	pixel_y = -32
+	},
+/obj/structure/chair{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "aVp" = (
@@ -17202,6 +17222,9 @@
 	pixel_x = 24
 	},
 /obj/effect/turf_decal/tile/neutral,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/starboard)
 "aYP" = (
@@ -19296,8 +19319,10 @@
 "bgM" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/effect/turf_decal/bot,
-/obj/effect/turf_decal/stripes/line,
 /obj/structure/cable,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
 /turf/open/floor/plasteel,
 /area/science/research)
 "bgS" = (
@@ -19943,7 +19968,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/turf/closed/wall,
+/turf/closed/wall/r_wall,
 /area/science/genetics)
 "biw" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
@@ -21883,7 +21908,6 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
-/mob/living/simple_animal/bot/mulebot,
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "bxG" = (
@@ -26351,15 +26375,12 @@
 /turf/open/floor/plasteel,
 /area/security/prison)
 "hMm" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/purple{
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
 /obj/structure/cable,
-/turf/open/floor/plasteel/white,
-/area/science/research)
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
 "hMq" = (
 /obj/structure/easel,
 /obj/item/canvas/twentythree_nineteen,
@@ -27867,7 +27888,7 @@
 /area/maintenance/port)
 "jFS" = (
 /obj/structure/sign/warning/fire,
-/turf/closed/wall,
+/turf/closed/wall/r_wall,
 /area/science/mixing)
 "jIA" = (
 /obj/structure/cable,
@@ -29967,7 +29988,7 @@
 /area/science/research)
 "myJ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/closed/wall,
+/turf/closed/wall/r_wall,
 /area/science/research)
 "mzt" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -32478,7 +32499,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/closed/wall,
+/turf/closed/wall/r_wall,
 /area/science/research)
 "pNE" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
@@ -32722,7 +32743,6 @@
 /turf/open/floor/plasteel/dark,
 /area/medical/morgue)
 "qbz" = (
-/obj/machinery/autolathe,
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -26
 	},
@@ -32739,12 +32759,6 @@
 	},
 /turf/closed/wall/r_wall,
 /area/science/robotics/lab)
-"qcs" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 10
-	},
-/turf/closed/wall,
-/area/science/mixing)
 "qcT" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -32853,12 +32867,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port)
-"qjH" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/turf/closed/wall,
-/area/science/mixing)
 "qkG" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -34615,10 +34623,10 @@
 /obj/machinery/camera{
 	c_tag = "Aft Primary Hallway 4"
 	},
-/obj/effect/turf_decal/tile/green{
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
 "swM" = (
@@ -34632,10 +34640,10 @@
 	name = "Station Intercom";
 	pixel_y = 24
 	},
-/obj/effect/turf_decal/tile/purple{
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
 "swN" = (
@@ -34667,10 +34675,10 @@
 	name = "Aft Hallway APC";
 	pixel_y = 24
 	},
-/obj/effect/turf_decal/tile/green{
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
 "syC" = (
@@ -34689,20 +34697,20 @@
 /obj/machinery/newscaster{
 	pixel_y = 32
 	},
-/obj/effect/turf_decal/tile/green{
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
 "syT" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
 "szM" = (
@@ -34757,10 +34765,10 @@
 /obj/machinery/camera{
 	c_tag = "Aft Primary Hallway 3"
 	},
-/obj/effect/turf_decal/tile/green{
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
 "sAY" = (
@@ -34800,10 +34808,10 @@
 /area/maintenance/starboard/fore)
 "sBw" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
-/obj/effect/turf_decal/tile/blue{
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "sBx" = (
@@ -34811,20 +34819,20 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/obj/effect/turf_decal/tile/green{
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "sBy" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "sBW" = (
@@ -34834,10 +34842,10 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/green{
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "sCb" = (
@@ -38704,7 +38712,7 @@
 /turf/open/floor/plasteel/dark,
 /area/security/brig)
 "uSy" = (
-/turf/closed/wall,
+/turf/closed/wall/r_wall,
 /area/science/genetics)
 "uTJ" = (
 /obj/effect/turf_decal/bot,
@@ -38881,9 +38889,8 @@
 /area/maintenance/starboard/aft)
 "vgF" = (
 /obj/structure/cable,
-/obj/structure/closet/crate,
-/obj/effect/turf_decal/bot,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/effect/turf_decal/loading_area,
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "vhH" = (
@@ -75914,7 +75921,7 @@ bbV
 gTB
 sJJ
 aXt
-sBy
+hMm
 sIO
 sLP
 sNg
@@ -79024,15 +79031,15 @@ hXG
 cKs
 blc
 bly
-hXG
+bkS
 cKs
 blc
 bly
-hXG
+bkS
 cKs
 blc
 bly
-hXG
+bkS
 cKs
 mnl
 aad
@@ -80543,7 +80550,7 @@ bdY
 sFn
 sJd
 sLV
-hMm
+sNj
 bhy
 bio
 wtK
@@ -81313,7 +81320,7 @@ mdH
 rsg
 hCB
 dea
-wtK
+sLV
 hUv
 bhy
 bir
@@ -81570,7 +81577,7 @@ bdY
 bdY
 sKW
 sKW
-wtK
+sLV
 val
 bhy
 biw
@@ -81827,7 +81834,7 @@ wdt
 wdt
 wdt
 wdt
-wtK
+sLV
 iAF
 bhD
 bit
@@ -82862,13 +82869,13 @@ bix
 kSV
 hgC
 uSy
-wtK
+sLV
 pNn
-ukx
+omM
 gKP
 ltp
 gKP
-ukx
+omM
 jFS
 wdg
 wdg
@@ -83120,13 +83127,13 @@ mqu
 oDK
 uSy
 aad
-qjH
+tRR
 sLm
 waU
 qIs
 waU
 waU
-ukx
+omM
 wmu
 wmu
 wmu
@@ -83377,7 +83384,7 @@ bfH
 bfH
 uSy
 aad
-qjH
+tRR
 oIH
 waU
 qIs
@@ -83634,7 +83641,7 @@ aac
 aad
 aad
 aad
-qjH
+tRR
 fBi
 waU
 qIs
@@ -83891,7 +83898,7 @@ aac
 aac
 aad
 aad
-qjH
+tRR
 npj
 waU
 qIs
@@ -84148,7 +84155,7 @@ aac
 aad
 aad
 aad
-qjH
+tRR
 tcB
 waU
 bRT
@@ -84405,7 +84412,7 @@ aac
 aad
 aad
 aad
-qcs
+adf
 sCd
 sJe
 xFr
@@ -87234,7 +87241,7 @@ cPq
 fSl
 fSl
 fSl
-ukx
+omM
 mXT
 kmW
 oil
@@ -87491,7 +87498,7 @@ cPq
 cPq
 cPq
 cPq
-ukx
+omM
 oCN
 pDc
 jgQ
