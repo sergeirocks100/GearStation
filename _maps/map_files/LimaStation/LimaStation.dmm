@@ -24604,12 +24604,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/aisat/foyer)
-"jEn" = (
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/engine/atmos)
 "jEG" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -37594,12 +37588,6 @@
 	},
 /turf/open/space/basic,
 /area/space/nearstation)
-"rqI" = (
-/obj/machinery/atmospherics/pipe/simple/supply/visible{
-	dir = 4
-	},
-/turf/closed/wall/r_wall,
-/area/engine/atmos)
 "rqL" = (
 /obj/machinery/power/emitter,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -66814,7 +66802,7 @@ wVb
 ukH
 kZN
 dyS
-jEn
+mJP
 jBF
 lRf
 mJP
@@ -68356,7 +68344,7 @@ wTA
 wTA
 tWZ
 edM
-rqI
+wwK
 fLc
 dpy
 efm
