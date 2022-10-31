@@ -24604,6 +24604,11 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/aisat/foyer)
+"jEn" = (
+/obj/effect/spawner/lootdrop/grille_or_trash,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/central)
 "jEG" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -37588,6 +37593,12 @@
 	},
 /turf/open/space/basic,
 /area/space/nearstation)
+"rqI" = (
+/obj/structure/cable,
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/maintenance/central)
 "rqL" = (
 /obj/machinery/power/emitter,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -76274,10 +76285,10 @@ cwW
 yjq
 eYs
 yjq
-xsR
-xsR
-bfP
-aEy
+yjb
+yjb
+jEn
+rqI
 pVM
 wuI
 aEW
