@@ -1,0 +1,4 @@
+author: sergeirocks100
+delete-after: true
+changes:
+  - server: There is now a server tagline for the hub, which you can set in the config.
