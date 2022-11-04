@@ -17453,7 +17453,7 @@
 /area/bridge)
 "fci" = (
 /obj/structure/cable/layer1,
-/obj/machinery/atmospherics/pipe/simple/supply/visible,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "fco" = (
@@ -24066,7 +24066,7 @@
 /obj/structure/table,
 /obj/machinery/light,
 /obj/item/pipe_dispenser,
-/obj/machinery/atmospherics/pipe/simple/supply/visible,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "jmh" = (
@@ -24593,7 +24593,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/visible,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "jDZ" = (
@@ -24605,11 +24605,10 @@
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/aisat/foyer)
 "jEn" = (
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/engine/atmos)
+/obj/effect/spawner/lootdrop/grille_or_trash,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/central)
 "jEG" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -34266,7 +34265,7 @@
 /area/engine/engineering)
 "pmR" = (
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/supply/visible{
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
@@ -37595,11 +37594,11 @@
 /turf/open/space/basic,
 /area/space/nearstation)
 "rqI" = (
-/obj/machinery/atmospherics/pipe/simple/supply/visible{
-	dir = 4
+/obj/structure/cable,
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
 	},
-/turf/closed/wall/r_wall,
-/area/engine/atmos)
+/area/maintenance/central)
 "rqL" = (
 /obj/machinery/power/emitter,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -42276,7 +42275,7 @@
 	dir = 8
 	},
 /obj/structure/rack,
-/obj/machinery/atmospherics/pipe/simple/supply/visible,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel,
 /area/engine/atmos)
 "ukS" = (
@@ -47340,7 +47339,7 @@
 /turf/open/floor/plasteel,
 /area/science/nanite)
 "wVb" = (
-/obj/machinery/atmospherics/pipe/simple/supply/visible,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/closed/wall/r_wall,
 /area/engine/engineering)
 "wVc" = (
@@ -66814,7 +66813,7 @@ wVb
 ukH
 kZN
 dyS
-jEn
+mJP
 jBF
 lRf
 mJP
@@ -68356,7 +68355,7 @@ wTA
 wTA
 tWZ
 edM
-rqI
+wwK
 fLc
 dpy
 efm
@@ -76286,10 +76285,10 @@ cwW
 yjq
 eYs
 yjq
-xsR
-xsR
-bfP
-aEy
+yjb
+yjb
+jEn
+rqI
 pVM
 wuI
 aEW
