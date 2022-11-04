@@ -14,7 +14,7 @@ $include antag_rep.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-SERVERNAME GearStation 13 [MEDIUM TO HIGH ROLEPLAY] [99% LAG FREE]
+SERVERNAME GearStation 13 [MRP/HRP] [99% LAG FREE]
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 # SERVERSQLNAME tgstation
@@ -518,3 +518,6 @@ DISCORDURL https://discord.gg/DCddpQ5MzM
 
 ## Website URL for the hub
 WEBSITEURL https://gearstation.tk/
+
+## Tagline for the hub
+TAGLINE Medium to high roleplay | Friendly staff | Welcoming to new players
