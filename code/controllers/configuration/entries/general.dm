@@ -507,3 +507,5 @@
 /datum/config_entry/string/discordurl
 
 /datum/config_entry/string/websiteurl
+
+/datum/config_entry/string/tagline

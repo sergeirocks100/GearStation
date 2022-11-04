@@ -307,6 +307,9 @@ GLOBAL_VAR(restart_counter)
 
 	s += "<b>[station_name()]</b>";
 	
+	var/tagline = CONFIG_GET(string/tagline)
+	s += " — [tagline] —"
+	
 	var/discordurl = CONFIG_GET(string/discordurl)
 	var/websiteurl = CONFIG_GET(string/websiteurl)
 	s += " (<a href='[discordurl]'>Discord</a>|<a href='[websiteurl]'>Website</a>)"
