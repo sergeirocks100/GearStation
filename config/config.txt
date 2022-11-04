@@ -518,3 +518,6 @@ DISCORDURL https://discord.gg/example
 
 ## Website URL for the hub
 WEBSITEURL https://example.com
+
+## Tagline for the hub
+TAGLINE Example Tagline!
