@@ -27,7 +27,7 @@ You can of course, as always, ask for help on the discord channels, or the forum
 
 ## Legal Notice
 
-When it comes to original, from scratch contributions, by opening a pull request on GearStation, you (And any co-contributors) agree to license your code contributions under the [GNU AGPL V3](https://www.gnu.org/licenses/agpl-3.0.html), and other forms of contributions (Icons, sounds, maps, etc.) under [Creative Commons 3.0 BY-SA](https://creativecommons.org/licenses/by-sa/3.0/).
+When it comes to original, from scratch contributions, by opening a pull request on GearStation, you (And any co-contributors) agree to license your code contributions under the [GNU AGPL V3](https://www.gnu.org/licenses/agpl-3.0.html), and other forms of contributions (Icons, sounds, maps, etc.) under [Creative Commons BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 
 You also agree that, unless you specify otherwise in the pull request, that the Github usernames of the contributors involved, along with a link back to the pull request, are how you should be credited if someone were to port your contributions, or otherwise make use of them in ways where credit is required.
 
