@@ -635,11 +635,16 @@
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 10
 	},
-/obj/structure/rack,
-/obj/item/wrench,
-/obj/item/screwdriver,
+/obj/machinery/button/door{
+	id = "commissarydoora";
+	name = "Commissary Door Lock";
+	normaldoorcontrol = 1;
+	pixel_x = -26;
+	pixel_y = 5;
+	specialfunctions = 4
+	},
 /turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "aco" = (
 /turf/closed/mineral/random/low_chance{
 	baseturfs = /turf/open/floor/plating/asteroid;
@@ -7522,8 +7527,11 @@
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 6
 	},
+/obj/structure/table,
+/obj/item/stack/package_wrap,
+/obj/item/hand_labeler,
 /turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "arA" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
@@ -21270,34 +21278,47 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/fore)
 "aTc" = (
+/obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/airalarm{
 	pixel_y = 28
 	},
-/obj/machinery/power/apc/auto_name/west,
-/obj/structure/table/wood,
-/obj/item/folder/blue,
-/obj/item/pen,
+/obj/item/stack/sheet/metal/five,
+/obj/item/stack/cable_coil/five,
 /obj/structure/cable,
+/obj/machinery/power/apc/auto_name/west,
 /turf/open/floor/plating,
-/area/vacant_room/office/b)
+/area/vacant_room/commissary/b)
 "aTd" = (
+/obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/paper_bin{
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/obj/item/pen,
 /obj/machinery/newscaster{
 	pixel_y = 32
 	},
-/obj/structure/chair/office{
-	dir = 8
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
 	},
-/turf/open/floor/wood,
-/area/vacant_room/office/b)
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary/b)
 "aTe" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/firealarm{
-	pixel_y = 26
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 5
 	},
-/turf/open/floor/wood,
-/area/vacant_room/office/b)
+/obj/machinery/button/door{
+	id = "commissarydoorb";
+	name = "Commissary Door Lock";
+	normaldoorcontrol = 1;
+	pixel_y = 23;
+	specialfunctions = 4
+	},
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary/b)
 "aTf" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -21765,15 +21786,20 @@
 "aUs" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock{
-	name = "Vacant Office B"
+	id_tag = "commissarydoorb";
+	name = "Commissary B";
+	req_access_txt = "12;63;48;50"
 	},
 /turf/open/floor/plasteel,
-/area/vacant_room/office/b)
+/area/vacant_room/commissary/b)
 "aUt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
-/turf/open/floor/wood,
-/area/vacant_room/office/b)
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary/b)
 "aUv" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
@@ -22206,18 +22232,22 @@
 	pixel_y = -6
 	},
 /turf/open/floor/plating,
-/area/vacant_room/office/b)
+/area/vacant_room/commissary/b)
 "aVv" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/open/floor/wood,
-/area/vacant_room/office/b)
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/obj/machinery/firealarm/directional/west,
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary/b)
 "aVw" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
-/area/vacant_room/office/b)
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary/b)
 "aVx" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line,
 /obj/item/radio/intercom{
@@ -22611,13 +22641,19 @@
 /turf/open/floor/plating,
 /area/maintenance/central)
 "aWs" = (
+/obj/structure/rack,
+/obj/item/wrench,
+/obj/item/screwdriver,
 /obj/machinery/camera{
 	c_tag = "Vacant Commissary";
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
-/area/vacant_room/office/b)
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary/b)
 "aWt" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -23091,16 +23127,29 @@
 	pixel_x = 6;
 	pixel_y = -30
 	},
+/obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/table/wood,
-/obj/item/book/manual/wiki/security_space_law,
-/turf/open/floor/wood,
-/area/vacant_room/office/b)
+/obj/item/stack/package_wrap,
+/obj/item/hand_labeler,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 10
+	},
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary/b)
 "aXv" = (
+/obj/machinery/button/door{
+	id = "commissaryshutter";
+	name = "Commissary Shutter Control";
+	pixel_x = 3;
+	pixel_y = -25
+	},
+/obj/structure/chair/stool,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/table/wood,
-/turf/open/floor/wood,
-/area/vacant_room/office/b)
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary/b)
 "aXw" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
 	dir = 8
@@ -29980,7 +30029,7 @@
 /area/security/nuke_storage)
 "bmg" = (
 /turf/closed/wall,
-/area/vacant_room/office/b)
+/area/vacant_room/commissary/b)
 "bmh" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
@@ -44538,14 +44587,14 @@
 /obj/item/stack/cable_coil/five,
 /obj/item/circuitboard/machine/paystand,
 /turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "bRx" = (
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "bRy" = (
 /turf/open/floor/plating,
 /area/maintenance/department/crew_quarters/dorms)
@@ -44893,10 +44942,18 @@
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness/recreation)
 "bSx" = (
-/obj/item/kirbyplants/random,
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#c1caff"
+	},
+/obj/item/radio/intercom{
+	pixel_x = 29
+	},
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 8
 	},
+/obj/structure/table,
+/obj/item/flashlight,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness/recreation)
 "bSy" = (
@@ -44946,35 +45003,22 @@
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness/recreation)
 "bSE" = (
-/obj/machinery/light{
-	dir = 4;
-	light_color = "#c1caff"
-	},
-/obj/item/radio/intercom{
-	pixel_x = 29
-	},
 /obj/effect/turf_decal/trimline/neutral/filled/line{
-	dir = 8
+	dir = 10
 	},
-/obj/structure/table,
-/obj/item/flashlight,
+/obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness/recreation)
 "bSG" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/poddoor/shutters{
-	id = "commissaryshutter";
+	id = "commissaryshuttera";
 	name = "Vacant Commissary Shutter"
 	},
 /turf/open/floor/plasteel,
-/area/vacant_room/commissary)
-"bSH" = (
-/obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "bSI" = (
 /obj/item/cigbutt,
 /turf/open/floor/plating,
@@ -45378,21 +45422,20 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
-/obj/structure/table/reinforced,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/poddoor/shutters{
-	id = "commissaryshutter";
-	name = "Vacant Commissary Shutter"
-	},
-/obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters{
+	id = "commissaryshuttera";
+	name = "Vacant Commissary Shutter"
+	},
 /turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "bTE" = (
 /obj/machinery/door/airlock/maintenance{
 	req_one_access_txt = "12;5;39;6"
@@ -45910,8 +45953,10 @@
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 4
 	},
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/east,
 /turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "bUC" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -46164,32 +46209,19 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
+/obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness/recreation)
 "bVi" = (
-/obj/machinery/light{
-	dir = 4;
-	light_color = "#c1caff"
+/obj/machinery/door/airlock/maintenance{
+	req_one_access_txt = "12;5;39;6"
 	},
-/obj/structure/table,
-/obj/item/crowbar,
-/obj/structure/noticeboard{
-	dir = 8;
-	pixel_x = 27
-	},
-/turf/open/floor/plasteel,
-/area/crew_quarters/fitness/recreation)
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/vacant_room/commissary/b)
 "bVj" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/techstorage/command,
@@ -46677,8 +46709,8 @@
 /turf/open/floor/carpet/black,
 /area/crew_quarters/dorms)
 "bVY" = (
-/turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/turf/open/floor/plating,
+/area/vacant_room/commissary/a)
 "bVZ" = (
 /obj/machinery/light{
 	dir = 8;
@@ -47661,13 +47693,12 @@
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "bYc" = (
+/obj/structure/cable,
 /obj/machinery/door/airlock/maintenance{
-	id_tag = "commissarydoor";
-	name = "Commissary";
-	req_one_access_txt = "12;63;48;50"
+	req_one_access_txt = "12;5;39;6"
 	},
 /turf/open/floor/plating,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "bYd" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 4
@@ -48201,9 +48232,16 @@
 /turf/open/floor/plasteel,
 /area/crew_quarters/locker)
 "bZk" = (
-/obj/effect/turf_decal/trimline/neutral/filled/line{
-	dir = 10
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
 	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness/recreation)
@@ -56637,10 +56675,16 @@
 /turf/open/floor/plasteel/dark,
 /area/engine/engineering)
 "csC" = (
-/obj/effect/turf_decal/trimline/neutral/filled/line{
-	dir = 1
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#c1caff"
 	},
-/obj/effect/turf_decal/delivery,
+/obj/structure/table,
+/obj/item/crowbar,
+/obj/structure/noticeboard{
+	dir = 8;
+	pixel_x = 27
+	},
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness/recreation)
 "csD" = (
@@ -61439,6 +61483,9 @@
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
 /area/medical/morgue)
@@ -66335,12 +66382,14 @@
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai_upload)
 "cNH" = (
+/obj/structure/closet/secure_closet/personal,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/storage/secure/briefcase,
 /obj/machinery/camera/autoname{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/vacant_room/office/b)
+/area/vacant_room/commissary/b)
 "cNI" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -66681,8 +66730,11 @@
 /area/maintenance/fore)
 "cOt" = (
 /obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/structure/rack,
+/obj/item/wrench,
+/obj/item/screwdriver,
 /turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "cOv" = (
 /turf/open/floor/plating/asteroid,
 /area/maintenance/fore/secondary)
@@ -66814,15 +66866,8 @@
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 8
 	},
-/obj/machinery/button/door{
-	id = "commissaryshutter";
-	name = "Commissary Shutters Control";
-	pixel_x = -26;
-	pixel_y = 5;
-	req_access_txt = null
-	},
 /turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "cOL" = (
 /obj/structure/reflector/box/anchored,
 /turf/open/floor/plasteel/dark,
@@ -70637,7 +70682,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "dwu" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -70728,6 +70773,18 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/prison/safe)
+"dJj" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters{
+	id = "commissaryshutterb";
+	name = "Vacant Commissary Shutter"
+	},
+/obj/structure/noticeboard{
+	pixel_y = 31
+	},
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary/b)
 "dJl" = (
 /turf/open/floor/plating,
 /area/science/research)
@@ -70911,7 +70968,7 @@
 	},
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "ehl" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
@@ -71171,7 +71228,7 @@
 /obj/item/paper_bin,
 /obj/item/pen,
 /turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "eWs" = (
 /obj/structure/closet/crate,
 /obj/item/reagent_containers/glass/bowl,
@@ -71350,7 +71407,7 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "fAG" = (
 /obj/machinery/biogenerator,
 /obj/effect/decal/cleanable/dirt,
@@ -71941,6 +71998,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/atmos)
+"hds" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary/b)
 "hkx" = (
 /obj/structure/table,
 /obj/machinery/camera{
@@ -72217,6 +72281,9 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/genetics)
+"ise" = (
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary/a)
 "iup" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 1
@@ -72346,10 +72413,9 @@
 /turf/open/floor/plating,
 /area/maintenance/fore)
 "jas" = (
-/obj/effect/turf_decal/trimline/brown/filled/line,
 /obj/machinery/light,
-/turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/turf/open/floor/plating,
+/area/vacant_room/commissary/a)
 "joZ" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/tile/neutral{
@@ -72457,9 +72523,14 @@
 /turf/open/floor/plasteel,
 /area/security/brig)
 "jKs" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/closed/wall,
-/area/vacant_room/commissary)
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters{
+	id = "commissaryshuttera";
+	name = "Vacant Commissary Shutter"
+	},
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary/a)
 "jKT" = (
 /turf/open/floor/plating,
 /area/security/prison)
@@ -72749,7 +72820,7 @@
 "lAy" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1,
 /turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "lBh" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 8
@@ -72823,6 +72894,9 @@
 	},
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
+"lMK" = (
+/turf/closed/wall,
+/area/vacant_room/commissary/a)
 "lNj" = (
 /obj/machinery/conveyor{
 	dir = 1;
@@ -72842,7 +72916,7 @@
 /obj/item/storage/secure/briefcase,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "lRt" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
@@ -73027,7 +73101,7 @@
 "mvv" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "mza" = (
 /obj/item/radio/intercom{
 	broadcasting = 1;
@@ -73356,14 +73430,14 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "odm" = (
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 4
 	},
 /obj/machinery/firealarm/directional/east,
 /turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "ofD" = (
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment{
@@ -73672,8 +73746,9 @@
 /turf/open/floor/plasteel,
 /area/security/prison/safe)
 "pPl" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/closed/wall,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "pTw" = (
 /obj/structure/cable,
 /turf/open/floor/plasteel,
@@ -73727,6 +73802,22 @@
 /obj/structure/table,
 /turf/open/floor/plating,
 /area/maintenance/fore)
+"qfZ" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary/a)
+"qvf" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters{
+	id = "commissaryshutterb";
+	name = "Vacant Commissary Shutter"
+	},
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary/b)
 "qwQ" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 4
@@ -73850,7 +73941,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "qTi" = (
 /obj/structure/weightmachine/stacklifter,
 /obj/effect/decal/cleanable/dirt,
@@ -73954,17 +74045,16 @@
 /area/engine/engineering)
 "rLi" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/office,
-/turf/open/floor/wood,
-/area/vacant_room/office/b)
+/obj/effect/turf_decal/trimline/brown/filled/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary/b)
 "rMA" = (
 /obj/effect/turf_decal/trimline/brown/filled/line,
-/obj/structure/table,
-/obj/item/stack/package_wrap,
-/obj/item/hand_labeler,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/area/vacant_room/commissary/a)
 "rNQ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 6
@@ -74877,6 +74967,14 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/security/prison)
+"voK" = (
+/obj/machinery/door/airlock{
+	id_tag = "commissarydoora";
+	name = "Commissary A";
+	req_access_txt = "12;63;48;50"
+	},
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary/a)
 "voR" = (
 /turf/open/floor/plasteel/white,
 /area/medical/chemistry)
@@ -74954,6 +75052,19 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel/cafeteria,
 /area/security/prison)
+"vAq" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/obj/machinery/button/door{
+	id = "commissaryshuttera";
+	name = "Commissary Shutters Control";
+	pixel_x = -26;
+	pixel_y = 5;
+	req_access_txt = null
+	},
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary/a)
 "vBE" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 8
@@ -75086,6 +75197,12 @@
 /obj/item/clothing/shoes/sneakers/orange,
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
+"vHE" = (
+/obj/machinery/holopad,
+/obj/effect/turf_decal/bot,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/vacant_room/commissary/b)
 "vJb" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 5
@@ -75428,9 +75545,6 @@
 /turf/open/floor/plasteel/dark,
 /area/aisat)
 "wWR" = (
-/obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 4
-	},
 /obj/machinery/button/door{
 	id = "commissarydoor";
 	name = "Commissary Door Lock";
@@ -75439,8 +75553,8 @@
 	pixel_y = 5;
 	specialfunctions = 4
 	},
-/turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/turf/open/floor/plating,
+/area/vacant_room/commissary/a)
 "wXt" = (
 /obj/structure/toilet{
 	dir = 8
@@ -75641,12 +75755,9 @@
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness/recreation)
 "xSd" = (
-/obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 4
-	},
 /obj/machinery/newscaster/directional/east,
-/turf/open/floor/plasteel,
-/area/vacant_room/commissary)
+/turf/open/floor/plating,
+/area/vacant_room/commissary/a)
 "xUi" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -118070,7 +118181,7 @@ bSE
 bZk
 bVh
 csC
-bVi
+bRh
 bRs
 bWB
 bWB
@@ -118326,9 +118437,9 @@ pPl
 jKs
 bSG
 bTz
-bSG
-pPl
-pPl
+lMK
+voK
+lMK
 bWB
 bWX
 bXw
@@ -118580,10 +118691,10 @@ bOU
 uRw
 boU
 eVg
-bSH
-bSH
+cOK
+cOK
 qRF
-bSH
+vAq
 cOK
 acn
 bWB
@@ -118838,9 +118949,9 @@ voS
 boU
 bRw
 bVY
-bVY
+ise
 ocL
-bVY
+ise
 mvv
 rMA
 bWB
@@ -119094,7 +119205,7 @@ bPf
 uZH
 boU
 egg
-bVY
+ise
 lAy
 fAr
 duW
@@ -119351,11 +119462,11 @@ bPg
 cqm
 boU
 lQc
-bVY
-bVY
-bVY
-bVY
-bVY
+ise
+ise
+ise
+ise
+ise
 cOt
 bWB
 bXa
@@ -119610,7 +119721,7 @@ boU
 bRx
 xSd
 bUB
-bUB
+qfZ
 wWR
 odm
 arz
@@ -119864,13 +119975,13 @@ cBU
 bPg
 uRw
 boU
-pPl
-pPl
-pPl
+lMK
+lMK
+lMK
 bYc
-pPl
-pPl
-pPl
+lMK
+lMK
+lMK
 bWB
 bWB
 bWB
@@ -120124,7 +120235,7 @@ boU
 bRy
 bRy
 bSI
-bTF
+bZy
 bRy
 cTN
 cVF
@@ -123143,7 +123254,7 @@ bnq
 dFG
 bmg
 bmg
-aZu
+bVi
 bmg
 bmg
 bmg
@@ -123658,7 +123769,7 @@ dFG
 bmg
 aTd
 aVw
-aVw
+vHE
 rLi
 aXu
 bmg
@@ -123916,7 +124027,7 @@ bmg
 aTe
 aVu
 aWs
-aVw
+hds
 aXv
 bmg
 aZt
@@ -124173,8 +124284,8 @@ bmg
 aUs
 bmg
 bmg
-bmg
-bmg
+dJj
+qvf
 bmg
 aZu
 aRZ
