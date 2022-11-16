@@ -1,5 +1,0 @@
-author: sergeirocks100
-delete-after: true
-changes:
-  - rscadd: Lambda/Ice Lambda now had two commissaries.
-  - bugfix: The dorms commissary on Lambda/Ice Lambda now has an APC.
