@@ -27,7 +27,7 @@ You can of course, as always, ask for help on the discord channels, or the forum
 
 ## Legal Notice
 
-When it comes to original, from scratch contributions, by opening a pull request on GearStation, you (And any co-contributors) agree to license your code contributions under the [GNU AGPL V3](https://www.gnu.org/licenses/agpl-3.0.html), and other forms of contributions (Icons, sounds, maps, etc.) under [Creative Commons 3.0 BY-SA](https://creativecommons.org/licenses/by-sa/3.0/).
+When it comes to original, from scratch contributions, by opening a pull request on GearStation, you (And any co-contributors) agree to license your code contributions under the [GNU AGPL V3](https://www.gnu.org/licenses/agpl-3.0.html), and other forms of contributions (Icons, sounds, maps, etc.) under [Creative Commons BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 
 You also agree that, unless you specify otherwise in the pull request, that the Github usernames of the contributors involved, along with a link back to the pull request, are how you should be credited if someone were to port your contributions, or otherwise make use of them in ways where credit is required.
 
@@ -437,9 +437,9 @@ There is no strict process when it comes to merging pull requests. Pull requests
 
 If you are porting features/tools from other codebases, you must give them credit where it's due. Typically, crediting them in your pull request and the changelog is the recommended way of doing it. Take note of what license they use though, porting stuff from AGPLv3 and GPLv3 codebases are allowed.
 
-Regarding sprites & sounds, you must credit the artist and possibly the codebase. All GearStation assets including icons and sound are under a [Creative Commons 3.0 BY-SA license](https://creativecommons.org/licenses/by-sa/3.0/) unless otherwise indicated. 
+Regarding sprites & sounds, you must credit the artist and possibly the codebase. All GearStation assets including icons and sound are under a [Creative Commons BY-SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/) unless otherwise indicated. 
 
-Because GearStation is a codebase that believes in software freedom. assets or code that are under non-free licenses (such as the [Creative Commons 3.0 BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/3.0/) that Goonstation and Burgerstation use) are banned from use on Gearstation.
+Because GearStation is a codebase that believes in software freedom. assets or code that are under non-free licenses (such as the [Creative Commons BY-NC-SA 3.0 license](https://creativecommons.org/licenses/by-nc-sa/3.0/) that Goonstation and Burgerstation use) are banned from use on Gearstation.
 
 The GNU website has a helpful list of free and non-free licenses [here](https://www.gnu.org/licenses/license-list.en.html).
 
